@@ -1,0 +1,64 @@
+window wsl 编译
+Build dependency: OpenWrt can only be built on a case-sensitive filesystem
+Prerequisite check failed. Use FORCE=1 to override.
+解决办法：
+fsutil.exe file setCaseSensitiveInfo <path> enable
+ cd code
+ C:\code> fsutil.exe file setCaseSensitiveInfo .\ enable
+ 需要注意的是，这个操作不会对此目录中已有的文件生效，只有新写入的文件才会继承这个属性
+
+
+
+ ///////////////////////////////////// ///////////////////////////////////// /////////////////////////////////////
+
+ checking whether mknod can create fifo without root privileges... configure: error: in `/home/linux/myopenwrt/openwrt/build_dir/host/tar-1.28':
+
+configure: error: you should not run configure as root (set FORCE_UNSAFE_CONFIGURE=1 in environment to bypass this check)
+See `config.log' for more details
+make[3]: *** [/home/linux/myopenwrt/openwrt/build_dir/host/tar-1.28/.configured] Error 1
+make[3]: Leaving directory `/home/linux/myopenwrt/openwrt/tools/tar'
+make[2]: *** [tools/tar/compile] Error 2
+make[2]: Leaving directory `/home/linux/myopenwrt/openwrt'
+make[1]: *** [/home/linux/myopenwrt/openwrt/staging_dir/target-mips_34kc_musl-1.1.14/stamp/.tools_install_yynyynynynyyyyyyynyyyyyyyyyyyyynyyyyynnyynynyyyynnnyy] Error 2
+make[1]: Leaving directory `/home/linux/myopenwrt/openwrt'
+make: *** [world] Error 2
+
+以下是解决方法（不一定能起效果，反正我试过可行）：
+
+$ sudo make FORCE_UNSAFE_CONFIGURE=1
+# or # 
+$ sudo make FORCE_UNSAFE_CONFIGURE=1 -j1 V=s # 可以使用-j1 -j2 -j4 -j8
+///////////////////////////////////// ///////////////////////////////////// /////////////////////////////////////
+
+
+
+
+
+/home/bruceyan/code/lede/bin/packages/x86_64/packages/zerotier_1.4.6-3_x86_64.ipk
+Collected errors:
+ * pkg_init_from_file: Malformed package file /home/bruceyan/code/lede/bin/packages/x86_64/base/default-settings_2-5_all.ipk.
+package/Makefile:65: recipe for target 'package/install' failed
+make[2]: *** [package/install] Error 255
+make[2]: Leaving directory '/home/bruceyan/code/lede'
+package/Makefile:108: recipe for target '/home/bruceyan/code/lede/staging_dir/target-x86_64_musl/stamp/.package_install' failed
+make[1]: *** [/home/bruceyan/code/lede/staging_dir/target-x86_64_musl/stamp/.package_install] Error 2
+make[1]: Leaving directory '/home/bruceyan/code/lede'
+/home/bruceyan/code/lede/include/toplevel.mk:222: recipe for target 'world' failed
+make: *** [world] Error 2
+
+
+
+libustream-openssl libustream-mbedtls 冲突了吧，去掉一个勾选
+
+格式转换工具 StarWindV2VConverter
+
+win10 文件夹设置区分大小写
+在powershell 中 以管理员身份执行以下命令 添加注册表信息
+
+reg.exe add HKLM\SYSTEM\CurrentControlSet\Services\lxss /v DrvFsAllowForceCaseSensitivity /t REG_DWORD /d 1
+1
+不同的windows版本可能具体的参数由差异，可以通过 --help 查询具体指令
+
+在 wsl中 通过以下命令设置
+
+setfattr -n system.wsl_case_sensitive -v 1 <path> 

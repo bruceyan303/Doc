@@ -1,0 +1,87 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-17 15:13:40
+ * @LastEditTime: 2021-08-17 15:47:32
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\14过滤器\1过滤器.html
+ * 
+-->
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>过滤器</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <script type="text/javascript" src="../js/dayjs.min.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h1>显示格式化后的时间</h1>
+        <!-- 计算属性 -->
+        <h2>计算属性实现:{{fmtTime}}</h2>
+        <!-- methods实现 -->
+        <h2>methods实现:{{getfmttime()}}</h2>
+        <!-- 过滤器实现 -->
+        <h2>过滤器实现:{{time | timeFormater}}</h2>
+        <!-- 过滤器传参 -->
+        <h2>过滤器传参实现:{{time | timeFormater('YYYY_MM_DD')}}</h2>
+
+        <!-- 过滤器窜到一起用 -->
+        <h2>过过滤器窜到一起用实现:{{time | timeFormater('YYYY_MM_DD')| mySlice}}</h2>
+
+        <h2 :x="msg|mySlice"> conpk</h2>
+        <!-- <input type="text" v-model="msg"> -->
+    </div>
+    <div id="root2">
+        <H1>{{msg |mySlice}}</H1>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    //全局过滤器
+    Vue.filter('mySlice', function (value) {
+        return value.slice(0, 4)
+    })
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            time: 515,//时间戳
+            msg: "您好div root"
+        },
+        computed: {
+            fmtTime() {
+                // return dayjs(this.time).format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A')
+                return dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A')
+            }
+        },
+        methods: {
+            getfmttime() {
+                return dayjs(this.time).format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A')
+            }
+
+        },
+        // 局部过滤器
+        filters: {
+            timeFormater(value, fmt = '{YYYY} MM-DDTHH:mm:ss SSS [Z] A') {
+                // console.log("@", value)
+                // return "ttt"
+
+                return dayjs(value).format(fmt)
+            },
+            // mySlice(value) {
+            //     return value.slice(0, 4)
+            // }
+        }
+    })
+    new Vue({
+        el: '#root2',
+        data: {
+            msg: "this is test msg"
+        }
+    })
+</script>
+
+</html>

@@ -1,0 +1,15 @@
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+Core  0 register dump:
+PC      : 0x00000000  PS      : 0x00060230  A0      : 0x800d491e  A1      : 0x3ffbaab0  
+A2      : 0x3ffb48cc  A3      : 0x00000000  A4      : 0x00000fa0  A5      : 0x3ffb44c4  
+A6      : 0x00000400  A7      : 0x3ffb40c4  A8      : 0x800d48ee  A9      : 0x3ffbaa90  
+A10     : 0x3ffb40b8  A11     : 0x3f4035f8  A12     : 0x00000110  A13     : 0x3ffb4a08  
+A14     : 0x00000006  A       : 0x00000011  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x00000000  LBEG    : 0x4000c46c  LEND    : 0x4000c477  LCOUNT  : 0x00000000  
+
+Backtrace:0xfffffffd:0x3ffbaab0 0x400d491b:0x3ffbaad0 0x400d42ec:0x3ffbab00 0x400d2e6a:0x3ffbab30 0x4008785d:0x3ffbab60
+
+ELF file SHA256: 3dda5a8443c1d4cc
+Rebooting...
+命令
+xtensa-esp32-elf-addr2line -pfiaC -e build/CommonDev.elf ADDRESS 0xfffffffd:0x3ffbaab0 0x400d491b:0x3ffbaad0 0x400d42ec:0x3ffbab00 0x400d2e6a:0x3ffbab30 0x4008785d:0x3ffbab60

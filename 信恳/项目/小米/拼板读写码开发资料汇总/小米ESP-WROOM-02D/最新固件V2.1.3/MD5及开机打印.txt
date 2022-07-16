@@ -1,0 +1,21 @@
+02U/D
+MD5: 9145ad60125783fc7e865e1be2431cf3
+ 
+ 
+上电Log:
+ 
+_|      _|  _|_|_|  _|_|_|    _|_|
+_|_|  _|_|    _|      _|    _|    _|
+_|  _|  _|    _|      _|    _|    _|
+_|      _|    _|      _|    _|    _|
+_|      _|  _|_|_|  _|_|_|    _|_|
+JENKINS BUILD NUMBER: N/A
+BUILD TIME: Sep 27 2020,17:44:28
+BUILT BY: N/A
+MIIO APP VER: 2.1.3
+MIIO MCU VER:
+MIIO DID: 121050544
+MIIO WIFI MAC: 40313ce88b2f
+MIIO MODEL: xiaomi.dev.lx1
+ARCH TYPE: esp8266,0x00000002
+ARCH VER: 8903c22

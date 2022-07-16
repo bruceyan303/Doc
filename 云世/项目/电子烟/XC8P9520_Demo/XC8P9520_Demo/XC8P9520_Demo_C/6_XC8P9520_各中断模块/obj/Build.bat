@@ -1,0 +1,1 @@
+"D:\XJIDE\XJ_C_IDE_V1.5.3.211216\bin\slvo.exe" E:\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\6_XC8P9520_各中断模块\XC9520-Interrupt.cof >E:\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\6_XC8P9520_各中断模块\XC9520-Interrupt.cofv 2>&1

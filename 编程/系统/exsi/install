@@ -1,0 +1,22 @@
+https://blog.whsir.com/post-3377.html
+
+
+http://www.5lazy.cn/post-145.html
+
+proxy_linux_mips start -d -l 192.168.31.1:5000  -h 192.168.31.200 -r 5000
+
+
+
+
+VMware创建虚拟机的时候遇到一个经典报错：
+
+Attempting to start up from:
+
+EFI VMware Virtual SCSI Hard Drive (0.0) … unsuccessful.
+
+EFI VMware Virtual SATA CDROM Drive (1.0) … unsuccessful.
+
+EFI Network...
+
+
+修改 虚拟机选项中 的引导选项 由EFI 改为bios

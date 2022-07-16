@@ -1,0 +1,313 @@
+WaitNextDevThread
+CheckStringThread
+[0;32mI (485) reset_reason: RTC reset 1 wakeup 0 store 0, reason is 1[0m
+[0;32m08:00:00.230 [D] arch_chip: mdp is Efuse MODE[0m [0;32m08:00:00.230 [D] Addon: miIO[0m [0;32m08:00:00.240 [D] 	: 0x4025f484:	bind_stat[0m [0;32m08:00:00.240 [D] 	: 0x4025ede0:	config_router[0m [0;32m08:00:00.240 [D] 	: 0x4025eeec:	config_router_safe[0m [0;32m08:00:00.250 [D] 	: 0x4025f310:	disable_local_restore[0m [0;32m08:00:00.250 [D] 	: 0x402565b8:	dyna_params[0m [0;32m08:00:00.260 [D] 	: 0x4025f3bc:	get_disable_local_restore[0m [0;32m08:00:00.270 [D] 	: 0x40257c48:	get_ota_progress[0m [0;32m08:00:00.270 [D] 	: 0x40257800:	get_ota_state[0m [0;32m08:00:00.280 [D] 	: 0x40258bfc:	handshake[0m [0;32m08:00:00.280 [D] 	: 0x40256fa8:	help[0m [0;32m08:00:00.290 [D] 	: 0x40253590:	info[0m [0;32m08:00:00.290 [D] 	: 0x40252bb8:	iperf_client[0m [0;32m08:00:00.300 [D] 	: 0x4025f4b0:	migration[0m [0;32m08:00:00.300 [D] 	: 0x4025649c:	ncinfo[0m [0;32m08:00:00.300 [D] 	: 0x40257458:	ota[0m [0;32m08:00:00.310 [D] 	: 0x40257db8:	ota_install[0m [0;32m08:00:00.310 [D] 	: 0x40257310:	reboot[0m [0;32m08:00:00.320 [D] 	: 0x40256aec:	redirect[0m [0;32m08:00:00.320 [D] 	: 0x4025f5c8:	restore[0m [0;32m08:00:00.330 [D] Addon: user[0m [0;32m08:00:00.330 [D] 	: 0x4025f4a0:	bind_key[0m [0;32m08:00:00.340 [D] 	: 0x4025117c:	hello[0m [0;32m08:00:00.340 [D] Addon: init complete[0m [0;32m08:00:00.350 [D] arch_os: create handle = 3fff3818, name = httpc_task, prio = 10[0m [0;32m08:00:00.360 [D] arch_os: create handle = 3fff4958, name = otu_task, prio = 10[0m [0;32m08:00:00.360 [D] arch_os: create handle = 3fff5a98, name = ott_task, prio = 10[0m [0;32m08:00:00.370 [I] miio_ot: httpdns enabled[0m [0;32m08:00:00.370 [I] miio_ot: dlg enabled[0m [0;32m08:00:00.380 [D] arch_os: create handle = 3fff7558, name = mi_otn, prio = 10[0m [0;32m08:00:00.390 [I] miio_wifi: cc=CN, schan=1, nchan=13, max_tx_dbm=0[0m [0;32m08:00:00.410 [D] arch_os: create handle = 3fff96f8, name = netMonitorTask, prio = 10[0m [0;32m08:00:00.410 [D] miio_net: start[0m [0;32m08:00:00.410 [D] miio_net: ap mode[0m [0;32m08:00:00.420 [D] ot: event emit[id=3,txt=otn.prov,ext_len=1][0m mode : softAP(46:23:7c:bc:50:cd)
+add if1
+bcn 100
+[0;32m08:00:00.430 [D] arch_ota: MIMCU partition[0] @ c0000 245760 bytes[0m [0;32m08:00:00.440 [I] arch_ota: MIMCU partition[1] @ 1c0000 245760 bytes[0m [0;32m08:00:00.440 [D] ota_mcu: no valid mcu firmware found[0m [0;32m08:00:00.450 [D] ota_mcu: init ok[0m [0;32m08:00:00.450 [D] arch_os: create handle = 3fffb028, name = mi_mcmd, prio = 10[0m   _|      _|  _|_|_|  _|_|_|    _|_|   _|_|  _|_|    _|      _|    _|    _| _|  _|  _|    _|      _|    _|    _| _|      _|    _|      _|    _|    _| _|      _|  _|_|_|  _|_|_|    _|_|   JENKINS BUILD NUMBER: N/A BUILD TIME: Dec  6 2019,16:19:57 BUILT BY: N/A MIIO APP VER: 2.0.7 MIIO MCU VER:  MIIO DID: 238421453 MIIO WIFI MAC: 44237cbc50cd MIIO MODEL: xiaomi.dev.lx1 ARCH TYPE: esp8266,0x00000002 ARCH VER: 2709610 [0;32m08:00:00.500 [D] httpc: idle[0m [0;32m08:00:00.500 [D] otu: otu is idle...[0m [0;32m08:00:00.510 [D] ott: ott is idle...[0m [0;32m08:00:00.510 [I] miio_net: Wifi event[13][0m [0;32m08:00:00.520 [I] miio_net: Wifi ap start[0m [0;32m08:00:00.520 [D] ot: event emit[id=2,txt=otn.mode,ext_len=4][0m [0;32m08:00:00.530 [D] otu: event on[id=1][0m [0;32m08:00:00.530 [D] otu: event on[id=5][0m [0;32m08:00:00.540 [D] otu: event on[id=9][0m [0;32m08:00:00.540 [D] otu: event on[id=10][0m [0;32m08:00:00.540 [D] otu: event on[id=13][0m [0;32m08:00:00.550 [D] ott: event on[id=12][0m [0;32m08:00:00.550 [D] ott: event on[id=1][0m [0;32m08:00:00.560 [D] ott: event on[id=5][0m [0;32m08:00:00.560 [D] ott: event on[id=9][0m [0;32m08:00:00.570 [D] ott: event on[id=10][IOTestThread
+r0m [0;32m08:00:00.570 [D] ot: event on[id=1][0m [0;32m08:00:00.580 [D] ot: event on[id=2][0m [0;32m08:00:00.580 [D] ot: event on[id=3][0m [0;32m08:00:00.580 [D] ot: event on[id=4][0m [0;32m08:00:00.590 [D] otu: event on[id=2][0m [0;32m08:00:00.590 [D] otu: event on[id=3][0m [0;32m08:00:00.600 [D] otu: event on[id=4][0m [0;32m08:00:00.600 [D] otu: event on[id=5][0m [0;32m08:00:00.610 [D] otu: event on[id=6][0m [0;32m08:00:00.610 [D] otu: event on[id=7][0m [0;32m08:00:00.610 [D] otu: event on[id=8][0m [0;32m08:00:00.620 [D] otu: event on[id=9][0m [0;32m08:00:00.620 [D] otu: event on[id=10][0m [0;32m08:00:00.630 [D] otu: event on[id=11][0m [0;32m08:00:00.630 [D] otu: event on[id=12][0m [0;32m08:00:00.640 [D] otu: event on[id=14][0m [0;32m08:00:00.640 [D] ott: event on[id=2][0m [0;32m08:00:00.640 [D] ott: event on[id=3][0m [0;32m08:00:00.650 [D] ott: event on[id=4][0m [0;32m08:00:00.650 [D] ott: event on[id=5][0m [0;32m08:00:00.660 [D] ott: event on[id=6][0m [0;32m08:00:00.660 [D] ott: event on[id=7][0m [0;32m08:00:00.670 [D] ott: event on[id=8][0m [0;32m08:00:00.670 [D] ott: event on[id=9][0m [0;32m08:00:00.670 [D] ott: event on[id=10][0m [0;32m08:00:00.680 [D] ott: event on[id=11][0m [0;32m08:00:00.680 [D] ott: event on[id=13][0m [0;32m08:00:00.690 [D] miio_ot: otn.prov[3] happened![0m [0;32m08:00:00.690 [D] otu: probe enabled.[0m [0;32m08:00:00.700 [D] miio_ot: otn.mode[2] happened![0m [0;32m08:00:00.700 [D] otu: set ctrl[type=1, arg_len=0][0m [0;32m08:00:00.710 [D] otu: get ctrl[type=1, arg_len=0][0m [0;32m08:00:00.710 [D] otu: otu is opening...[0m [0;32m08:00:00.720 [I] otu: Opened.[0m [0;32m08:00:00.720 [D] otu: event emit[id=6,txt=otu.open_ok,ext_len=0][0m [0;32m08:00:00.730 [D] otu: otu.open_ok[6] happened![0m [0;32m08:00:01.510 [I] miio_monitor: work time = 1s, memory left = 28576[0m [0;32m08:00:01.510 [D] miio_net: ap will close in 1799s[0m [0;32m08:00:02.510 [D] miio_net: ap will close in 1798s[0m DevReset 0
+r[0;32m08:00:03.510 [D] miio_net: ap will close in 1797s[0m rDEFAULT_TEST.BIN
+BK:0,0,0,0,
+phy: 915, 20160331
+0x8044237c 0xe360b5cd 0x4226bc50 0xcdf374dc
+
+
+
+
+START
+
+
+
+mac address is 44237cbc50cd
+TOUT    0.570V:   Passed
+RSTB       XPD:   Passed
+GPIO13  GPIO15:   Passed
+GPIO00  GPIO05:   Passed
+GPIO02  GPIO04:   Passed
+GPIO02  GPIO14:   Passed
+UARTCTRL_RF
+WaitForSingleObject
+RfTestThread
+
+     ESP8266(UART)   Ver 3.4.9.A1T2
+     ############################################################################
+     ############################################################################
+     ###########                                                       ##########
+     ###########                     WLAN Facility                     ##########
+     ###########               for ESP8266(UART)                       ##########
+     ###########                                                       ##########
+     ############################################################################
+     ############################################################################
+     Test Date: 2020/11/29, Test Time: 02:14:44
+
+
+
+
+     Plugin Information:
+     ===============================================
+       TesterPlugin | Tester_Legacy.dll  | 1.0.1
+     ---------------|--------------------|----------
+       DutPlugin    | DutLib_ESP8266.dll | unknown
+     ---------------|--------------------|----------
+       CsvPlugin    | WT_CSV_DEMO.dll    | 1.0.0
+     ---------------|--------------------|----------
+       MesPlugin    |                    | 
+     ---------------|--------------------|----------
+       MethodPlugin | MethodBt.dll       | 1.0.0
+                    | MethodCommon.dll   | 1.0.0
+                    | MethodDut.dll      | 1.0.0
+                    | MethodWifi.dll     | 1.0.0
+                    | MethodZigbee.dll   | 1.0.0
+     ===============================================
+
+     Tester API Information:
+     ===============================================
+     WT20X T26(2.8.8.1)
+     ===============================================
+
+1 .WT_CONNECT_TESTER
+--------------------------------------------------------------------------------
+   Waiting Tester Idle...
+
+   Tester's SUB IP hasn't been configured.
+   Connect Tester(192.168.10.254) OK! SN: WT208C-30437   FW: 3.0.2.111
+
+   Test Time: 0.23 sec
+
+
+2 .WT_INSERT_DUT
+--------------------------------------------------------------------------------
+   Test Time: 6.32 sec
+
+
+3 .WT_GET_MAC_ADDRESS
+--------------------------------------------------------------------------------
+   DUT MAC:44237CBC50CD
+
+   Test Time: 0.00 sec
+
+
+4 .WT_VERIFY_TX_ALL    2412(1) 11M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 11.0M EVM Peak     : -11.81 dB   ( -55.00 ................O.  -10.00)
+   TX_[0] 11.0M Power[ 0]    : 20.76  dBm  (  17.00 ...............O..   21.00)
+   TX_[0] 11.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 11.0M FreqErr      : 0.06   ppm  ( -15.00 ........O.........   15.00)
+
+                                                                          PASS
+   Test Time: 0.48 sec
+
+
+5 .WT_VERIFY_TX_ALL    2437(6) 11M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 11.0M EVM Peak     : -12.43 dB   ( -55.00 ................O.  -10.00)
+   TX_[0] 11.0M Power[ 0]    : 20.26  dBm  (  17.00 .............O....   21.00)
+   TX_[0] 11.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 11.0M FreqErr      : -0.16  ppm  ( -15.00 ........O.........   15.00)
+
+                                                                          PASS
+   Test Time: 0.44 sec
+
+
+6 .WT_VERIFY_TX_ALL    2462(11) 11M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 11.0M EVM Peak     : -12.16 dB   ( -55.00 ................O.  -10.00)
+   TX_[0] 11.0M Power[ 0]    : 19.57  dBm  (  17.00 ..........O.......   21.00)
+   TX_[0] 11.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 11.0M FreqErr      : -0.25  ppm  ( -15.00 ........O.........   15.00)
+
+                                                                          PASS
+   Test Time: 0.45 sec
+
+
+7 .WT_VERIFY_TX_ALL    2412(1) 54M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 54.0M EVM          : -30.67 dB   ( -55.00 .............O....  -25.00)
+   TX_[0] 54.0M Power[ 0]    : 15.95  dBm  (  12.00 ................O.   16.00)
+   TX_[0] 54.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 54.0M FreqErr      : -0.79  ppm  ( -15.00 ........O.........   15.00)
+
+                                                                          PASS
+   Test Time: 1.86 sec
+
+
+8 .WT_VERIFY_TX_ALL    2437(6) 54M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 54.0M EVM          : -29.91 dB   ( -55.00 ..............O...  -25.00)
+   TX_[0] 54.0M Power[ 0]    : 15.48  dBm  (  12.00 ..............O...   16.00)
+   TX_[0] 54.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 54.0M FreqErr      : -0.92  ppm  ( -15.00 .......O..........   15.00)
+
+                                                                          PASS
+   Test Time: 0.30 sec
+
+
+9 .WT_VERIFY_TX_ALL    2462(11) 54M CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 54.0M EVM          : -31.75 dB   ( -55.00 .............O....  -25.00)
+   TX_[0] 54.0M Power[ 0]    : 14.97  dBm  (  12.00 ............O.....   16.00)
+   TX_[0] 54.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 54.0M FreqErr      : -0.94  ppm  ( -15.00 .......O..........   15.00)
+
+                                                                          PASS
+   Test Time: 0.30 sec
+
+
+10.WT_VERIFY_TX_ALL    2412(1) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 65.0M EVM          : -32.97 dB   ( -55.00 .............O....  -27.00)
+   TX_[0] 65.0M Power[ 0]    : 14.16  dBm  (  11.00 .............O....   15.00)
+   TX_[0] 65.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 65.0M FreqErr      : -0.97  ppm  ( -15.00 .......O..........   15.00)
+
+                                                                          PASS
+   Test Time: 0.30 sec
+
+
+11.WT_VERIFY_TX_ALL    2437(6) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 65.0M EVM          : -29.89 dB   ( -55.00 ...............O..  -27.00)
+   TX_[0] 65.0M Power[ 0]    : 13.72  dBm  (  11.00 ...........O......   15.00)
+   TX_[0] 65.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 65.0M FreqErr      : -1.10  ppm  ( -15.00 .......O..........   15.00)
+
+                                                                          PASS
+   Test Time: 0.30 sec
+
+
+12.WT_VERIFY_TX_ALL    2462(11) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   TX_[0] 65.0M EVM          : -32.68 dB   ( -55.00 .............O....  -27.00)
+   TX_[0] 65.0M Power[ 0]    : 12.92  dBm  (  11.00 ........O.........   15.00)
+   TX_[0] 65.0M MaskErr      : 0.00   %    (   0.00 O.................    3.50)
+   TX_[0] 65.0M FreqErr      : -1.11  ppm  ( -15.00 .......O..........   15.00)
+
+                                                                          PASS
+   Test Time: 0.27 sec
+
+
+13.WT_VERIFY_RX_PER    2412(1) 11M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -81.0dBm
+          Dut Receive: 1000 Frames
+          Pass:100.00%     Fail:  0.00% (   0.00 O.................    8.00)
+                                                                          PASS
+   Test Time: 0.69 sec
+
+
+14.WT_VERIFY_RX_PER    2437(6) 11M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -81.0dBm
+          Dut Receive:  925 Frames
+          Pass: 92.50%     Fail:  7.50% (   0.00 ...............O..    8.00)
+                                                                          PASS
+   Test Time: 0.66 sec
+
+
+15.WT_VERIFY_RX_PER    2462(11) 11M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -81.0dBm
+          Dut Receive:  954 Frames
+          Pass: 95.40%     Fail:  4.60% (   0.00 .........O........    8.00)
+                                                                          PASS
+   Test Time: 0.66 sec
+
+
+16.WT_VERIFY_RX_PER    2412(1) 54M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -68.0dBm
+          Dut Receive:  935 Frames
+          Pass: 93.50%     Fail:  6.50% (   0.00 ...........O......   10.00)
+                                                                          PASS
+   Test Time: 0.55 sec
+
+
+17.WT_VERIFY_RX_PER    2437(6) 54M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -68.0dBm
+          Dut Receive:  988 Frames
+          Pass: 98.80%     Fail:  1.20% (   0.00 ..O...............   10.00)
+                                                                          PASS
+   Test Time: 0.50 sec
+
+
+18.WT_VERIFY_RX_PER    2462(11) 54M CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -68.0dBm
+          Dut Receive:  983 Frames
+          Pass: 98.30%     Fail:  1.70% (   0.00 ..O...............   10.00)
+                                                                          PASS
+   Test Time: 0.50 sec
+
+
+19.WT_VERIFY_RX_PER    2412(1) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -64.0dBm
+          Dut Receive:  997 Frames
+          Pass: 99.70%     Fail:  0.30% (   0.00 O.................   10.00)
+                                                                          PASS
+   Test Time: 0.53 sec
+
+
+20.WT_VERIFY_RX_PER    2437(6) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -64.0dBm
+          Dut Receive:  982 Frames
+          Pass: 98.20%     Fail:  1.80% (   0.00 ...O..............   10.00)
+                                                                          PASS
+   Test Time: 0.48 sec
+
+
+21.WT_VERIFY_RX_PER    2462(11) HT20-MCS7 CHAIN0
+--------------------------------------------------------------------------------
+   RX_[0] Tester Send: 1000 Frames@ -64.0dBm
+          Dut Receive:  976 Frames
+          Pass: 97.60%     Fail:  2.40% (   0.00 ....O.............   10.00)
+                                                                          PASS
+   Test Time: 0.48 sec
+
+
+22.WT_SHOW_VERIFY_SUMMARY
+--------------------------------------------------------------------------------
+
+     Tx Verify Summary:
+     ====================================================================================
+     ItemNo. ANT   Ch  Freq    Rate       EVM       Pwr        FeqErr     Mask     Result
+     ------------------------------------------------------------------------------------
+        4  ANT0    1   2412    11M     -11.81dB    20.76dBm    0.06ppm    0.00%    PASS
+        5  ANT0    6   2437    11M     -12.43dB    20.26dBm   -0.16ppm    0.00%    PASS
+        6  ANT0   11   2462    11M     -12.16dB    19.57dBm   -0.25ppm    0.00%    PASS
+        7  ANT0    1   2412    54M     -30.67dB    15.95dBm   -0.79ppm    0.00%    PASS
+        8  ANT0    6   2437    54M     -29.91dB    15.48dBm   -0.92ppm    0.00%    PASS
+        9  ANT0   11   2462    54M     -31.75dB    14.97dBm   -0.94ppm    0.00%    PASS
+       10  ANT0    1   2412   HT20-7   -32.97dB    14.16dBm   -0.97ppm    0.00%    PASS
+       11  ANT0    6   2437   HT20-7   -29.89dB    13.72dBm   -1.10ppm    0.00%    PASS
+       12  ANT0   11   2462   HT20-7   -32.68dB    12.92dBm   -1.11ppm    0.00%    PASS
+     ====================================================================================
+
+
+     Rx Verify Summary:
+     ==========================================================
+     ItemNo. ANT   Ch   Freq   Rate       PER      Pwr   Result
+     ----------------------------------------------------------
+       13  ANT0    1   2412    11M       0.00%   -81dBm   PASS
+       14  ANT0    6   2437    11M       7.50%   -81dBm   PASS
+       15  ANT0   11   2462    11M       4.60%   -81dBm   PASS
+       16  ANT0    1   2412    54M       6.50%   -68dBm   PASS
+       17  ANT0    6   2437    54M       1.20%   -68dBm   PASS
+       18  ANT0   11   2462    54M       1.70%   -68dBm   PASS
+       19  ANT0    1   2412   HT20-7     0.30%   -64dBm   PASS
+       20  ANT0    6   2437   HT20-7     1.80%   -64dBm   PASS
+       21  ANT0   11   2462   HT20-7     2.40%   -64dBm   PASS
+     ==========================================================
+
+   Test Time: 0.00 sec
+
+
+23.WT_REMOVE_DUT
+--------------------------------------------------------------------------------
+   Test Time: 0.11 sec
+
+
+24.WT_DISCONNECT_TESTER
+--------------------------------------------------------------------------------

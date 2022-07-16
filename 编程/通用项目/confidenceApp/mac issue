@@ -1,0 +1,163 @@
+国内 设置源
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+一
+Invalid depfile: /Users/bruceyan/code/ConfidenceApp/.dart_tool/flutter_build/1721412aa45e0711de53c701727164fe/kernel_snapshot.d
+Invalid depfile: /Users/bruceyan/code/ConfidenceApp/.dart_tool/flutter_build/1721412aa45e0711de53c701727164fe/kernel_snapshot.d
+Error: Could not resolve the package 'quiver' in 'package:quiver/strings.dart'.
+
+解决方法：使用命令：
+flutter pub cache repair
+flutter clean
+
+二
+Flutter - 卡在 Running "flutter pub get" in xxx ，解决方案
+//命令行输入
+vim ~/.bash_profile
+
+//添加下面三行，保存
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export PATH=/Users/bruceyan/code/flutter/bin:$PATH  //下载的flutterSDK的路径
+
+//命令行输入
+source ~/.bash_profile
+
+flutter -h
+
+
+检查包的配置
+我们在项目的根目录执行以下命令，检测一下包的配置是否问题：
+
+flutter packages pub publish --dry-run
+
+如果没有问题，输出如下：
+
+...
+
+Package has 0 warnings.
+
+发布包
+发布包和上一步一样，只是少了 --dry-run 参数：
+
+flutter packages pub publish
+
+1.platform version错误，解决方法是修改项目里的ios/Podfile文件：
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, '8.0' #增加的内容
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+        end
+    end
+end
+
+flutter channel master
+
+
+
+
+Your Flutter application is created using an older version of the Android
+embedding. It's being deprecated in favor of Android embedding v2. Follow the
+steps at
+
+https://flutter.dev/go/android-project-migration
+
+to migrate your project.
+https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects
+
+
+
+Flutter iOS build on the App Center fails with error: "Invalid Podfile file: Generated.xcconfig must exist
+
+
+!/usr/bin/env bash
+#Place this script in project/ios/
+
+echo "Uninstalling all CocoaPods versions"
+sudo gem uninstall cocoapods --all --executables
+
+COCOAPODS_VER=`sed -n -e 's/^COCOAPODS: \([0-9.]*\)/\1/p' Podfile.lock`
+
+echo "Installing CocoaPods version $COCOAPODS_VER"
+sudo gem install cocoapods -v $COCOAPODS_VER
+
+# fail if any command fails
+set -e
+# debug log
+set -x
+
+pod setup
+
+cd ..
+git clone -b beta https://github.com/flutter/flutter.git
+export PATH=`pwd`/flutter/bin:$PATH
+
+flutter channel master
+flutter doctor
+flutter pub get
+
+echo "Installed flutter to `pwd`/flutter"
+
+flutter build ios --release --no-codesign
+
+
+https://brew.sh/index_zh-cn
+
+1 API 
+
+
+
+
+Error: Running Homebrew as root is extremely dangerous and no longer supported.
+$ sudo chown -R `whoami` /usr/local/Homebrew/
+$ sudo chown -R $(whoami) $(brew --prefix)/*
+$ sudo mkdir /usr/local/Frameworks
+$ sudo chown -R `whoami` /usr/local/Frameworks/
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+
+
+
+Warning: CocoaPods is installed but broken. Skipping pod install.
+  You appear to have CocoaPods installed but it is not working.
+  This can happen if the version of Ruby that CocoaPods was installed with is different from the one being used to invoke it.
+  This can usually be fixed by re-installing CocoaPods. For more info, see https://github.com/flutter/flutter/issues/14293.
+To re-install:
+  sudo gem install cocoapods
+
+brew install cocoapods
+pod setup
+
+
+
+
+And warnings:
+
+ld: warning: Could not find auto-linked library 'swiftFoundation'
+
+ld: warning: Could not find auto-linked library 'swiftDarwin'
+
+ld: warning: Could not find auto-linked library 'swiftCoreFoundation'
+
+ld: warning: Could not find auto-linked library 'swiftCore'
+
+ld: warning: Could not find auto-linked library 'swiftCoreGraphics'
+
+ld: warning: Could not find auto-linked library 'swiftObjectiveC'
+
+ld: warning: Could not find auto-linked library 'swiftDispatch'
+
+ld: warning: Could not find auto-linked library 'swiftSwiftOnoneSupport'
+
+解决办法
+
+https://stackoverflow.com/questions/52536380/why-linker-link-static-libraries-with-errors-ios/53101587#53101587
+
+Open ios/YourAppName.xcodeproj in Xcode
+Right-click on Your App Name in the Project Navigator on the left, and click New File…
+Create a single empty Swift file to the project (make sure that Your App Name target is selected when adding)
+when Xcode asks, press Create Bridging Header and do not remove Swift file then. re-run your build.
+This should fix the problem

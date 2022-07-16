@@ -1,0 +1,45 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-08 09:53:27
+ * @LastEditTime: 2021-08-08 11:10:55
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\01_初识vue\elanddata.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>数据绑定</title>
+        <script type="text/javascript" src="../js/vue.js"></script>
+    </head>
+    <body>
+        <!-- class =="stud"-->
+        <div id="root"> 
+         单向数据绑定:<input type="text" :value="name">
+         双向数据绑定:<input type="text" v-model="name">         
+        </div>
+
+        <script type="text/javascript">
+        // Vue.config.productionTip=false
+         const x=new Vue({
+          el:'#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        //     data: {
+        //         name:"12313",
+        //     }
+        data:function(){
+             return {
+                 name:"test"
+             }
+         }
+         })
+       vh
+       // setTimeout(()=>)
+         console.log(x)
+        // v.$mount('#root')
+        
+        </script>
+   
+    </body>
+</html>

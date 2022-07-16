@@ -1,0 +1,99 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-17 14:15:11
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\10vue监视数据总结.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>10vue监视数据总结</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<!-- 修改数组有效方法 shift unshift splice pop push sort reverse-->
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+
+        <h1>学生信息</h1>
+        <button @click="student.age++">年龄+1岁</button><br>
+        <button @click="addsex"> 添加性别 默认是男</button><br>
+        <button @click="student.sex='未知'">修改性别</button><br>
+        <button @click="addfriend"> 添加朋友 类别的首位</button><br>
+        <button @click="updatefirstfriendname"> 修改第一个朋友的名字为王五</button><br>
+        <button @click="addhobby"> 添加爱好</button><br>
+        <button @click="updatehobby"> 修改第一个爱好为学习</button><br>
+        <button @click="removehobby"> 过滤爱好中的打架</button><br>
+        <br>
+        <h2>学生姓名:{{student.name}} </h2>
+        <h2>学生年龄:{{student.age}} </h2>
+        <h2 v-if="student.sex">学生性别:{{student.sex}} </h2>
+        <h2>爱好</h2>
+        <ul>
+            <li v-for="(f,index) in student.hobby" :key="index"> {{f}}</li>
+
+        </ul>
+        <h2>朋友</h2>
+        <ul>
+            <li v-for="(f,index) in student.friends" :key="index"> {{f.name}}--{{f.age}}</li>
+
+        </ul>
+
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+
+            student: {
+                name: "张三",
+                age: 18,
+                hobby: ["抽烟", "喝酒", "打球"],
+                friends: [
+                    { name: "李武", age: 18 },
+                    { name: "王二", age: 19 }
+                ]
+            },
+
+        },
+        methods: {
+            addsex() {
+                // vm.$set(vm._data.student,'sex',"男")
+                // Vue.set(vm._data.student,'sex',"男")
+                // Vue.set(vm.student,'sex',"男")
+                Vue.set(this.student, 'sex', "男")
+            },
+            addfriend() {
+                this.student.friends.unshift({ name: "jack", age: 30 })
+            },
+            updatefirstfriendname() {
+                this.student.friends[0].name = "王五"
+                // this.student.friends[0].age = 10
+            },
+            addhobby() {
+                this.student.hobby.push("打架")
+            },
+            updatehobby() {
+                // this.student.hobby.splice(0, 1, "学习")
+                Vue.set(this.student.hobby, 0, "学习")
+            },
+            removehobby() {
+                this.student.hobby = this.student.hobby.filter((h) => {
+                    return h !== "打架"
+                })
+            }
+        },
+
+    })
+</script>
+
+</html>

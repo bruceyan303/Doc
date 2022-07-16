@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+
+
+    <title>生产设备初始化信息</title>
+
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div id="root" style="padding: 20px;">
+        <a-space>
+            <a-button type="primary">Primary</a-button>
+            <a-button>Secondary</a-button>
+            <a-button type="dashed">Dashed</a-button>
+            <a-button type="outline">Outline</a-button>
+            <a-button type="text">Text</a-button>
+        </a-space>
+    </div>
+</body>
+<script type="text/javascript">
+
+    const Main = {};
+    const app = Vue.createApp(Main);
+    app.use(window.ArcoVue);
+    app.use(window.ArcoVueIcon);
+    app.mount("#root");
+
+</script>
+
+</html>

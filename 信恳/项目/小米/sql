@@ -1,0 +1,14 @@
+select REMARK  admin.chiptable_item OLD_MAC='%s'
+
+select REMARK，MAX(FID) from admin.chiptable_item where OLD_MAC=‘’
+select * from admin.chiptable_item   where OLD_MAC='58:B6:23:F4:24:3E'
+select REMARK，MAX(FID) from admin.chiptable_item   where OLD_MAC='58:B6:23:F4:24:3E'
+
+
+update admin.chiptable_item set REMARK='%s'
+
+
+update （select REMARK，MAX(FID) from admin.chiptable_item where OLD_MAC='') set REMARK='1'
+select * from admin.chiptable_item  where FID=(select MAX(FID) from admin.chiptable_item  where OLD_MAC='58:B6:23:F4:24:3E')
+select REMARK from admin.chiptable_item  where FID=(select MAX(FID) from admin.chiptable_item  where OLD_MAC='58:B6:23:F4:24:3E')//最新的 状态
+update （select * from admin.chiptable_item  where FID=(select MAX(FID) from admin.chiptable_item  where OLD_MAC='58:B6:23:F4:24:3E')）set REMARK='1'

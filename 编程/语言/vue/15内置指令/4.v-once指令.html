@@ -1,0 +1,48 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-17 16:47:12
+ * @LastEditTime: 2021-10-29 12:12:00
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\语言\vue\15内置指令\4.v-once指令.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>v-cloak指令 解决网络慢 显示 差值语法的变量</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+    <!-- <script type="text/javascript" src="../js/vue.js"></script> -->
+</head>
+
+<body>
+    <div id="root">
+        <h2 v-once>n初始化的值是{{n}}</h2>
+        <h2>n当前的值是{{n}}</h2>
+        <button @click="n++">点击我n加1</button>
+    </div>
+
+    <script type="text/javascript" src="../js/vue.js"></script>
+
+</body>
+<script type="text/javascript">
+    console.log(1)
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+
+            n: 1,
+
+        },
+        methods: {}
+    })
+</script>
+
+</html>

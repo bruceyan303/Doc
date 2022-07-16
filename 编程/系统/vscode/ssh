@@ -1,0 +1,21 @@
+CentOS
+
+ssh localhost（目的在于创建.ssh目录）
+2、cd进.ssh文件
+
+ssh-keygen
+生成id_rsa（私钥）id_rsa.pub（公钥）
+
+3、远程操作环境，用户环境下创建 [.ssh] 文件夹,cd进.ssh文件夹，创建文件 [authorized_keys]
+
+4、scp命令传送id_rsa.pub文件
+
+scp [file_path] [username]@[remote-host]:[.ssh路径]
+5、id_rsa.pub信息导入authorized_keys
+
+cat id_rsa.pub >> authorized_keys
+6、更改权限
+
+chmod 600 authorized_keys
+chmod 700 ~/.ssh
+7、修改VS code配置文件config【Windows环境下路径 ~/.ssh/】

@@ -1,0 +1,16 @@
+命令格式：
+
+"{\"chip_type\":\"esp8266\",\"com_port\":\"com30\",\"baudrate\":\"115200\",\"timeout\":\"2\"}"
+
+
+返回：
+
+chip type:esp8266
+Connecting....
+did data: 238421664
+key data: 943084081
+esp_mac:44-23-7c-bc-51-a0
+
+镭雕内容：
+
+did data对应的内容：238421664

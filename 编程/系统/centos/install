@@ -1,0 +1,35 @@
+https://github.com/yuk7/CentWSL
+
+
+在WSL中运行CentOS.exe 并安装
+
+解压后，您将在目标目录中看到2个文件：rootfs.tar.gz和CentOS.exe。我们需要运行CentOS.exe，以便解压其中的文件并注册到WSL。右键点击并以管理员身份运行：
+
+
+
+
+ 在WSL上更新Centos on
+
+现在，您可以随心所欲在CentOS上运行您想要执行的命令了。然而，为了检验系统可用性，我们最好使用yum命令测试下更新系统：
+
+yum -y update
+
+
+在WSL上卸载CentOS 7
+
+如果您因为某种原因不想使用了，可以使用下面命令在WSL上卸载CentOS：
+
+./CentOS.exe clean
+
+当您在使用CentOS过程中遭遇一些错误想重装，或者您不小心删除了解压缩的目录需要重装时，我们需要先卸载之：
+
+
+在WSL上重新安装CentOS，只需要重新执行前面的步骤操作即可。
+
+方法二
+
+https://github.com/mishamosher/CentOS-WSL
+
+CentOS7.exe clean
+
+yum -y update

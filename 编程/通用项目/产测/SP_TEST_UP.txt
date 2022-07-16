@@ -1,0 +1,1114 @@
+create or replace procedure SP_TEST_UP(P_Sn       varchar2, --SN
+                                       P_ResCode  varchar2, --资源名称，即产线+工序
+                                       P_Operator varchar2, --操作员
+                                       P_Result   varchar2, --测试结果
+                                       P_ErrCode  varchar2, --
+                                       P_Tsmemo   varchar2,
+                                       c_Result   out varchar2) is
+  --BZJ 20190709上传测试结果到MES
+  P_TASK_NO    varchar2(100);
+  mMES_ADMIH   MES_LINE_INFO%ROWTYPE;
+  mMES_MOCTB   MES_PROC_TASK_INFO%ROWTYPE;
+  PO_RESULT    NUMBER;
+  PO_MSG       varchar2(100);
+  pProc_Order  varchar2(50); --工序顺序号
+  C_MES_BARIF1 MES_BARIF%ROWTYPE;
+  cError       varchar2(100);
+  c_id         number;
+  C_FINQTY     number;
+  C_DCL        VARCHAR2(100);
+  C_IMEI       VARCHAR2(100);
+  C_COUNT      NUMBER;
+  c_flag       number;
+  c_res        varchar2(1000);
+
+  mCount number;
+  --c_Mes_Moctj Mes_Moctj%Rowtype;
+
+  MixTask varchar2(20) := 'N'; --没有生产方案维护，信恳改为混工单模式=N BZJ 20190711
+begin
+  --c_Result := '0['||P_Sn||P_ResCode||P_Operator||NVL(P_Result,0);  
+  --return;
+
+  c_Result := '1';
+
+  begin
+    select t.*
+      into mMES_ADMIH
+      from MES_LINE_INFO t
+     where t.line_no = P_ResCode
+       and rownum = 1;
+  
+    SELECT t3.proc_order
+      into pProc_Order
+      FROM MES_LINE_INFO T
+      LEFT JOIN MES_LINE T2
+        ON T2.LINE_NO = T.LINE_CODE
+      LEFT JOIN MES_PROC_INFO T3
+        ON T3.PROC_NO = T.PROC_NO
+     where T.LINE_NO = P_ResCode;
+  exception
+    when NO_DATA_FOUND THEN
+      c_Result := '0[The process line of body:' || P_ResCode || 'nonentity！';
+      return;
+  end;
+
+  --检查条码是否有发行
+  --查看SN是否是在工单发行表中
+  begin
+    select IB001 into P_TASK_NO from mes_barib where IB003 = p_SN;
+  exception
+    when others then
+      c_Result := '0[' || p_SN || 'barcode';
+      return;
+  end;
+  select COUNT(1)
+    into C_COUNT
+    from mes_dep_task_info t
+   where t.task_no = P_TASK_NO
+     and t.isplan = 1
+     and t.line not like '%XK%';
+  if c_count = 0 then
+    c_Result := '0[bar code:' || p_SN || 'Issue the wrong work order【' || P_TASK_NO || '】,please have a check！';
+    return;
+  end if;
+
+  --校验上一道工序是否有作
+  --BZJ 20190716暂时取消
+  PRC_DATA_01_CHECK(P_TASK_NO     => P_TASK_NO, --工单单号
+                    P_WORKCENTER  => '1001', --工作中心
+                    P_PROC_NO     => mMES_ADMIH.Proc_No, --工序
+                    P_LINE_NO     => mMES_ADMIH.Line_No, --线体
+                    P_PROCLINENO  => P_ResCode, --工序线体
+                    P_CLASS_NO    => 'A', --班次
+                    P_BARCODE     => P_Sn, --条码
+                    P_PROC_ORDER  => pProc_Order, --工序顺序号
+                    P_SCAN_TYPE   => 26, --扫描类型
+                    P_USER        => P_Operator, --用户
+                    P_TRAY        => 0,
+                    P_FIXTURE     => 0,
+                    P_TRAY_TXT    => '',
+                    P_FIXTURE_TXT => '',
+                    P_TYPE_TXT    => '',
+                    P_Flag        => c_flag,
+                    P_Res         => c_res);
+
+  if c_flag > 0 then
+    c_Result := '0[' || c_res || ',functions：PRC_DATA_01_CHECK';
+    return;
+  end if;
+  ----------------------------------------------------------------------------
+
+  begin
+    select *
+      into mMES_MOCTB
+      from MES_PROC_TASK_INFO t1
+     where t1.task_no = P_TASK_NO
+       and t1.proc_no = mMES_ADMIH.proc_no
+       and rownum = 1;
+  exception
+    when NO_DATA_FOUND THEN
+      c_Result := '0[No corresponding procedure was found' || P_TASK_NO || '   ' || mMES_ADMIH.proc_no ||
+                  'functions：SP_TEST_UP';
+      return;
+  end;
+
+  /*Begin
+    Select *
+      Into c_Mes_Moctj
+      From Mes_Moctj --工单信息
+     Where Ij001 = P_TASK_NO;
+  Exception
+    When No_Data_Found Then
+      c_Result := '0[' || '工单【' || P_TASK_NO || '】生产方案未维护。';
+      return;
+  End;*/
+
+  -----------------------------------------------------------------------------------
+  --NG3的记录
+
+  /* 暂时先去掉
+  Begin
+    Select Ta006 Into c_Ta006 From Mes_Mocta Where Ta001 = cMo;
+    Select To_Number(Fcyc)
+      Into c_Ng_Count
+      From Mes_Ng_Set
+     Where Fcode = c_Ta006;
+  
+    If c_Ng_Count Is Not Null Then
+      --NG管控
+      --先查该条码有没有IG026='RETURN'
+      Select Count(0)
+        Into C_COUNT
+        From Mes_Qcmig
+       Where Ig002 = mMES_ADMIH.Ih004
+         And Ig003 = mMES_ADMIH.Ih006
+         And Ig008 = P_Sn
+         And Ig001 = cMo
+         And Ig012 = 'Y'
+         And Ig029 = '999'
+         And Ig026 = 'RETURN';
+      If C_COUNT > 0 Then
+        --有RETURN,找到最后一次RETURN,开始计数
+        Select Max(Create_Date)
+          Into c_Maxdate
+          From Mes_Qcmig
+         Where Ig002 = mMES_ADMIH.Ih004
+           And Ig003 = mMES_ADMIH.Ih006
+           And Ig008 = P_Sn
+           And Ig001 = cMo
+           And Ig012 = 'Y'
+           And Ig029 = '999'
+           And Ig026 = 'RETURN';
+        Select Count(0)
+          Into C_COUNT
+          From Mes_Qcmig
+         Where Ig002 = mMES_ADMIH.Ih004
+           And Ig003 = mMES_ADMIH.Ih006
+           And Ig008 = P_Sn
+           And Ig001 = cMo
+           And Ig029 = '999'
+           And Create_Date > c_Maxdate;
+        If C_COUNT >= c_Ng_Count Then
+          c_Result := '0[NG次数超过系统设定的次数 函数:PRC_ODM_SetMobileData';
+          Return;
+        End If;
+      Else
+        --没有RETURN
+        Select Count(0)
+          Into C_COUNT
+          From Mes_Qcmig
+         Where Ig002 = mMES_ADMIH.Ih004
+           And Ig003 = mMES_ADMIH.Ih006
+           And Ig008 = P_Sn
+           And Ig001 = cMo
+           And Ig029 = '999';
+        If C_COUNT >= c_Ng_Count Then
+          c_Result := '0[NG次数超过系统设定的次数 函数:PRC_ODM_SetMobileData';
+          Return;
+        End If;
+      End If;
+    End If;
+  Exception
+    When No_Data_Found Then
+  
+      null;
+  End;
+  
+  */
+  --测试段 混工单模式
+
+  begin
+    --测试段 并且混工单模式
+    if mMES_ADMIH.Workshop_No = '1001' and MixTask = 'Y' then
+      select t1.*
+        into C_MES_BARIF1
+        from MES_BARIF t1
+        left join MES_LINE_INFO t2
+          on t2.line_no = t1.If006
+       where t1.If009 = P_Sn
+         AND T1.if002 = mMES_ADMIH.Workshop_No
+         AND T1.if005 = mMES_ADMIH.Proc_No
+         and t1.If012 = 'Y';
+      --P_WORDID := C_MES_BARIF1.Id;
+      c_id := C_MES_BARIF1.id;
+    
+      --这里要拦住已经有合格有效的过站记录的条码，因为客户工具把“已过站”的条码当作NG来执行过站,
+      --如果已经合格有效的条码，查询是否有重测属性，如果没有直接返回OK给工具
+      if C_MES_BARIF1.IF012 IS NOT NULL AND C_MES_BARIF1.IF012 = 'Y' AND
+         C_MES_BARIF1.IF010 IS NOT NULL AND C_MES_BARIF1.IF010 = '合格' then
+      
+        --检查是否有重测属性
+        select count(1)
+          into mCount
+          from MES_PROC_TASK_INFO a
+         where a.task_no = P_TASK_NO
+           and a.proc_no = mMES_ADMIH.Proc_No
+           and nvl(a.redo_attr, 0) = 1;
+        if mCount = 0 then
+          c_Result := '1';
+          return;
+        end if;
+      
+        --把重测属性的后续属性都失效
+        for i in (select *
+                    from MES_PROC_TASK_INFO
+                   where task_no = P_TASK_NO
+                     and proc_order >= mMES_MOCTB.Proc_Order
+                     and nvl(redo_attr, 0) = 1) loop
+          update mes_barif a
+             set a.if012       = 'N',
+                 a.update_by   = P_Operator,
+                 a.update_date = sysdate
+           where a.if009 = p_sn
+             and a.if005 = i.proc_no
+             and if012 = 'Y';
+          if mMes_Admih.Workshop_No not in ('1003') then
+            update mes_testgather a
+               set a.er010       = 'N',
+                   a.update_by   = p_operator,
+                   a.update_date = sysdate
+             where a.er009 = p_sn
+               and a.er005 = i.proc_no
+               and a.er010 = 'Y';
+          else
+            update mes_linegather a
+               set a.er023       = 'N',
+                   a.update_by   = p_operator,
+                   a.update_date = sysdate
+             where a.er009 = p_sn
+               and a.er005 = i.proc_no
+               and a.er023 = 'Y';
+          end if;
+          commit;
+        
+          select count(1)
+            into C_COUNT
+            from MES_QCMIG t
+           where t.ig002 = i.workcenter_no
+             and t.ig003 = i.proc_no
+                --  and t.ig004 = mMES_ADMIH.Ih003
+             and t.ig008 = P_Sn
+             and t.ig029 = '999';
+          if C_COUNT > 0 then
+            update MES_QCMIG
+               set ig012 = 'Y', ig028 = '接口自动置为维修状态'
+             where ig002 = i.workcenter_no
+               and ig003 = i.proc_no
+                  --   and ig004 = mMES_ADMIH.Ih003
+               and ig008 = P_Sn
+               and ig029 = '999';
+            commit;
+          end if;
+        end loop;
+      
+        --重新过站了
+        IF mMES_ADMIH.Workshop_No = '1001' THEN
+        
+          /*
+          PRC_DATA_01_CHECK_Jianhua(P_TASK_NO    => cMo,
+                                    P_WORKCENTER => mMES_ADMIH.Ih004,
+                                    P_PROC_NO    => mMES_ADMIH.Ih006,
+                                    P_LINE_NO    => mMES_ADMIH.Ih003,
+                                    P_PROCLINENO => mMES_ADMIH.Ih001,
+                                    P_CLASS_NO   => 'A',
+                                    P_BARCODE    => P_Sn,
+                                    P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                    P_SCAN_TYPE  => '999',
+                                    P_USER       => P_Operator,
+                                    P_Flag       => PO_RESULT,
+                                    P_Res        => PO_MSG);
+          IF PO_RESULT != 0 THEN
+            c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+            return;
+          END IF;
+          */
+        
+          PRC_DATA_01_PUBLIC(P_TASK_NO      => P_TASK_NO,
+                             P_WORKCENTER   => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO      => mMES_ADMIH.Proc_No,
+                             P_LINE_NO      => mMES_ADMIH.line_code,
+                             P_PROCLINENO   => mMES_ADMIH.Line_No,
+                             P_CLASS_NO     => 'A',
+                             P_BARCODE      => P_Sn,
+                             P_REL_BARCODE1 => '',
+                             P_PROC_ORDER   => mMES_MOCTB.Proc_Order,
+                             P_FBNAME => '自动线采集',
+                             P_SCAN_TYPE    => '999',
+                             P_USER         => P_Operator,
+                             P_TRAY         => 0,
+                             P_FIXTURE      => 0,
+                             P_TRAY_TXT     => '',
+                             P_FIXTURE_TXT  => '',
+                             P_TYPE_TXT     => '',
+                             P_Flag         => PO_RESULT,
+                             P_Res          => PO_MSG,
+                             P_FinQty       => C_FINQTY,
+                             P_Dcl          => C_DCL);
+        
+        elsif mMES_ADMIH.Workshop_No = '1002' THEN
+        
+          /*
+            PRC_DATA_02_CHECK_1_Jianhua(P_TASK_NO    => cMo,
+                                        P_WORKCENTER => mMES_ADMIH.Ih004,
+                                        P_PROC_NO    => mMES_ADMIH.Ih006,
+                                        P_LINE_NO    => mMES_ADMIH.Ih003,
+                                        P_PROCLINENO => mMES_ADMIH.Ih001,
+                                        P_CLASS_NO   => 'A',
+                                        P_BARCODE    => P_Sn,
+                                        P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                        P_SCAN_TYPE  => '999',
+                                        P_USER       => P_Operator,
+                                        P_Flag       => PO_RESULT,
+                                        P_Res        => PO_MSG,
+                                        P_FinQty     => C_FINQTY,
+                                        P_Dcl        => C_DCL);
+            IF PO_RESULT != 0 THEN
+              c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+              return;
+            END IF;
+          */
+          PRC_DATA_02_PUBLIC(P_TASK_NO    => P_TASK_NO,
+                             P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO    => mMES_ADMIH.Proc_No,
+                             P_LINE_NO    => mMES_ADMIH.Line_Code,
+                             P_PROCLINENO => mMES_ADMIH.Line_No,
+                             P_CLASS_NO   => 'A',
+                             P_BARCODE    => P_Sn,
+                             P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                             P_SCAN_TYPE  => '999',
+                             P_USER       => P_Operator,
+                             
+                             P_Flag   => PO_RESULT,
+                             P_Res    => PO_MSG,
+                             P_FinQty => C_FINQTY,
+                             P_Dcl    => C_DCL);
+        
+          commit;
+        elsif mMES_ADMIH.Workshop_No = '1003' THEN
+        
+          BEGIN
+            SELECT T.IMEI1
+              INTO C_IMEI
+              FROM MES_MODEL_IMEI T
+             WHERE T.TSN = P_Sn
+               AND (T.FLAG = 1 OR T.FLAG = 2);
+          EXCEPTION
+            when NO_DATA_FOUND THEN
+              c_Result := '0[NG：SN[' || P_Sn ||
+                          ']IMEI,functions:PRC_ODM_SetMobileData';
+              return;
+          END;
+          /*
+            Prc_Data_03_Check_Jianhua(P_TASK_NO    => cMo,
+                                      P_WORKCENTER => mMES_ADMIH.Ih004,
+                                      P_PROC_NO    => mMES_ADMIH.Ih006,
+                                      P_LINE_NO    => mMES_ADMIH.Ih003,
+                                      P_PROCLINENO => mMES_ADMIH.Ih001,
+                                      P_CLASS_NO   => 'A',
+                                      P_BARCODE    => C_IMEI,
+                                      P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                      P_SCAN_TYPE  => '999',
+                                      P_USER       => P_Operator,
+                                      P_Flag       => PO_RESULT,
+                                      P_Res        => PO_MSG,
+                                      P_FinQty     => C_FINQTY,
+                                      P_Dcl        => C_DCL);
+            IF PO_RESULT != 0 THEN
+              --IMEI写号，如果写号成功，但是过站失败的话，需要进行解绑
+              if mMES_ADMIH.Ih006 = 'GX021' then
+                prc_odm_setallinfo(p_sn     => p_sn,
+                                   p_flag   => 0,
+                                   c_result => c_res);
+          
+              end if;
+          
+              c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+              return;
+            END IF;
+          */
+          Prc_Data_03_Public(P_TASK_NO    => P_TASK_NO,
+                             P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO    => mMES_ADMIH.Proc_No,
+                             P_LINE_NO    => mMES_ADMIH.line_code,
+                             P_PROCLINENO => mMES_ADMIH.Line_No,
+                             P_CLASS_NO   => 'A',
+                             P_BARCODE    => C_IMEI,
+                             P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                             P_SCAN_TYPE  => '999',
+                             P_USER       => P_Operator,
+                             
+                             P_Flag   => PO_RESULT,
+                             P_Res    => PO_MSG,
+                             P_FinQty => C_FINQTY,
+                             P_Dcl    => C_DCL);
+          commit;
+        END IF;
+        IF PO_RESULT <> 0 THEN
+          c_Result := '0[' || PO_MSG;
+          return;
+        END IF;
+        --返回过站ID
+        -- c_id := po_msg;
+      
+        po_msg := po_msg;
+      
+      end if;
+    else
+      --工单校验模式
+    
+      select t1.*
+        into C_MES_BARIF1
+        from MES_BARIF t1
+        left join MES_LINE_INFO t2
+          on t2.line_no = t1.If006
+       where t1.if001 = P_TASK_NO
+         AND t1.If009 = P_Sn
+         AND T1.if002 = mMES_ADMIH.Workshop_No
+         AND T1.if005 = mMES_ADMIH.Proc_No
+         and t1.If012 = 'Y';
+      --P_WORDID := C_MES_BARIF1.Id;
+      c_id := C_MES_BARIF1.id;
+    
+      --这里要拦住已经有合格有效的过站记录的条码，因为客户工具把“已过站”的条码当作NG来执行过站,如果已经合格有效的条码，查询是否有重测属性，如果没有直接返回OK给工具
+      if C_MES_BARIF1.IF012 IS NOT NULL AND C_MES_BARIF1.IF012 = 'Y' AND
+         C_MES_BARIF1.IF010 IS NOT NULL AND C_MES_BARIF1.IF010 = '合格' then
+      
+        --检查是否有重测属性
+        select count(1)
+          into mCount
+          from MES_PROC_TASK_INFO a
+         where a.task_no = P_TASK_NO
+           and a.proc_no = mMES_ADMIH.Proc_No
+           and nvl(a.redo_attr, 0) = 1;
+        if mCount = 0 then
+          c_Result := '1';
+          return;
+        end if;
+      
+        --把重测属性的后续属性都失效
+        for i in (select *
+                    from MES_PROC_TASK_INFO
+                   where task_no = P_TASK_NO
+                     and proc_order >= mMES_MOCTB.Proc_Order
+                     and nvl(redo_attr, 0) = 1) loop
+          update mes_barif a
+             set a.if012       = 'N',
+                 a.update_by   = P_Operator,
+                 a.update_date = sysdate
+           where a.if001 = P_TASK_NO
+             and a.if009 = p_sn
+             and a.if005 = i.proc_no
+             and if012 = 'Y';
+          if mMes_Admih.Workshop_No not in ('1003') then
+            update mes_testgather a
+               set a.er010       = 'N',
+                   a.update_by   = p_operator,
+                   a.update_date = sysdate
+             where a.er001 = P_TASK_NO
+               and a.er009 = p_sn
+               and a.er005 = i.proc_no
+               and a.er010 = 'Y';
+          else
+            update mes_linegather a
+               set a.er023       = 'N',
+                   a.update_by   = p_operator,
+                   a.update_date = sysdate
+             where a.er001 = P_TASK_NO
+               and a.er009 = p_sn
+               and a.er005 = i.proc_no
+               and a.er023 = 'Y';
+          end if;
+          commit;
+        
+          select count(1)
+            into C_COUNT
+            from MES_QCMIG t
+           where t.ig002 = i.workcenter_no
+             and t.ig003 = i.proc_no
+                --  and t.ig004 = mMES_ADMIH.Ih003
+             and t.ig008 = P_Sn
+             and t.ig029 = '999';
+          if C_COUNT > 0 then
+            update MES_QCMIG
+               set ig012 = 'Y', ig028 = '接口自动置为维修状态'
+             where ig002 = i.workcenter_no
+               and ig003 = i.proc_no
+                  --   and ig004 = mMES_ADMIH.Ih003
+               and ig008 = P_Sn
+               and ig029 = '999';
+            commit;
+          end if;
+        end loop;
+      
+        --重新过站了
+        IF mMES_ADMIH.Workshop_No = '1001' THEN
+        
+          /*
+          PRC_DATA_01_CHECK_Jianhua(P_TASK_NO    => cMo,
+                                    P_WORKCENTER => mMES_ADMIH.Ih004,
+                                    P_PROC_NO    => mMES_ADMIH.Ih006,
+                                    P_LINE_NO    => mMES_ADMIH.Ih003,
+                                    P_PROCLINENO => mMES_ADMIH.Ih001,
+                                    P_CLASS_NO   => 'A',
+                                    P_BARCODE    => P_Sn,
+                                    P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                    P_SCAN_TYPE  => '999',
+                                    P_USER       => P_Operator,
+                                    P_Flag       => PO_RESULT,
+                                    P_Res        => PO_MSG);
+          IF PO_RESULT != 0 THEN
+            c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+            return;
+          END IF;
+          */
+        
+          PRC_DATA_01_PUBLIC(P_TASK_NO      => P_TASK_NO,
+                             P_WORKCENTER   => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO      => mMES_ADMIH.Proc_No,
+                             P_LINE_NO      => mMES_ADMIH.line_code,
+                             P_PROCLINENO   => mMES_ADMIH.Line_No,
+                             P_CLASS_NO     => 'A',
+                             P_BARCODE      => P_Sn,
+                             P_REL_BARCODE1 => '',
+                             P_PROC_ORDER   => mMES_MOCTB.Proc_Order,
+                             P_SCAN_TYPE    => '999',
+                             P_USER         => P_Operator,
+                             P_TRAY         => 0,
+                             P_FIXTURE      => 0,
+                             P_TRAY_TXT     => '',
+                             P_FIXTURE_TXT  => '',
+                             P_TYPE_TXT     => '',
+                             P_FBNAME => '自动线采集',
+                             P_Flag         => PO_RESULT,
+                             P_Res          => PO_MSG,
+                             P_FinQty       => C_FINQTY,
+                             P_Dcl          => C_DCL);
+        
+        elsif mMES_ADMIH.Workshop_No = '1002' THEN
+        
+          /*
+            PRC_DATA_02_CHECK_1_Jianhua(P_TASK_NO    => cMo,
+                                        P_WORKCENTER => mMES_ADMIH.Ih004,
+                                        P_PROC_NO    => mMES_ADMIH.Ih006,
+                                        P_LINE_NO    => mMES_ADMIH.Ih003,
+                                        P_PROCLINENO => mMES_ADMIH.Ih001,
+                                        P_CLASS_NO   => 'A',
+                                        P_BARCODE    => P_Sn,
+                                        P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                        P_SCAN_TYPE  => '999',
+                                        P_USER       => P_Operator,
+                                        P_Flag       => PO_RESULT,
+                                        P_Res        => PO_MSG,
+                                        P_FinQty     => C_FINQTY,
+                                        P_Dcl        => C_DCL);
+            IF PO_RESULT != 0 THEN
+              c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+              return;
+            END IF;
+          */
+          PRC_DATA_02_PUBLIC(P_TASK_NO    => P_TASK_NO,
+                             P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO    => mMES_ADMIH.Proc_No,
+                             P_LINE_NO    => mMES_ADMIH.Line_Code,
+                             P_PROCLINENO => mMES_ADMIH.Line_No,
+                             P_CLASS_NO   => 'A',
+                             P_BARCODE    => P_Sn,
+                             P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                             P_SCAN_TYPE  => '999',
+                             P_USER       => P_Operator,
+                             
+                             P_Flag   => PO_RESULT,
+                             P_Res    => PO_MSG,
+                             P_FinQty => C_FINQTY,
+                             P_Dcl    => C_DCL);
+          commit;
+        elsif mMES_ADMIH.Workshop_No = '1003' THEN
+        
+          BEGIN
+            SELECT T.IMEI1
+              INTO C_IMEI
+              FROM MES_MODEL_IMEI T
+             WHERE T.TSN = P_Sn
+               AND (T.FLAG = 1 OR T.FLAG = 2);
+          EXCEPTION
+            when NO_DATA_FOUND THEN
+              c_Result := '0[NG：Not according to theSN[' || P_Sn ||
+                          ']locating IMEI  record,functions:SP_TEST_UP';
+              return;
+          END;
+          /*
+            Prc_Data_03_Check_Jianhua(P_TASK_NO    => cMo,
+                                      P_WORKCENTER => mMES_ADMIH.Ih004,
+                                      P_PROC_NO    => mMES_ADMIH.Ih006,
+                                      P_LINE_NO    => mMES_ADMIH.Ih003,
+                                      P_PROCLINENO => mMES_ADMIH.Ih001,
+                                      P_CLASS_NO   => 'A',
+                                      P_BARCODE    => C_IMEI,
+                                      P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                      P_SCAN_TYPE  => '999',
+                                      P_USER       => P_Operator,
+                                      P_Flag       => PO_RESULT,
+                                      P_Res        => PO_MSG,
+                                      P_FinQty     => C_FINQTY,
+                                      P_Dcl        => C_DCL);
+            IF PO_RESULT != 0 THEN
+              --IMEI写号，如果写号成功，但是过站失败的话，需要进行解绑
+              if mMES_ADMIH.Ih006 = 'GX021' then
+                prc_odm_setallinfo(p_sn     => p_sn,
+                                   p_flag   => 0,
+                                   c_result => c_res);
+          
+              end if;
+          
+              c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+              return;
+            END IF;
+          */
+          Prc_Data_03_Public(P_TASK_NO    => P_TASK_NO,
+                             P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                             P_PROC_NO    => mMES_ADMIH.Proc_No,
+                             P_LINE_NO    => mMES_ADMIH.line_code,
+                             P_PROCLINENO => mMES_ADMIH.Line_No,
+                             P_CLASS_NO   => 'A',
+                             P_BARCODE    => C_IMEI,
+                             P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                             P_SCAN_TYPE  => '999',
+                             P_USER       => P_Operator,
+                             
+                             P_Flag   => PO_RESULT,
+                             P_Res    => PO_MSG,
+                             P_FinQty => C_FINQTY,
+                             P_Dcl    => C_DCL);
+          commit;
+        END IF;
+        IF PO_RESULT <> 0 THEN
+          c_Result := '0[' || PO_MSG;
+          return;
+        END IF;
+        --返回过站ID
+        -- c_id := po_msg;
+        po_msg := po_msg;
+      
+      end if;
+    end if;
+  exception
+    when NO_DATA_FOUND THEN
+    
+      IF mMES_ADMIH.Workshop_No = '1001' THEN
+      
+        /*
+        PRC_DATA_01_CHECK_Jianhua(P_TASK_NO    => cMo,
+                                  P_WORKCENTER => mMES_ADMIH.Ih004,
+                                  P_PROC_NO    => mMES_ADMIH.Ih006,
+                                  P_LINE_NO    => mMES_ADMIH.Ih003,
+                                  P_PROCLINENO => mMES_ADMIH.Ih001,
+                                  P_CLASS_NO   => 'A',
+                                  P_BARCODE    => P_Sn,
+                                  P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                  P_SCAN_TYPE  => '999',
+                                  P_USER       => P_Operator,
+                                  P_Flag       => PO_RESULT,
+                                  P_Res        => PO_MSG);
+        IF PO_RESULT != 0 THEN
+          c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+          return;
+        END IF;
+        */
+      
+        PRC_DATA_01_PUBLIC(P_TASK_NO      => P_TASK_NO,
+                           P_WORKCENTER   => mMES_ADMIH.Workshop_No,
+                           P_PROC_NO      => mMES_ADMIH.Proc_No,
+                           P_LINE_NO      => mMES_ADMIH.line_code,
+                           P_PROCLINENO   => mMES_ADMIH.Line_No,
+                           P_CLASS_NO     => 'A',
+                           P_BARCODE      => P_Sn,
+                           P_REL_BARCODE1 => '',
+                           P_PROC_ORDER   => mMES_MOCTB.Proc_Order,
+                           P_SCAN_TYPE    => '999',
+                           P_USER         => P_Operator,
+                           P_TRAY         => 0,
+                           P_FIXTURE      => 0,
+                           P_TRAY_TXT     => '',
+                           P_FIXTURE_TXT  => '',
+                           P_TYPE_TXT     => '',
+                           P_FBNAME => '自动线采集',
+                           P_Flag         => PO_RESULT,
+                           P_Res          => PO_MSG,
+                           P_FinQty       => C_FINQTY,
+                           P_Dcl          => C_DCL);
+      
+      elsif mMES_ADMIH.Workshop_No = '1002' THEN
+      
+        /*
+          PRC_DATA_02_CHECK_1_Jianhua(P_TASK_NO    => cMo,
+                                      P_WORKCENTER => mMES_ADMIH.Ih004,
+                                      P_PROC_NO    => mMES_ADMIH.Ih006,
+                                      P_LINE_NO    => mMES_ADMIH.Ih003,
+                                      P_PROCLINENO => mMES_ADMIH.Ih001,
+                                      P_CLASS_NO   => 'A',
+                                      P_BARCODE    => P_Sn,
+                                      P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                      P_SCAN_TYPE  => '999',
+                                      P_USER       => P_Operator,
+                                      P_Flag       => PO_RESULT,
+                                      P_Res        => PO_MSG,
+                                      P_FinQty     => C_FINQTY,
+                                      P_Dcl        => C_DCL);
+          IF PO_RESULT != 0 THEN
+            c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+            return;
+          END IF;
+        */
+        PRC_DATA_02_PUBLIC(P_TASK_NO    => P_TASK_NO,
+                           P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                           P_PROC_NO    => mMES_ADMIH.Proc_No,
+                           P_LINE_NO    => mMES_ADMIH.Line_Code,
+                           P_PROCLINENO => mMES_ADMIH.Line_No,
+                           P_CLASS_NO   => 'A',
+                           P_BARCODE    => P_Sn,
+                           P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                           P_SCAN_TYPE  => '999',
+                           P_USER       => P_Operator,
+                           
+                           P_Flag   => PO_RESULT,
+                           P_Res    => PO_MSG,
+                           P_FinQty => C_FINQTY,
+                           P_Dcl    => C_DCL);
+        commit;
+      elsif mMES_ADMIH.Workshop_No = '1003' THEN
+      
+        BEGIN
+          SELECT T.IMEI1
+            INTO C_IMEI
+            FROM MES_MODEL_IMEI T
+           WHERE T.TSN = P_Sn
+             AND (T.FLAG = 1 OR T.FLAG = 2);
+        EXCEPTION
+          when NO_DATA_FOUND THEN
+            c_Result := '0[NG：Not according to theSN[' || P_Sn || ']locatingIMEIrecord,functions:SP_TEST_UP';
+            return;
+        END;
+        /*
+          Prc_Data_03_Check_Jianhua(P_TASK_NO    => cMo,
+                                    P_WORKCENTER => mMES_ADMIH.Ih004,
+                                    P_PROC_NO    => mMES_ADMIH.Ih006,
+                                    P_LINE_NO    => mMES_ADMIH.Ih003,
+                                    P_PROCLINENO => mMES_ADMIH.Ih001,
+                                    P_CLASS_NO   => 'A',
+                                    P_BARCODE    => C_IMEI,
+                                    P_PROC_ORDER => mMES_MOCTB.Tb003,
+                                    P_SCAN_TYPE  => '999',
+                                    P_USER       => P_Operator,
+                                    P_Flag       => PO_RESULT,
+                                    P_Res        => PO_MSG,
+                                    P_FinQty     => C_FINQTY,
+                                    P_Dcl        => C_DCL);
+          IF PO_RESULT != 0 THEN
+            --IMEI写号，如果写号成功，但是过站失败的话，需要进行解绑
+            if mMES_ADMIH.Ih006 = 'GX021' then
+              prc_odm_setallinfo(p_sn     => p_sn,
+                                 p_flag   => 0,
+                                 c_result => c_res);
+        
+            end if;
+        
+            c_Result := '0[NG：' || PO_MSG || ' 函数:PRC_ODM_SetMobileData';
+            return;
+          END IF;
+        */
+        Prc_Data_03_Public(P_TASK_NO    => P_TASK_NO,
+                           P_WORKCENTER => mMES_ADMIH.Workshop_No,
+                           P_PROC_NO    => mMES_ADMIH.Proc_No,
+                           P_LINE_NO    => mMES_ADMIH.line_code,
+                           P_PROCLINENO => mMES_ADMIH.Line_No,
+                           P_CLASS_NO   => 'A',
+                           P_BARCODE    => C_IMEI,
+                           P_PROC_ORDER => mMES_MOCTB.Proc_Order,
+                           P_SCAN_TYPE  => '999',
+                           P_USER       => P_Operator,
+                           
+                           P_Flag   => PO_RESULT,
+                           P_Res    => PO_MSG,
+                           P_FinQty => C_FINQTY,
+                           P_Dcl    => C_DCL);
+        commit;
+      END IF;
+      IF PO_RESULT <> 0 THEN
+        c_Result := '0[' || PO_MSG;
+        return;
+      END IF;
+      --返回过站ID
+      -- c_id := po_msg;
+      po_msg := po_msg;
+  end;
+  --这里要拦住已经有合格有效的过站记录的条码，因为客户工具把“已过站”的条码当作NG来执行过站
+  /* if C_MES_BARIF1.IF012 IS NOT NULL AND C_MES_BARIF1.IF012 = 'Y' then
+    c_Result := '0[条码:[' || P_Sn ||
+                ']已经有合格有效的过站记录,若要重新过站请走维修等流程失效至当前站才能重新过站,函数：PRC_ODM_SetMobileData';
+    return;
+  end if;*/
+  ------------------------------------------------------------
+  --测试段 并且混工单模式
+  if mMES_ADMIH.Workshop_No = '1001' and MixTask = 'Y' then
+    SELECT t1.id
+      into c_id
+      FROM MES_BARIF T1
+      LEFT JOIN MES_ADMIH T2
+        ON T2.IH001 = T1.IF006
+     WHERE T1.IF009 = P_Sn
+       AND T1.if002 = mMES_ADMIH.Workshop_No
+       AND T1.if005 = mMES_ADMIH.Proc_No
+       and (t1.if012 = 'Y' or t1.if012 is null);
+  else
+  
+    SELECT t1.id
+      into c_id
+      FROM MES_BARIF T1
+      LEFT JOIN MES_ADMIH T2
+        ON T2.IH001 = T1.IF006
+     WHERE t1.if001 = P_TASK_NO
+       and T1.IF009 = P_Sn
+       AND T1.if002 = mMES_ADMIH.Workshop_No
+       AND T1.if005 = mMES_ADMIH.Proc_No
+       and (t1.if012 = 'Y' or t1.if012 is null);
+  end if;
+
+  ----------------------------------------------------------------------------
+  if P_Result = 'NG' then
+    if P_ErrCode is null then
+      cError := '26';
+    else
+      cError := P_ErrCode;
+    end if;
+  
+    update mes_barif t
+       set t.if010       = '不合格',
+           t.if012       = 'N',
+           t.update_by   = P_Operator,
+           t.update_date = sysdate
+     where t.id = c_id;
+    if mMes_Admih.Workshop_No not in ('1003') then
+      --测试段 并且混工单模式
+      if mMES_ADMIH.Workshop_No = '1001' and MixTask = 'Y' then
+        update mes_testgather a
+           set a.er010       = 'N',
+               a.update_by   = p_operator,
+               a.update_date = sysdate
+         where a.er005 = mMES_ADMIH.Proc_No
+           and a.er010 = 'Y';
+      else
+        update mes_testgather a
+           set a.er010       = 'N',
+               a.update_by   = p_operator,
+               a.update_date = sysdate
+         where a.er001 = P_TASK_NO
+           and a.er005 = mMES_ADMIH.Proc_No
+           and a.er010 = 'Y';
+      end if;
+    else
+      update mes_linegather a
+         set a.er023       = 'N',
+             a.update_by   = p_operator,
+             a.update_date = sysdate
+       where a.er001 = P_TASK_NO
+         and a.er005 = mMES_ADMIH.Proc_No
+         and a.er023 = 'Y';
+    end if;
+    ------------------------------------------------------------
+  
+    --测试段 并且混工单模式
+    if mMES_ADMIH.Workshop_No = '1001' and MixTask = 'Y' then
+      INSERT INTO MES_QCMIG_CUST
+        (ID,
+         IG001,
+         IG002,
+         IG003,
+         IG004,
+         IG005,
+         IG006,
+         IG007,
+         IG008,
+         IG009,
+         IG010,
+         IG011,
+         IG012,
+         IG030,
+         CREATE_BY,
+         CREATE_DATE,
+         UPDATE_BY,
+         UPDATE_DATE)
+      VALUES
+        (sys_guid(),
+         '',
+         mMES_ADMIH.Workshop_No,
+         mMES_ADMIH.Proc_No,
+         mMES_ADMIH.LINE_CODE,
+         mMES_ADMIH.Line_No,
+         'A',
+         c_id,
+         P_Sn,
+         '26',
+         cError, --IG010
+         P_Tsmemo,
+         'N',
+         '接口测试不良',
+         P_Operator,
+         Str_sysdate,
+         P_Operator,
+         Str_sysdate);
+    else
+      INSERT INTO MES_QCMIG_CUST
+        (ID,
+         IG001,
+         IG002,
+         IG003,
+         IG004,
+         IG005,
+         IG006,
+         IG007,
+         IG008,
+         IG009,
+         IG010,
+         IG011,
+         IG012,
+         IG030,
+         CREATE_BY,
+         CREATE_DATE,
+         UPDATE_BY,
+         UPDATE_DATE)
+      VALUES
+        (sys_guid(),
+         P_TASK_NO,
+         mMES_ADMIH.Workshop_No,
+         mMES_ADMIH.Proc_No,
+         mMES_ADMIH.LINE_CODE,
+         mMES_ADMIH.Line_No,
+         'A',
+         c_id,
+         P_Sn,
+         '26',
+         cError, --IG010
+         P_Tsmemo,
+         'N',
+         '接口测试不良',
+         P_Operator,
+         Str_sysdate,
+         P_Operator,
+         Str_sysdate);
+    end if;
+    commit;
+    select count(1)
+      into C_COUNT
+      from MES_QCMIG t
+     where t.ig002 = mMES_ADMIH.Workshop_No
+       and t.ig003 = mMES_ADMIH.Proc_No
+          --  and t.ig004 = mMES_ADMIH.Ih003
+       and t.ig008 = P_Sn
+       and t.ig029 = '999';
+    if C_COUNT > 0 then
+      update MES_QCMIG
+         set ig012 = 'Y', ig028 = '接口自动置为维修状态'
+       where ig002 = mMES_ADMIH.Workshop_No
+         and ig003 = mMES_ADMIH.Proc_No
+            --   and ig004 = mMES_ADMIH.Ih003
+         and ig008 = P_Sn
+         and ig029 = '999';
+      commit;
+    end if;
+    --测试段 并且混工单模式
+    if mMES_ADMIH.Workshop_No = '1001' and MixTask = 'Y' then
+      INSERT INTO MES_QCMIG
+        (ID,
+         IG001,
+         IG002,
+         IG003,
+         IG004,
+         IG005,
+         IG006,
+         IG007,
+         IG008,
+         IG009,
+         IG010,
+         IG011,
+         IG012,
+         IG029,
+         IG030,
+         CREATE_BY,
+         CREATE_DATE,
+         UPDATE_BY,
+         UPDATE_DATE)
+      VALUES
+        (SEQ_MES_QCMIG.NEXTVAL,
+         '',
+         mMES_ADMIH.Workshop_No,
+         mMES_ADMIH.Proc_No,
+         mMES_ADMIH.Line_Code,
+         mMES_ADMIH.Line_No,
+         'A',
+         c_id,
+         P_Sn,
+         '26',
+         cError, --不良项次
+         P_Tsmemo, --测试值
+         'N',
+         '999',
+         '接口测试不良',
+         P_Operator,
+         sysdate,
+         P_Operator,
+         sysdate);
+    else
+      INSERT INTO MES_QCMIG
+        (ID,
+         IG001,
+         IG002,
+         IG003,
+         IG004,
+         IG005,
+         IG006,
+         IG007,
+         IG008,
+         IG009,
+         IG010,
+         IG011,
+         IG012,
+         IG029,
+         IG030,
+         CREATE_BY,
+         CREATE_DATE,
+         UPDATE_BY,
+         UPDATE_DATE)
+      VALUES
+        (SEQ_MES_QCMIG.NEXTVAL,
+         P_TASK_NO,
+         mMES_ADMIH.Workshop_No,
+         mMES_ADMIH.Proc_No,
+         mMES_ADMIH.Line_Code,
+         mMES_ADMIH.Line_No,
+         'A',
+         c_id,
+         P_Sn,
+         '26',
+         cError, --不良项次
+         P_Tsmemo, --测试值
+         'N',
+         '999',
+         '接口测试不良',
+         P_Operator,
+         sysdate,
+         P_Operator,
+         sysdate);
+    end if;
+    commit;
+    IF PO_RESULT <> 0 THEN
+      c_Result := '0[' || PO_MSG || 'functions：SP_TEST_UP';
+      return;
+    END IF;
+  ELSE
+    select count(1)
+      into C_COUNT
+      from MES_QCMIG t
+     where t.ig002 = mMES_ADMIH.Workshop_No
+       and t.ig003 = mMES_ADMIH.PROC_NO
+          --  and t.ig004 = mMES_ADMIH.Ih003
+       and t.ig012 = 'N'
+       and t.ig008 = P_Sn
+       and t.ig029 = '999';
+    if C_COUNT > 0 then
+      update MES_QCMIG
+         set ig012 = 'Y', ig028 = 'Repair'
+       where ig002 = mMES_ADMIH.Workshop_No
+         and ig003 = mMES_ADMIH.PROC_NO
+            --    and ig004 = mMES_ADMIH.Ih003
+         and ig008 = P_Sn
+         and ig029 = '999';
+      commit;
+    end if;
+  end if;
+  ----------------------------------------------------------------------------
+
+  ---------------------------------------------------------------------------- c_Result := '1[OK';
+  c_Result := '1';
+  return;
+end;

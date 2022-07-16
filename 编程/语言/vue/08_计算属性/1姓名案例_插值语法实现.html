@@ -1,0 +1,41 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-09 15:34:55
+ * @LastEditTime: 2021-08-09 16:21:40
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\08_计算属性\1姓名案例_插值语法实现.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h1>1姓名案例_插值语法实现</h1>
+        姓：<input type="text" v-model="firstname"><br>
+        名：<input type="text" v-model="lastname"><br>
+        <!-- 姓名：<span>{{firstname}}-{{lastname}}</span> -->
+        姓名：<span>{{firstname.slice(0,3)}}-{{lastname}}</span>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const x = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            firstname: "张",
+            lastname: "三"
+        },
+        methods: {}
+    })
+</script>
+
+</html>

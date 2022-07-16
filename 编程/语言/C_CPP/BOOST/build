@@ -1,0 +1,28 @@
+
+bootstrap.bat
+b2 stage --toolset=msvc-14.2 --without-graph --without-graph_parallel --stagedir="C:\boost_1_75_0\stage\lib" link=static runtime-link=static runtime-link=static threading=multi debug release
+
+b2 stage --toolset=msvc-14.2 --without-graph --without-graph_parallel  link=static runtime-link=static runtime-link=static threading=multi debug release
+
+b2 stage --toolset=msvc-14.2 --without-graph --without-graph_parallel  link=shared runtime-link=shared runtime-link=shared threading=multi debug release
+重点
+
+X = static 时 项目属性 → C/C++ →代码生成 → 运行库 【多线程调试(/MTd)】
+X = shared 时 项目属性 → C/C++ →代码生成 → 运行库 【多线程调试 DLL (/MDd)】
+
+bjam.exe --toolset=msvc-14.2 architecture=x86 address-model=64 link=static --build-type=complete --with-system --with-thread --with-date_time --with-filesystem --with-serialization
+bjam.exe --toolset=msvc-14.2 architecture=x86 address-model=64 link=static runtime-link=static runtime-link=static --build-type=complete --with-system --with-thread --with-date_time --with-filesystem --with-serialization  threading=multi debug release
+
+bjam.exe --toolset=msvc-14.2 architecture=x86 address-model=64 link=shared runtime-link=shared runtime-link=shared --build-type=complete --with-system --with-thread --with-date_time --with-filesystem --with-serialization  threading=multi debug release
+b2 --toolset=msvc-14.2 architecture=x86 address-model=64 link=shared runtime-link=shared runtime-link=shared --build-type=complete --with-system --with-thread --with-date_time --with-filesystem --with-serialization  threading=multi debug release
+
+
+编译32位静态库：
+b2 link=static runtime-link=static threading=multi debug release
+编译64位静态mt库：
+b2 stage --toolset=msvc-12.0 architecture=x86 address-model=64 --stagedir=".\stage\vc12_x64" link=static runtime-link=static threading=multi debug release
+
+b2 stage --toolset=msvc-12.0 architecture=x86 address-model=64 --stagedir=".\stage\vc12_x64" link=static runtime-link=shared threading=multi debug release
+
+编译64位静态md库：
+b2 stage --toolset=msvc-14.2  architecture=x86 address-model=64  link=static runtime-link=shared threading=multi debug release

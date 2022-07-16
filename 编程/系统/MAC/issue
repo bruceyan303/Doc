@@ -1,0 +1,186 @@
+Warning: homebrew/dupes was deprecated. This tap is now empty as all its formulae were migrated.
+
+
+安装mac+nginx+mysql可看之前的文章,php安装和安装扩展,如memcached、redis等则不可在用brew search php查看扩展brew install php70-memcached这种方式安装扩展了
+
+
+
+
+安装php
+brew install php56
+
+安装php扩展（难点）
+不推荐用 pecl 的方式安装 PHP 扩展。以 php-redis 扩展为例，下载源码包来进行安装：
+wget https://pecl.php.net/get/redis-3.1.3.tgz # 下载源码包
+tar -zxvf redis-3.1.3.tgz # 解压
+cd redis-3.1.3
+phpize # 生成编译配置                 
+./configure # 编译配置检测
+make # 编译
+
+问题 ./common.h:1:10: fatal error: 'php.h' file not found
+处理 xcode-select --install 
+
+  //   sudo ln -s /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include /usr/include
+sudo ln -s /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include /usr/local/include
+
+
+问题 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+处理 https://developer.apple.com/download/more/  更新Command Line Tools
+
+make install # 安装
+
+注意：看清你安装的路径安装memcach、memcached(php5.几版本的需要安装[memcached-2.2.0.tgz](http://pecl.php.net/get/memcached-2.2.0.tgz) 才不会报错)、mongo、mongodb可去pecl搜搜下载对应的包。下载下来直接解压安装包，建议把安装包放到php@5.6同一级目录中（如：/usr/local/Cellar）解压了文件就可以跳过之前安装的两步，直接 cd …进入生成编辑配置。
+安装遇到的错误
+
+
+1.错误configure：error：请重新安装pkg-config分配
+报错信息：Checking for pkg-config… /usr/bin/pkg-config
+configure: error: Cannot find OpenSSL’s <evp.h>
+解决办法：
+wget http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+tar -zxvf pkg-config-0.28.tar.gz 
+cd pkg-config-0.28
+./configure --with-internal-glib
+make && make install
+2.报错信息：fatal error: 'openssl/sha.h' file not found on installation
+解决办法：
+$ cd /usr/local/include 
+$ ln -s ../opt/openssl/include/openssl .
+
+
+
+brew config
+
+
+/////
+1. 脚本说明
+Homebrew默认安装脚本：
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+如果你等待一段时间之后遇到下面提示，就说明无法访问官方脚本地址：
+curl: (7) Failed to connect to raw.githubusercontent.com port 443: Operation timed out
+请使用下面的脚本:
+/usr/bin/ruby -e "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install)"
+上面脚本中使用了中科大镜像来加速访问。
+安装使用到的脚本源码在此 homebrew-install ，仅修改了仓库地址部分，不会产生安全隐患，另外求 star 。
+
+curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install >> brew_install
+
+
+问题Error: No formulae found in taps.
+
+ 解决办法 rm -rf /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core; brew update
+
+
+
+ 如果电脑没有安装brew ，在命令行输入：/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+再执行命令：
+       brew update
+        brew uninstall --ignore-dependencies libimobiledevice
+        brew uninstall --ignore-dependencies usbmuxd
+        brew install --HEAD usbmuxd
+        brew unlink usbmuxd
+        brew link usbmuxd
+        brew install --HEAD libimobiledevice
+        brew install ideviceinstaller
+  brew install ios-deploy
+brew install cocoapods
+pod setup
+
+
+
+If you need to have libxml2 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/libxml2/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libxml2 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libxml2/lib"
+  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
+
+For pkg-config to find libxml2 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
+
+
+
+今天使用pip安装模块提示错误信息：
+No module named pip
+ 解决方法：
+ python -m ensurepip
+
+
+
+
+
+报错如下：
+
+matplotlib 1.3.1 requires nose, which is not installed.
+matplotlib 1.3.1 requires tornado, which is not installed.
+Installing collected packages: numpy, six, tensorflow
+Found existing installation: numpy 1.8.0rc1
+解决问题，执行如下：
+
+  sudo easy_install nose
+  sudo easy_install tornado
+
+问题：
+安装包出现Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError
+解决办法：
+pip install selectivesearch -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+
+sudo pip install --ignore-installed numpy
+
+
+
+
+//////////200805///
+1 warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+执行如下命令
+$ brew link --overwrite cocoapods
+尝试Pod命令是否已经恢复，若报错则继续执行如下命令
+$ brew reinstall cocoapods
+ 
+$ brew install ruby
+ 
+$ brew link --overwrite cocoapods
+尝试Pod命令是否已经恢复
+
+
+
+在Terminal 执行flutter clean 
+
+Finder前往~/Library/Caches 清空
+
+ /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /usr/local/opt/gnu-sed in PATH, mode 040777
+
+Error running pod install
+Error launching application on iPhone SE (2nd generation).
+
+
+解决办法： ------未解决
+sudo chmod go-w /usr/local/bin
+sudo chmod 775 /usr/local
+
+2 Error running pod install
+Error launching application on iPhone SE (2nd generation).
+
+解决方案： ------未解决
+  问题在前面这一句 也是解决办法
+ [!] Unable to determine Swift version for the following pods:
+
+    - `wifi_info_plugin` does not specify a Swift version and none of the targets (`Runner`) integrating it have the `SWIFT_VERSION` attribute set. Please contact the author or set the `SWIFT_VERSION` attribute in at least one
+    of the targets that integrate this pod.
+
+
+
+
+    Warning: Podfile is out of date
+  This can cause a mismatched version of Flutter to be embedded in your app, which may result in App Store submission rejection or crashes.
+  If you have local Podfile edits you would like to keep, see https://github.com/flutter/flutter/issues/24641 for instructions.
+
+  解决办法:
+大多数情况是在升级flutter版本后发生的，要解决此问题，请按照以下步骤操作
+
+找到Podfile文件直接删除,路径项目名称/ios/Podfile,或者可以通过在项目根目录中运行以下命令来执行此操作
+
+rm ios/Podfile
+Run再次项目，会再次创建一个新的或者更新Podfile文件。
+

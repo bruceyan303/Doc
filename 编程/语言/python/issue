@@ -1,0 +1,13 @@
+** On entry to DGEBAL parameter number 3 had an illegal value
+** On entry to DGEHRD parameter number 2 had an illegal value
+** On entry to DORGHR DORGQR parameter number 2 had an illegal value
+** On entry to DHSEQR parameter number 4 had an illegal value
+
+解决方法
+卸载默认安装的 numpy 1.19.4 版本，安装 1.19.3版本
+
+卸载 numpy 1.19.4
+pip uninstall numpy
+
+安装 numpy 1.19.3
+pip install numpy==1.19.3

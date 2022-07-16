@@ -1,0 +1,59 @@
+sudo /usr/local/openresty/nginx/sbin/nginx -c /usr/local/openresty/nginx/conf/nginx.conf -p /usr/local/openresty/nginx/ -s reload
+
+
+curl -i --data 'info=sdfskfsdffadsf' http://127.0.0.1/createtable
+ curl -i --data 'user=yxl&password=123456' http://127.0.0.1/login
+ 安装 ab https://www.apachehaus.com/cgi-bin/download.plx
+1.ab运行需要依赖apr-util包
+yum install apr-util
+2.需要yumdownload命令下载
+yum install yum-utils
+3.新建一个目录，下载解压，复制到系统bin下
+mkdir /data/ab
+cd /data/ab
+yum install yum-utils.noarch
+yumdownloader httpd-tools*
+这时会产生一个http-tools.rpm文件
+
+执行命令：rpm2cpio httpd-*.rpm | cpio -idmv
+
+cp /data/ab/usr/bin/ab /usr/bin
+4.可以愉快玩耍了
+ab -V
+ab -n 100000 -c 100 -k   http://www.conpk.com/test
+ab -n 100000 -c 100 -k   http://www.conpk.com/login
+ab -n 100000 -c 100 http://www.conpk.com/login
+ab -n 100000 -c 100 -k  http://cloud.szxinken.com/confidence-uaa/user/login?username=admin&password=confidence2021
+ab -n 100000 -c 100 -k  http://cloud.szxinken.com/confidence-uaa/user/login?username=admin"&"password=confidence2021
+
+
+gin and nodjs
+
+npm cache clean --force
+
+
+npm ERR! cb()never called!的错误
+一、首先要以管理员模式打开cmd清除你的npm缓存 : npm cache clean -f
+
+二、清除完缓存后，安装最新版本的Node helper： npm install -g n 
+ 然后执行以下    npm install -g n --force
+sudo yum install yum-utils
+
+# 添加仓库
+sudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo
+
+# 安装 OpenResty
+sudo yum install openresty
+
+# 安装命令行工具 resty
+ sudo yum install openresty-resty
+
+# 安装命令行工具 opm
+ sudo yum install openresty-opm
+
+
+安装 JWT 的 Lua 插件
+sudo opm get SkyLothar/lua-resty-jwt
+
+
+nohup ./myhome > log.file 2>&1 &

@@ -1,0 +1,75 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-11 21:18:12
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\2key原理.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>2key原理</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+        <h2>人员列表</h2>
+        <button @click.once="add">添加一个老刘</button>
+        <ul>
+            <!-- <li v-for="p in persons">{{p}},</li> -->
+            <!-- <li v-for="p in persons" :key="p.id">{{p.name}}--{{p.age}}</li> -->
+            <!-- <li v-for="(p,index) in persons" :key="index">{{p.name}}--{{p.age}}</li> -->
+            <!--有问题 <li v-for="(p,index) of persons" :key="index">{{p.name}}--{{p.age}}
+                <input type="text">
+            </li> -->
+
+            <li v-for="(p,index) of persons" :key="p.id">{{p.name}}--{{p.age}}
+                <input type="text">
+            </li>
+        </ul>
+
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            persons: [
+                {
+                    id: 0001,
+                    name: "张三",
+                    age: 18
+                },
+                {
+                    id: 0002,
+                    name: "李四",
+                    age: 22
+                },
+                {
+                    id: 0003,
+                    name: "王五",
+                    age: 20
+                },
+            ],
+
+        },
+        methods: {
+            add() {
+                const p = { id: 4, name: "老刘", age: 40 }
+                this.persons.unshift(p)
+            }
+        },
+
+
+    })
+</script>
+
+</html>

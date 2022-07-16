@@ -1,0 +1,39 @@
+使用新的ffmpeg覆盖默认版本
+安装完成之后就需要通过命令的方式来用我们新安装的版本覆盖默认的ffmpeg版本了。这里就需要通过ssh连接到群辉。同时需要切换到root用户下。切换方式之前的文章也提到过。就是执行sudo -i操作即可。然后再root用户下执行如下命令（每行是一条单独的命令）
+
+cd /var/packages/VideoStation/target/bin
+
+mv ffmpeg ffmpeg.orig
+
+mv ffprobe ffprobe.orig
+
+mv vainfo vainfo.orig
+
+cp -a /var/packages/ffmpeg/target/bin/ffmpeg /var/packages/VideoStation/target/bin/
+
+cp -a /var/packages/ffmpeg/target/bin/ffprobe /var/packages/VideoStation/target/bin/
+
+cp -a /var/packages/ffmpeg/target/bin/vainfo /var/packages/VideoStation/target/bin/
+
+chown root:VideoStation /var/packages/VideoStation/target/bin/ffmpeg
+
+chmod 750 /var/packages/VideoStation/target/bin/ffmpeg
+
+chmod u+s /var/packages/VideoStation/target/bin/ffmpeg
+
+chown VideoStation:VideoStation /var/packages/VideoStation/target/bin/ffprobe
+
+chown VideoStation:VideoStation /var/packages/VideoStation/target/bin/vainfo
+
+4、开启DTS支持
+替换完默认版本之后还需要执行如下两行指令（也是在Root用户下），开启DTS功能。
+
+cp -an /var/packages/VideoStation/target/lib/libsynovte.so /var/packages/VideoStation/target/lib/libsynovte.so.orig
+
+ 
+
+sed -i -e 's/eac3/3cae/' -e 's/dts/std/' -e 's/truehd/dheurt/' /var/packages/VideoStation/target/lib/libsynovte.so
+
+完成之后，退出ssh即可。为了安全建议在控制中心关闭​SSH登录。
+
+到这里​你的群晖就能够完美支持DTS音轨了。

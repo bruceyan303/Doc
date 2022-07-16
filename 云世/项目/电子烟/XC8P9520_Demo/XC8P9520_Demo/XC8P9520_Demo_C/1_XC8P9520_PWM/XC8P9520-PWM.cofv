@@ -1,0 +1,606 @@
+COFF File and Optional Headers
+Processor Type       xc8p9520
+Time Stamp           Sat Apr 02 11:46:39 2022
+Number of Sections   27
+Number of Symbols    128
+Characteristics      0x2
+  File is executable.
+
+Section Header
+Name                    sharebank
+Address                 0x20
+Size of Section         12
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_XC8P9520_PWM_10
+Address                 0x10
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_XC8P9520_PWM_11
+Address                 0x11
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UDL_XC8P9520_PWM_0
+Address                 0x12
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    STARTUP
+Address                 0
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  1
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+144      0        D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    c_interrupt
+Address                 0x3
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Section Header
+Name                    .org_8
+Address                 0x8
+Size of Section         116
+Number of Relocations   0
+Number of Line Numbers  58
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+162      0x8      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+163      0x9      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+164      0xa      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+165      0xb      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+167      0xc      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+168      0xd      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+169      0xe      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+172      0xf      D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+173      0x10     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+174      0x11     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+175      0x12     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+176      0x13     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+178      0x14     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+179      0x15     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+181      0x16     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+182      0x17     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+184      0x18     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+185      0x19     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+186      0x1a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+187      0x1b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+188      0x1c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+189      0x1d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+190      0x1e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+191      0x1f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+192      0x20     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+194      0x21     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+195      0x22     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+196      0x23     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+197      0x24     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+198      0x25     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+201      0x26     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+202      0x27     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+203      0x28     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+206      0x29     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+207      0x2a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+208      0x2b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+209      0x2c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+210      0x2d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+212      0x2e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+213      0x2f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+215      0x30     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+216      0x31     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+217      0x32     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+218      0x33     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+219      0x34     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+220      0x35     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+221      0x36     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+222      0x37     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+223      0x38     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+225      0x39     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+226      0x3a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+227      0x3b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+228      0x3c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+229      0x3d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+232      0x3e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+233      0x3f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+234      0x40     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+237      0x41     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    code_XC8P9520_PWM
+Address                 0x1
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Section Header
+Name                    S_XC8P9520_PWM__main
+Address                 0x6d
+Size of Section         18
+Number of Relocations   0
+Number of Line Numbers  9
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+259      0x6d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+261      0x6e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+263      0x6f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+265      0x70     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+268      0x71     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+270      0x72     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+272      0x73     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+273      0x74     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+275      0x75     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    S_XC8P9520_PWM__file_project_init
+Address                 0x55
+Size of Section         26
+Number of Relocations   0
+Number of Line Numbers  13
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+287      0x55     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+288      0x56     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+290      0x57     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+291      0x58     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+293      0x59     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+294      0x5a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+296      0x5b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+297      0x5c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+299      0x5d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+300      0x5e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+302      0x5f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+303      0x60     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+305      0x61     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    S_XC8P9520_PWM__file_init
+Address                 0x42
+Size of Section         38
+Number of Relocations   0
+Number of Line Numbers  19
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+317      0x42     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+318      0x43     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+320      0x44     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+321      0x45     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+323      0x46     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+325      0x47     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+326      0x48     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+328      0x49     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+329      0x4a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+331      0x4b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+332      0x4c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+334      0x4d     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+335      0x4e     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+337      0x4f     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+338      0x50     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+340      0x51     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+341      0x52     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+343      0x53     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+345      0x54     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    S_XC8P9520_PWM__file_clrRam
+Address                 0x62
+Size of Section         22
+Number of Relocations   0
+Number of Line Numbers  11
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+357      0x62     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+358      0x63     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+360      0x64     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+361      0x65     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+362      0x66     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+363      0x67     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+365      0x68     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+367      0x69     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+368      0x6a     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+371      0x6b     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+373      0x6c     D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+
+Section Header
+Name                    UD_abs_xc8p9520_0
+Address                 0
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_1
+Address                 0x1
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_2
+Address                 0x2
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_3
+Address                 0x3
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_4
+Address                 0x4
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_6
+Address                 0x6
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_8
+Address                 0x8
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_9
+Address                 0x9
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_a
+Address                 0xa
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_b
+Address                 0xb
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_c
+Address                 0xc
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_d
+Address                 0xd
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_e
+Address                 0xe
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p9520_f
+Address                 0xf
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    code_xc8p9520
+Address                 0x1
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Symbol Table
+Name                     Section          Value      Type  Class  NumAux 
+.file                    DEBUG            0          0     103    1   
+  file = D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\obj\XC8P9520-PWM.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = C:\XJIDE\XJ_C_IDE_V1.5.3.211216\include/XC8P9520.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x50       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+sharebank                sharebank        0x20       0     109    1   
+  length = 12
+  number of relocations = 0
+  number of line numbers = 0
+STK11                    sharebank        0x20       0     2      0   
+STK10                    sharebank        0x21       0     2      0   
+STK09                    sharebank        0x22       0     2      0   
+STK08                    sharebank        0x23       0     2      0   
+STK07                    sharebank        0x24       0     2      0   
+STK06                    sharebank        0x25       0     2      0   
+STK05                    sharebank        0x26       0     2      0   
+STK04                    sharebank        0x27       0     2      0   
+STK03                    sharebank        0x28       0     2      0   
+STK02                    sharebank        0x29       0     2      0   
+STK01                    sharebank        0x2a       0     2      0   
+STK00                    sharebank        0x2b       0     2      0   
+UD_abs_XC8P9520_PWM_10   UD_abs_XC8P9520_PWM_10 0x10       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_A_BUFF                  UD_abs_XC8P9520_PWM_10 0x10       0     2      0   
+UD_abs_XC8P9520_PWM_11   UD_abs_XC8P9520_PWM_11 0x11       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_R3_BUFF                 UD_abs_XC8P9520_PWM_11 0x11       0     2      0   
+UDL_XC8P9520_PWM_0       UDL_XC8P9520_PWM_0 0x12       0     109    1   
+  length = 2
+  number of relocations = 0
+  number of line numbers = 0
+r0x1000                  UDL_XC8P9520_PWM_0 0x12       0     3      0   
+r0x1001                  UDL_XC8P9520_PWM_0 0x13       0     3      0   
+STARTUP                  STARTUP          0          0     109    1   
+  length = 2
+  number of relocations = 1
+  number of line numbers = 1
+c_interrupt              c_interrupt      0x3        0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+__sdcc_interrupt         c_interrupt      0x3        0     6      0   
+_int_isr                 c_interrupt      0x3        0     2      0   
+.org_8                   .org_8           0x8        0     109    1   
+  length = 116
+  number of relocations = 38
+  number of line numbers = 58
+_00121_DS_               .org_8           0x26       0     6      0   
+_00123_DS_               .org_8           0x3e       0     6      0   
+END_OF_INTERRUPT         .org_8           0x41       0     6      0   
+code_XC8P9520_PWM        code_XC8P9520_PWM 0x1        0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+S_XC8P9520_PWM__main     S_XC8P9520_PWM__main 0x6d       0     109    1   
+  length = 18
+  number of relocations = 4
+  number of line numbers = 9
+_main                    S_XC8P9520_PWM__main 0x6d       0     2      0   
+_00129_DS_               S_XC8P9520_PWM__main 0x71       0     6      0   
+S_XC8P9520_PWM__file_project_init S_XC8P9520_PWM__file_project_init 0x55       0     109    1   
+  length = 26
+  number of relocations = 5
+  number of line numbers = 13
+_file_project_init       S_XC8P9520_PWM__file_project_init 0x55       0     2      0   
+S_XC8P9520_PWM__file_init S_XC8P9520_PWM__file_init 0x42       0     109    1   
+  length = 38
+  number of relocations = 3
+  number of line numbers = 19
+_file_init               S_XC8P9520_PWM__file_init 0x42       0     2      0   
+S_XC8P9520_PWM__file_clrRam S_XC8P9520_PWM__file_clrRam 0x62       0     109    1   
+  length = 22
+  number of relocations = 7
+  number of line numbers = 11
+_file_clrRam             S_XC8P9520_PWM__file_clrRam 0x62       0     2      0   
+_00107_DS_               S_XC8P9520_PWM__file_clrRam 0x64       0     6      0   
+_00105_DS_               S_XC8P9520_PWM__file_clrRam 0x6b       0     6      0   
+.eof                     DEBUG            0          0     107    0   
+.file                    DEBUG            0          0     103    1   
+  file = xc8p9520.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = ../../share/header/xc8p9520.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x50       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+UD_abs_xc8p9520_0        UD_abs_xc8p9520_0 0          0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_IARbits                 UD_abs_xc8p9520_0 0          0     2      0   
+_IAR                     UD_abs_xc8p9520_0 0          0     2      0   
+UD_abs_xc8p9520_1        UD_abs_xc8p9520_1 0x1        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_TCCbits                 UD_abs_xc8p9520_1 0x1        0     2      0   
+_TCC                     UD_abs_xc8p9520_1 0x1        0     2      0   
+UD_abs_xc8p9520_2        UD_abs_xc8p9520_2 0x2        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PCLbits                 UD_abs_xc8p9520_2 0x2        0     2      0   
+_PCL                     UD_abs_xc8p9520_2 0x2        0     2      0   
+UD_abs_xc8p9520_3        UD_abs_xc8p9520_3 0x3        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_STATUSbits              UD_abs_xc8p9520_3 0x3        0     2      0   
+_STATUS                  UD_abs_xc8p9520_3 0x3        0     2      0   
+UD_abs_xc8p9520_4        UD_abs_xc8p9520_4 0x4        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_RSRbits                 UD_abs_xc8p9520_4 0x4        0     2      0   
+_RSR                     UD_abs_xc8p9520_4 0x4        0     2      0   
+UD_abs_xc8p9520_6        UD_abs_xc8p9520_6 0x6        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PORT6bits               UD_abs_xc8p9520_6 0x6        0     2      0   
+_PORT6                   UD_abs_xc8p9520_6 0x6        0     2      0   
+UD_abs_xc8p9520_8        UD_abs_xc8p9520_8 0x8        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PWMCONbits              UD_abs_xc8p9520_8 0x8        0     2      0   
+_PWMCON                  UD_abs_xc8p9520_8 0x8        0     2      0   
+UD_abs_xc8p9520_9        UD_abs_xc8p9520_9 0x9        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PRDbits                 UD_abs_xc8p9520_9 0x9        0     2      0   
+_PRD                     UD_abs_xc8p9520_9 0x9        0     2      0   
+UD_abs_xc8p9520_a        UD_abs_xc8p9520_a 0xa        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC1bits                UD_abs_xc8p9520_a 0xa        0     2      0   
+_PDC1                    UD_abs_xc8p9520_a 0xa        0     2      0   
+UD_abs_xc8p9520_b        UD_abs_xc8p9520_b 0xb        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC2bits                UD_abs_xc8p9520_b 0xb        0     2      0   
+_PDC2                    UD_abs_xc8p9520_b 0xb        0     2      0   
+UD_abs_xc8p9520_c        UD_abs_xc8p9520_c 0xc        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC3bits                UD_abs_xc8p9520_c 0xc        0     2      0   
+_PDC3                    UD_abs_xc8p9520_c 0xc        0     2      0   
+UD_abs_xc8p9520_d        UD_abs_xc8p9520_d 0xd        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ICIECRbits              UD_abs_xc8p9520_d 0xd        0     2      0   
+_ICIECR                  UD_abs_xc8p9520_d 0xd        0     2      0   
+UD_abs_xc8p9520_e        UD_abs_xc8p9520_e 0xe        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_CPUCONbits              UD_abs_xc8p9520_e 0xe        0     2      0   
+_CPUCON                  UD_abs_xc8p9520_e 0xe        0     2      0   
+UD_abs_xc8p9520_f        UD_abs_xc8p9520_f 0xf        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ISRbits                 UD_abs_xc8p9520_f 0xf        0     2      0   
+_ISR                     UD_abs_xc8p9520_f 0xf        0     2      0   
+code_xc8p9520            code_xc8p9520    0x1        0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+.eof                     DEBUG            0          0     107    0   
+

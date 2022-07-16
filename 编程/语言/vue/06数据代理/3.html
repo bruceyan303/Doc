@@ -1,0 +1,42 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-08 22:13:00
+ * @LastEditTime: 2021-08-08 23:42:18
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\06数据代理\3.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>数据代理</title>
+        <script type="text/javascript" src="../js/vue.js"></script>
+    </head>
+    <body>
+ 
+        <div id="root"> 
+              <h1>学校:{{name}}</h1>
+              <h2>地址：{{address}}</h2>
+        </div>
+    </body>
+<script type="text/javascript">
+ 
+ Vue.config.productionTip = false
+ const vm=new Vue({
+     el:'#root',
+     data:{
+         name:'学校',
+         address:'公司',
+
+         me:{
+         name:'sl',
+         address:'cp'
+      }
+     },
+    
+ })
+</script>
+
+</html>

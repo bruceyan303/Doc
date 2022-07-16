@@ -1,0 +1,8 @@
+1  Include directory
+  '/home/bruceyan/esp/esp-idf/components/asio/asio/asio/include' is not a
+  directory.
+
+
+  git pull
+
+           git submodule update --init 更新一下

@@ -1,0 +1,36 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-17 16:47:12
+ * @LastEditTime: 2021-08-17 16:48:05
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\15内置指令\1.v-text指令.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>1.v-text指令</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div>{{name}}</div>
+        <div v-text="name"></div>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main"
+        },
+        methods: {}
+    })
+</script>
+
+</html>

@@ -1,0 +1,82 @@
+-- Create table
+create table CHIPTABLE_ITEM
+(
+  fid           NUMBER(20),
+  fmain_id      NUMBER(20),
+  scanxy        VARCHAR2(100),
+  old_mac       VARCHAR2(100),
+  new_mac       VARCHAR2(100),
+  flaser_status VARCHAR2(20) default 0,
+  flink_status  VARCHAR2(50) default 0,
+  fnote         VARCHAR2(500),
+  fup_status    VARCHAR2(10) default 0,
+  seuid         VARCHAR2(50)
+)
+tablespace XINKEN
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64
+    next 8
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column CHIPTABLE_ITEM.seuid
+  is 'SEUID(天喻)';
+-- Create/Recreate indexes 
+create index IX_CHIPTABLEITEM_1 on CHIPTABLE_ITEM (FMAIN_ID)
+  tablespace XINKEN
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+create index IX_CHIPTABLEITEM_2 on CHIPTABLE_ITEM (NEW_MAC)
+  tablespace XINKEN
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+create index IX_CHIPTABLE_ITEM3 on CHIPTABLE_ITEM (FID)
+  tablespace XINKEN
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+create index IX_CHIPTABLE_ITEM4 on CHIPTABLE_ITEM (OLD_MAC)
+  tablespace XINKEN
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, update on CHIPTABLE_ITEM to DEZLEID with grant option;
+grant select, update on CHIPTABLE_ITEM to LASER with grant option;
+grant select, insert, update, delete on CHIPTABLE_ITEM to MARKET with grant option;
+grant select, update on CHIPTABLE_ITEM to MATIN with grant option;

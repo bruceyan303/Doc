@@ -1,0 +1,31 @@
+vcpkg
+https://github.com/microsoft/vcpkg
+cd vcpkg
+ .\bootstrap-vcpkg.bat
+ ./vcpkg integrate install
+
+ CMake projects should use: "-DCMAKE_TOOLCHAIN_FILE=D:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+vscode
+  "cmake.configureSettings":{
+        "CMAKE_TOOLCHAIN_FILE":"D:\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+   },
+
+
+
+
+
+
+
+ 
+
+toolbox-app
+https://www.jetbrains.com/toolbox-app/
+
+
+
+
+
+pip install conan
+
+
+

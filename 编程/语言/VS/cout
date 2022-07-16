@@ -1,0 +1,6 @@
+VS2019 cout输出到控制台窗口
+
+
+“项目 -> 属性 -> 生成事件 ->后期生成事件 -> 命令行” 中添加：
+
+editbin /SUBSYSTEM:CONSOLE $(OutDir)\$(ProjectName).exe

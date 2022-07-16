@@ -1,0 +1,19 @@
+package main
+
+import (
+	graylog "github.com/gemnasium/logrus-graylog-hook"
+	log "github.com/sirupsen/logrus"
+)
+
+func main() {
+	hook := graylog.NewGraylogHook("124.220.36.129:12201", map[string]interface{}{"this": "is logged every time"})
+	log.AddHook(hook)
+	log.Info("some logging message")
+}
+
+// {"directive":
+// 			{"header":
+// 					{"namespace":"Alexa.Discovery","name":"Discover","payloadVersion":"3","messageId":"9b004c99-413c-4a3d-9954-16a2a27c733f"},
+// 			"payload":
+// 					{"scope":{"type":"BearerToken","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsid2F2ZS1kZXZpY2UiLCJ3YXZlLXVzZXIiLCJ3YXZlLWVudGVycHJpc2UiXSwic2NvcGUiOlsicmVhZCJdLCJpZCI6MTYxNCwidXNlclR5cGUiOiJQRVJTT04iLCJleHAiOjE2NDk4MzI2NTUsImVudGVycHJpc2VfaWQiOm51bGwsImF1dGhvcml0aWVzIjpbImVudGVycHJpc2U6YWRkIiwiYXBpOnJlcXVlc3QiLCJwcm9kdWN0OnVwZGF0ZSIsInJvbGU6dXBkYXRlIiwicHJvZHVjdF9mdW5jdGlvbjphZGQiLCJwcm9kdWN0X2Z1bmN0aW9uOmRlbGV0ZSIsIm1lbnU6cXVlcnkiLCJ1c2VyOnF1ZXJ5IiwicHJvZHVjdDpkZWxldGUiLCJyb2xlOmFkZCIsIm1lbnU6dXBkYXRlIiwicHJvZHVjdF9mdW5jdGlvbjp1cGRhdGUiLCJyb2xlOnF1ZXJ5Iiwib3RhOnB1c2giLCJyb2xlOmRlbGV0ZSIsIm1lbnU6ZGVsZXRlIiwicHJvZHVjdDphZGQiLCJhcGk6cXVlcnkiLCJkZXZpY2U6ZGVsZXRlIiwicHJvZHVjdDpxdWVyeSIsInVzZXI6YWRkIiwidXNlcjpkZWxldGUiLCJwcm9kdWN0X2Z1bmN0aW9uOnF1ZXJ5IiwiZW50ZXJwcmlzZTp1cGRhdGUiLCJkZXZpY2U6dXBkYXRlIiwidXNlcjp1cGRhdGUiLCJkZXZpY2Vfc2hhcmVkOmFkZCIsImVudGVycHJpc2U6ZGVsZXRlIiwibWVudTphZGQiLCJvdGE6dXBkYXRlIiwib3RhOnF1ZXJ5Iiwib3RhOmRlbGV0ZSIsImVudGVycHJpc2U6cXVlcnkiLCJkZXZpY2U6cXVlcnkiLCJvdGE6YWRkIiwiZGV2aWNlX3NoYXJlZDpkZWxldGUiLCJkZXZpY2U6YWRkIl0sImp0aSI6ImUyODhmZDRkLWZlNjAtNDM3Zi1iNTI5LWQzODY4NzM5NzRhMiIsImNsaWVudF9pZCI6IndhdmUtYWxleGEiLCJ1c2VybmFtZSI6ImRlbW8xIn0.hpmpm5xJ91QIZc12aXK7WBG0XV_b4wPjdrD3RBaDRZmnAE0y8OhhEPCN5JzPGjN2jqNV1GeSfgkTwKAD3u0GE20pJmk5b-SFoXaQostWYJELJetS8Q6lz2E6_Khu_Mpp4k1uG4JDQsNIETZftlYVNnuD3nT6lE4I6Fytc8upTFsmEqc2Fml1vAa_o9gT9dKlTRAgBTR8hvXXZYmlxL1Js0sBiG79fuELN7P3xNg_qU-oMiR1g7agVEqJdKNhIwpHLBtsCv7T6M5yCiDPG5tFqFj2QOzW46Bw2d-oQjsAJZV9jJfib_mFC7vubD3eSxWw2M0vfXN6LNvyzdsOQpKS0Q"}
+// 				     }}}

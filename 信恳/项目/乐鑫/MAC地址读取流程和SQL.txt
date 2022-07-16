@@ -1,0 +1,70 @@
+流程：
+     1、进板，扫描板边条码
+     2、同步读取串口，获取MAC地址数据（连续读取3次）
+     3、解析MAC地址
+     4、读取完全部MAC地址
+     5、保存MAC地址数据到SQL Server数据库
+     6、关闭串口，恢复界面UI，清空缓存数据
+
+
+
+
+
+
+
+
+
+存储过程：（其中SQL：Update_State_ChipTable【/*修改雕刻状态*/】、Query_ModelBarcode/*根据母板条码查询*/）这两个SQL程序没有            使用，目前程序只使用了添加的SQL。
+
+ALTER PROCEDURE Add_Update_ChipTable_Data
+	@ModelBarcode NVARCHAR(200),
+        @ScanXY	         NVARCHAR(1000),
+        @MACAddress	 NVARCHAR(1000),
+        @ScanState	 NVARCHAR(200),
+        @ScanTime	 NVARCHAR(500),
+        @Type            NVARCHAR(200),
+	@LineCode        NVARCHAR(50),
+	@RESULT          NVARCHAR(50) OUTPUT	
+AS
+	BEGIN
+	SET NOCOUNT ON;
+        set	@ScanTime=CONVERT(varchar(12) , getdate(), 111 ) 
+    
+
+	IF(@TYPE='Add_Update_ChipTable')/*新增雕刻数据或者修改雕刻数据*/
+	begin
+		INSERT INTO ChipTable(ModelBarcode,ScanXY,MACAddress,ScanState,ScanTime,LineCode) 
+			VALUES(@ModelBarcode,@ScanXY,@MACAddress,@ScanState,CONVERT(varchar,GETDATE(),120),@LineCode)
+		SET @RESULT='Success'
+		return
+	END
+	
+        ELSE IF(@TYPE='Update_State_ChipTable') /*修改雕刻状态*/
+           begin
+	   IF EXISTS(SELECT ModelBarcode FROM ChipTable WHERE ModelBarcode=@ModelBarcode)
+	       BEGIN
+		   UPDATE ChipTable SET ScanState=@ScanState WHERE  ModelBarcode=@ModelBarcode
+		   SET @RESULT='Success'
+		   return
+	       END
+	ELSE BEGIN	
+		SET @RESULT='NoData'
+		return
+	    END
+	end
+
+	ELSE IF(@TYPE='Query_ModelBarcode') /*根据母板条码查询*/
+           begin
+	     IF EXISTS(SELECT ModelBarcode FROM ChipTable WHERE ModelBarcode=@ModelBarcode)
+	        BEGIN
+		    SELECT ModelBarcode as 母板条码,ScanXY as '坐标轴(X,Y)',MACAddress as MAC地址,ScanState as 雕刻状                          态,ScanTime as 扫描时间 FROM  ChipTable  WHERE  ModelBarcode=@ModelBarcode
+		    SET @RESULT='Success'
+		    return
+	        END
+	ELSE BEGIN	
+		SET @RESULT='NoData'
+		return
+	   END
+	end
+
+END

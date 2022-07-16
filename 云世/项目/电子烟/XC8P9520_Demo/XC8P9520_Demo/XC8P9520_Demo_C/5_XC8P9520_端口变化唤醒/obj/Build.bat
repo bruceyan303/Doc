@@ -1,0 +1,1 @@
+"D:\XJIDE\XJ_C_IDE_V1.5.3.211216\bin\slvo.exe" E:\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\5_XC8P9520_端口变化唤醒\XC8P9520-端口变化唤醒.cof >E:\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\5_XC8P9520_端口变化唤醒\XC8P9520-端口变化唤醒.cofv 2>&1

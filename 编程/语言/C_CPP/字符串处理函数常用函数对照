@@ -1,0 +1,81 @@
+字符串处理函数常用函数对照
+ANSI	UNICODE	通用	说明
+数据类型
+(char.h)	(wchar.h)	(tchar.h)	 
+char	wchar_t	TCHAR	 
+char *	wchar_t *	TCHAR*	 
+LPSTR	LPWSTR	LPTSTR	 
+LPCSTR	LPCWSTR	LPCTSTR	 
+ 	 	 	 
+字符串转换
+atoi	_wtoi	_ttoi	把字符串转换成整数（int）
+atol	_wtol	_ttol	把字符串转换成长整型数（long）
+atof	_wtof	_tstof	把字符串转换成浮点数（double）
+itoa	_itow	_itot	将任意类型的数字转换为字符串
+ 	 	 	 
+字符串操作
+strlen	wcslen	_tcslen	获得字符串的数目
+strcpy	wcscpy	_tcscpy	拷贝字符串
+strncpy	wcsncpy	_tcsncpy	类似于strcpy/wcscpy，同时指定拷贝的数目
+strcmp	wcscmp	_tcscmp	比较两个字符串
+strncmp	wcsncmp	_tcsncmp	类似于strcmp/wcscmp，同时指定比较字符字符串的数目
+strcat	wcscat	_tcscat	把一个字符串接到另一个字符串的尾部
+strncat	wcsncat	_tcsnccat	类似于strcat/wcscat，而且指定粘接字符串的粘接长度.
+strchr	wcschr	_tcschr	查找子字符串的第一个位置
+strrchr	wcsrchr	_tcsrchr	从尾部开始查找子字符串出现的第一个位置
+strpbrk	wcspbrk	_tcspbrk	从一字符字符串中查找另一字符串中任何一个字符第一次出现的位置
+strstr	wcsstr/wcswcs	_tcsstr	在一字符串中查找另一字符串第一次出现的位置
+strcspn	wcscspn	_tcscspn	返回不包含第二个字符串的的初始数目
+strspn	wcsspn	_tcsspn	返回包含第二个字符串的初始数目
+strtok	wcstok	_tcstok	根据标示符把字符串分解成一系列字符串
+ 	wcswidth	 	获得宽字符串的宽度
+ 	wcwidth	 	获得宽字符的宽度
+ 	 	 	 
+字符串测试
+isascii	iswascii	_istascii	测试字符是否为ASCII 码字符, 也就是判断c 的范围是否在0 到127 之间
+isalnum	iswalnum	_istalnum	测试字符是否为数字或字母
+isalpha	iswalpha	_istalpha	测试字符是否是字母
+iscntrl	iswcntrl	_istcntrl	测试字符是否是控制符
+isdigit	iswdigit	_istdigit	测试字符是否为数字
+isgraph	iswgraph	_istgraph	测试字符是否是可见字符
+islower	iswlower	_istlower	测试字符是否是小写字符
+isprint	iswprint	_istprint	测试字符是否是可打印字符
+ispunct	iswpunct	_istpunct	测试字符是否是标点符号
+isspace	iswspace	_istspace	测试字符是否是空白符号
+isupper	iswupper	_istupper	测试字符是否是大写字符
+isxdigit	iswxdigit	_istxdigit	测试字符是否是十六进制的数字
+大小写转换
+tolower	towlower	_totlower	把字符转换为小写
+toupper	towupper	_totupper	把字符转换为大写
+字符比较
+strcoll	wcscoll	_tcscoll	比较字符串
+日期和时间转换
+strftime	wcsftime	_tcsftime	根据指定的字符串格式和locale设置格式化日期和时间
+strptime	 	 	根据指定格式把字符串转换为时间值， 是strftime的反过程
+打印和扫描字符串
+printf	wprintf	_tprintf	使用vararg参量的格式化输出到标准输出
+fprintf	fwprintf	_ftprintf	使用vararg参量的格式化输出
+scanf	wscanf	_tscanf	从标准输入的格式化读入
+fscanf	fwscanf	_ftscanf	格式化读入
+sprintf	swprintf	_stprintf	根据vararg参量表格式化成字符串
+sscanf	swscanf	_stscanf	以字符串作格式化读入
+vfprintf	vfwprintf	_vftprintf	使用stdarg参量表格式化输出到文件
+vprintf	 	 	使用stdarg参量表格式化输出到标准输出
+vsprintf	vswprintf	_vstprintf	格式化stdarg参量表并写到字符串
+sprintf_s	swprintf_s	_stprintf_s	格式化字符串
+数字转换
+strtod	wcstod	_tcstod	把字符串的初始部分转换为双精度浮点数
+strtol	wcstol	_tcstol	把字符串的初始部分转换为长整数
+strtoul	wcstoul	_tcstoul	把字符串的初始部分转换为无符号长整数
+_strtoi64	_wcstoi64	_tcstoi64	 
+ 	 	 	 
+输入和输出
+fgetc	fgetwc	_fgettc	从流中读入一个字符并转换为宽字符
+fgets	fgetws	_fgetts	从流中读入一个字符串并转换为宽字符串
+fputc	fputwc	_fputtc	把宽字符转换为多字节字符并且输出到标准输出
+fputs	fputws	_fputts	把宽字符串转换为多字节字符并且输出到标准输出串
+getc	getwc	_gettc	从标准输入中读取字符， 并且转换为宽字符
+getchar	getwchar	_gettchar	从标准输入中读取字符
+putc	putwc	_puttc	标准输出
+putchar	putwchar	_puttchar	标准输出
+ungetc	ungetwc	_ungettc	把一个字符放回到输入流中

@@ -1,0 +1,84 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-17 14:22:32
+ * @LastEditTime: 2021-08-17 15:11:18
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\13收集表单数据\1收集表单数据.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>收集表单数据</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- <form action="" @submit="send"> -->
+
+        <form @submit.prevent="send">
+            <label for="accout">账号:</label>
+            <input type="text" id="accout" v-model.trim="info.user"><br><br>
+            <label for="pw">密码:</label>
+            <input type="password" id="pw" v-model="info.password"><br><br>
+            年龄：<input type="number" v-model.number="info.age"><br><br>
+            性别:
+            女<input type="radio" name="sex" v-model="info.sex" value='female'>
+            男<input type="radio" name="sex" v-model="info.sex" value='male'>
+            <br><br>
+            爱好:
+            学习 <input type="checkbox" v-model="info.hobby" value="study">
+            运动 <input type="checkbox" v-model="info.hobby" value="do">
+            吃饭 <input type="checkbox" v-model="info.hobby" value="eat">
+            <br><br>
+            所属校区
+            <!--  <select name="" id="" v-model="info.city"></select> -->
+            <select v-model="info.city">
+
+                <option value="">请选择校区</option>
+                <option value="bj">北京校区</option>
+                <option value="sh">上海校区</option>
+                <option value="sz">深圳校区</option>
+
+            </select>
+            <br><br>
+            其他的消息
+            <textarea name="" id="" cols="30" rows="10" v-model.lazy="info.other"></textarea>
+            <br><br>
+            <input type="checkbox" v-model="info.agree">阅读并接受<a href="http://www.conpk.com">
+                《用户协议》</a>
+            <button> 提交</button>
+        </form>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            info: {
+                user: "",
+                password: "",
+                sex: "male",
+                hobby: [],
+                city: "sz",
+                other: "",
+                agree: "",
+                age: 8,
+            }
+        },
+        methods: {
+            send() {
+                // console.log(JSON.stringify(this._data)) 不建议
+                console.log(JSON.stringify(this.info))
+            }
+        }
+    }
+    )
+</script>
+
+</html>

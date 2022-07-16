@@ -1,0 +1,12 @@
+GL04201.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04201.pngbaskslash equal zero else
+config/GL04/GL04201.png
+GL04202.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04202.pngbaskslash equal zero else
+config/GL04/GL04202.png
+GL04203.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04203.pngbaskslash equal zero else
+config/GL04/GL04203.png
+GL04204.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04204.pngbaskslash equal zero else
+config/GL04/GL04204.png
+GL04205.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04205.pngbaskslash equal zero else
+config/GL04/GL04205.png
+GL04209.png|C:/AC79-SDK-DEV/fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3/ui_project/UI-Golf/project/config/GL04/GL04209.pngbaskslash equal zero else
+config/GL04/GL04209.png

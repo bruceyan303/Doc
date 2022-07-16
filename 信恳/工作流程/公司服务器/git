@@ -1,0 +1,18 @@
+CQ:
+NAS新增
+颜仙龙
+登录地址
+http://QuickConnect.cn/xinken1108032
+用户名 sw01
+密码 yanxianlong123
+
+CQ:
+GIT
+用git访问：
+confidenceint.synology.me:10022
+用户名密码同NAS
+GIT目录统一在：
+confidenceint.synology.me:/volume1/homes/git/
+使用方法
+如克隆项目
+git clone 用户名@confidenceint.synology.me:/volume1/homes/git/项目目录

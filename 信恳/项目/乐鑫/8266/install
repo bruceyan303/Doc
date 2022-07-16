@@ -1,0 +1,39 @@
+安装环境必需的软件
+apt-get install gcc git wget make libncurses-dev flex bison gperf python python-serial ninja-build ninja-ide
+apt-get install cmake python-pip
+apt-get install gcc git wget make libncurses-dev flex bison gperf python3 python3-serial ninja-build ninja-ide
+
+
+
+#添加toolchain的路径
+export PATH=$PATH:/opt/xtensa-lx106-elf/bin
+export PATH=$PATH:/home/bruceyan/esp/xtensa-lx106-elf/bin
+#添加SDK脚本路径
+export PATH=$PATH:/opt/ESP8266_RTOS_SDK/tools
+export PATH=$PATH:/home/bruceyan/esp/ESP8266_RTOS_SDK/tools
+#添加SDK路径
+export IDF_PATH=/opt/ESP8266_RTOS_SDK
+export IDF_PATH=/home/bruceyan/esp/ESP8266_RTOS_SDK
+export IDF_PATH=~/esp/ESP8266_RTOS_SDK
+
+mnt/c/Users/bruceyan/Downloads/ESP8266_RTOS_SDK-v3.3/ESP8266_RTOS_SDK
+
+python -m pip install --user -r $IDF_PATH/requirements.txt
+Successfully installed click-7.1.2 future-0.18.2 pyelftools-0.26 pyparsing-2.3.1
+
+
+
+
+python3 -m pip install -r requirements.txt
+ 
+/usr/bin/python3: No module named pip
+Download this installer script:
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+Run it as root (or sudo it)
+
+python3 get-pip.py
+
+
+sudo pip install --upgrade $TF_BINARY_URL --ignore-install numpy

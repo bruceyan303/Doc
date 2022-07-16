@@ -1,0 +1,49 @@
+（1）首先：配置ssh服务器配置文件。
+
+在root 用户下才能配置。
+
+vi /etc/ssh/sshd_config
+
+权限设为no：
+
+#PermitRootLogin yes
+
+#UsePAM yes
+
+#PasswordAuthentication yes
+
+如果前面有# 号，将#号去掉，之后将yes修改为no。
+
+修改之后为：
+
+PermitRootLogin no
+
+UsePAM no
+
+PasswordAuthentication no
+
+权限设为yes：
+
+RSAAuthentication yes
+
+PubkeyAuthentication yes
+
+（2）重启sshd服务
+
+systemctl restart sshd.service
+
+systemctl status sshd.service #查看ssh服务的状态
+
+#systemctl start sshd.service  #开启ssh服务
+
+#sytemctl enable sshd.service #ssh服务随开机启动，还有个disabled
+
+#systemctl stop sshd.ervice #停止
+
+正常情况下应该是Active：active（running）
+
+（3）修改文件夹以及文件的权限。
+
+#chmod 700 /home/Hadoop/.ssh
+
+#chmod 644 /home/Hadoop/.ssh/authorized_keys

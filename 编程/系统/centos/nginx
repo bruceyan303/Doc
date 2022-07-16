@@ -1,0 +1,6 @@
+centos 依赖安装:
+ubuntu : sudo apt-get install libz-dev libpcre3-dev
+yum install gcc openssl  openssl-devel pcre pcre-devel zlib zlib-devel -y
+
+
+/usr/local/webserver/nginx/sbin/nginx

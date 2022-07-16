@@ -1,0 +1,43 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-03 04:21:13
+ * @LastEditTime: 2021-08-05 22:59:59
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\01_初识vue\1.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>模板语法</title>
+        <script type="text/javascript" src="../js/vue.js"></script>
+    </head>
+    <body>
+        <!-- class =="stud"-->
+        <div id="root"> 
+            <h1>插值语法 </h1>
+            <h1>您好,{{name}}</h1>
+            <hr/>
+            <h1>指令语法</h1>
+            <a v-bind:href="myweb.url" v-build:x="hello">{{myweb.name}}</a>
+        </div>
+    
+        <script type="text/javascript">
+        Vue.config.productionTip=false
+        const x=new Vue({
+          //  el:".stud"
+            el:'#root',//用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+            data:{
+                name:'burceyan',
+                myweb:{
+                name:"家庭网",
+                url:"http://www.conpk.com",
+                hello:'你好'
+                }
+            }
+            })
+        </script>
+    </body>
+</html>

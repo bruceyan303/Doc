@@ -1,0 +1,1 @@
+ espefuse.exe -p com3 burn_lifx_mac MAC

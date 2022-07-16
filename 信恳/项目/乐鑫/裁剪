@@ -1,0 +1,5 @@
+Compiler options → Optimization Level 改成 Optimize for size (-Os)
+Compiler options → Assertion level 改成 Silent (saves code size)
+Component config → Log output → Default log verbosity 改成 Warning
+Component config → Log output 的 Use ANSI terminal colors in log output 关了
+你可以用 idf.py size-components 和 idf.py size-files 来看具体每个模块的开销。

@@ -1,0 +1,100 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-09 11:57:45
+ * @LastEditTime: 2021-08-09 14:38:05
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\07事件处理\3键盘事件.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>事件修饰符</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <style>
+        * {
+            margin-top: 20px;
+        }
+
+        .demo1 {
+            height: 50px;
+            background-color: skyblue;
+        }
+
+        .box1 {
+            padding: 5px;
+            background-color: skyblue;
+        }
+
+        .box2 {
+            padding: 15px;
+            /* padding: 10ch; */
+
+
+            background-color: blueviolet;
+        }
+
+        .list {
+            width: 200px;
+            height: 200px;
+            background-color: peru;
+            overflow: auto;
+        }
+
+        li {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="root">
+        <h1>欢迎{{name}}学习</h1>
+        <!-- 按键
+            enter 回车
+            delete 删除和退格
+            esc 退出
+            space 空格
+            tab 换行 配合keydown 还有ctrl alt shift meta(win键)
+            up 上
+            down 下
+            left 左
+            right 右
+         -->
+        <!-- <input type="text" placeholder="按下回车提示输入" @keyup.enter="showinfo"> -->
+        <input type="text" placeholder="按下回车提示输入" @keyup="showinfo">
+        <!-- <input type="text" placeholder="按下回车提示输入" @keydown.tab="showinfo"> -->
+    </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+
+    Vue.config.productionTip = false//阻止vue 在启动是生成生产提示
+    Vue.config.keyCode.bieming = 13//定义了一个别名按键
+    const vm = new Vue({
+        el: '#root',
+        methods: {
+            showinfo(e) {
+                // if (e.keyCode !== 13) {
+                //     return
+                // }
+                console.log(e.key, e.keyCode)
+                console.log(e.target.value)
+
+            }
+        },
+        data: {
+            name: "vue "
+        }
+
+
+
+    })
+</script>
+
+</html>

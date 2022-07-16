@@ -1,0 +1,149 @@
+﻿//*********************************************************************************************
+//                   WLAN Facility test flow control file
+//*********************************************************************************************
+//
+// [FREQ]       1       2      3      4       5      6       7      8      9      10    11     12     13    14
+// 2.4GHz :  2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+//
+//*********************************************************************************************
+// [Data Rate]
+// 	11b:  11M 5.5M 2M 1M
+//
+//             11g:   54M 48M 36M 24M 18M 12M 9M 6M
+//
+//             HT20: HT20-MCS7 HT20-MCS6 HT20-MCS5 HT20-MCS4 HT20-MCS3 HT20-MCS2 HT20-MCS1 HT20-MCS0
+//
+//             HT40: HT40-MCS7 HT40-MCS6 HT40-MCS5 HT40-MCS4 HT40-MCS3 HT40-MCS2 HT40-MCS1 HT40-MCS0
+//
+//------------------------------------------------------------------------------------
+// WiFi TX&RX Verifing 
+// Example: CMD [FREQ] [DATA RATE]
+//
+//------------------------------------------------------------------------------------
+
+       // IQ_VERIFY_TX_ALL        1        1M
+        //IQ_VERIFY_TX_ALL        6        1M
+       // IQ_VERIFY_TX_ALL        13      1M
+
+      //  IQ_VERIFY_TX_ALL        1        6M
+      //  IQ_VERIFY_TX_ALL        6        6M
+      //  IQ_VERIFY_TX_ALL        13      6M
+
+      //  IQ_VERIFY_TX_ALL        1        11M
+      //  IQ_VERIFY_TX_ALL        6        11M
+      //  IQ_VERIFY_TX_ALL        13      11M
+
+      //  IQ_VERIFY_TX_ALL        1        54M
+      //  IQ_VERIFY_TX_ALL        6        54M
+      //  IQ_VERIFY_TX_ALL        13      54M
+
+      //  IQ_VERIFY_TX_ALL        1        HT20-MCS0
+      //  IQ_VERIFY_TX_ALL        6        HT20-MCS0
+      //  IQ_VERIFY_TX_ALL        13      HT20-MCS0
+
+      //  IQ_VERIFY_TX_ALL        1        HT20-MCS7
+      //  IQ_VERIFY_TX_ALL        6        HT20-MCS7
+       // IQ_VERIFY_TX_ALL        13      HT20-MCS7
+
+
+
+//------------------------------------------------------------------------------------
+
+      //  IQ_VERIFY_RX_PER        1        1M
+       // IQ_VERIFY_RX_PER        6        1M
+       // IQ_VERIFY_RX_PER        13      1M
+
+      //  IQ_VERIFY_RX_PER        1        6M
+       // IQ_VERIFY_RX_PER        6        6M
+       // IQ_VERIFY_RX_PER        13      6M
+
+       // IQ_VERIFY_RX_PER        1        11M
+       // IQ_VERIFY_RX_PER        6        11M
+       // IQ_VERIFY_RX_PER        13      11M
+
+       // IQ_VERIFY_RX_PER        1        54M
+      //  IQ_VERIFY_RX_PER        6        54M
+       // IQ_VERIFY_RX_PER        13      54M
+
+       // IQ_VERIFY_RX_PER        1        HT20-MCS0
+       // IQ_VERIFY_RX_PER        6        HT20-MCS0
+       // IQ_VERIFY_RX_PER        13      HT20-MCS0
+
+       // IQ_VERIFY_RX_PER        1        HT20-MCS7
+       // IQ_VERIFY_RX_PER        6        HT20-MCS7
+       // IQ_VERIFY_RX_PER        13      HT20-MCS7
+
+
+
+//------------------------------------------------------------------------------------
+// BT TX&RX Verifing 
+// Example: CMD [FREQ] [PACKET TYPE]
+// PACKET TYPE: 1DH1 1DH3 1DH5 2DH1 2DH3 2DH5 3DH1 3DH3 3DH5 BLE
+//------------------------------------------------------------------------------------
+
+       // IQ_VERIFY_BT_TX_ALL        0          BLE
+       // IQ_VERIFY_BT_TX_ALL        20        BLE
+       // IQ_VERIFY_BT_TX_ALL        39        BLE
+
+        //IQ_VERIFY_BT_TX_ALL        0        3DH5
+       //IQ_VERIFY_BT_TX_ALL        39      3DH5
+       // IQ_VERIFY_BT_TX_ALL        78      3DH5
+
+       // IQ_VERIFY_BT_TX_ALL        0        1DH5
+        //IQ_VERIFY_BT_TX_ALL        39      1DH5
+       // IQ_VERIFY_BT_TX_ALL        78      1DH5
+
+//------------------------------------------------------------------------------------
+
+       // IQ_VERIFY_BT_RX_PER        0          BLE
+       // IQ_VERIFY_BT_RX_PER        20        BLE
+       // IQ_VERIFY_BT_RX_PER        39        BLE
+
+        //IQ_VERIFY_BT_RX_BER        0          3DH5
+       // IQ_VERIFY_BT_RX_BER        39        3DH5
+       // IQ_VERIFY_BT_RX_BER        78        3DH5
+
+       // IQ_VERIFY_BT_RX_BER        0          1DH5
+       // IQ_VERIFY_BT_RX_BER        39        1DH5
+       // IQ_VERIFY_BT_RX_BER        78        1DH5
+
+//*********************************************************************************************
+
+       IQ_SHOW_VERIFY_SUMMARY
+
+//------------------------------------------------------------------------------------
+// 发送用户自定义命令 
+// IQ_USER_COMMAND    [command]    [ack]   [timeout]   [option]   [errcode]
+//------------------------------------------------------------------------------------
+
+
+IQ_USER_COMMAND    [ESP_TEST_GPIO 0xdd2ecf20 0x940e00  0x5555]    [Input result 0x32000000 0x2c0000  0xfeeb]   [500]   [-F]   [07]
+IQ_USER_COMMAND    [ESP_TEST_GPIO 0x993b8a30 0xd40b00  0x5555]    [Input result 0x23000000 0x380000  0xabbe]   [500]   [-F]   [07]
+
+// command：待发送命令
+// ack：返回字符
+// timeout：指令延时
+// option：不填[-P]或[-F]表示不管测试PASS或FAILed都执行
+//               [-P] 测试PASS不执行
+//               [-P] [-F] 测试FAIL不执行 
+// errcode：错误代码
+//------------------------------------------------------------------------------------
+
+//       IQ_USER_COMMAND    [at]    [ok]   [1000]   [-F]   [07]
+
+//------------------------------------------------------------------------------------
+// 执行用户扩展程序 
+// IQ_USER_EXT_APP    [exe]    [ack]   [option]   [errcode]
+// exe：扩展程序名称（需放到工具目录下ESP/DUT1和ESP/DUT2文件夹中）
+// ack：返回字符
+// option：不填[-P]或[-F]表示不管测试PASS或FAILed都执行
+//               [-P] 测试PASS不执行
+//               [-P] [-F] 测试FAIL不执行 
+// errcode：错误代码
+//------------------------------------------------------------------------------------
+
+//       IQ_USER_EXT_APP   [app.exe]    [ok]   [-F]   [08]
+
+//*********************************************************************************************
+//                              END OF FILE
+//*********************************************************************************************

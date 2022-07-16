@@ -1,0 +1,12 @@
+拨号：
+IPv6：ADDRCONF(NETDEV_UUP):eth1:link is not ready
+8021q:adding VLAN 0 to HW filter on device eth1
+e1000:eth1 NIC Link is up 1000 Mbps Full Duplex,Flow Control:None
+
+1可能配置的ip地址被占用了
+
+2 调试路由和openwrt不能同一网段
+
+
+
+调试网卡必须是vmxnet3

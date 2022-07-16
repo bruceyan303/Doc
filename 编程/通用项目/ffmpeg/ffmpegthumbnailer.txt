@@ -1,0 +1,18 @@
+1 安装pkg-config
+https://nchc.dl.sourceforge.net/project/pkgconfiglite/0.28-1/pkg-config-lite-0.28-1_bin-win32.zip
+
+set env C:\pkg-config\bin
+2  安装ffmpeg
+https://ffmpeg.zeranoe.com/builds/win64/dev/ffmpeg-20200716-d11cc74-win64-dev.zip
+https://ffmpeg.zeranoe.com/builds/win64/shared/ffmpeg-4.3-win64-shared.zip
+set env C:\ffmpeg\bin
+
+--3 安装opencv
+
+--4
+set env
+PKG_CONFIG_PATH =C:\ffmpeg\lib
+
+---5 AutoConf for Windows automake与autoconf的配置
+http://gnuwin32.sourceforge.net/packages/autoconf.htm
+https://astuteinternet.dl.sourceforge.net/project/gnuwin32/autoconf/2.63/autoconf-2.63-setup.exe

@@ -1,0 +1,65 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-09 17:06:17
+ * @LastEditTime: 2021-08-09 17:36:51
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\09监视属性\2天气案例_监视属性.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>天气案例_监视属性</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h2>今天天气很{{info}}</h2>
+        <button @click="changeweather">切换天气</button>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            ishot: true
+        },
+        methods: {
+            changeweather() {
+                this.ishot = !this.ishot
+            }
+        },
+        computed: {
+            info() {
+                return this.ishot ? '炎热' : '凉爽'
+            }
+
+        },
+        // watch: {
+        //     immediate: true,//初始化时让handler调用一下
+        //     //hander 什么时候调用，ishot 发生变化
+        //     ishot: {
+        //         handler(newvalue, oldvalue) {
+        //             console.log('ishot 被修改了', newvalue, oldvalue)
+        //         }
+        //     }
+
+        // }
+    })
+    vm.$watch('ishot', {
+        immediate: true,//初始化时让handler调用一下
+        //hander 什么时候调用，ishot 发生变化
+
+        handler(newvalue, oldvalue) {
+            console.log('ishot 被修改了', newvalue, oldvalue)
+        }
+
+    })
+</script>
+
+</html>

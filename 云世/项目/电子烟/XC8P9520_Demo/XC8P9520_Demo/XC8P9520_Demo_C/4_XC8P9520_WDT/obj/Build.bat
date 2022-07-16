@@ -1,0 +1,1 @@
+"D:\XJIDE\XJ_C_IDE_V1.5.3.211216\bin\slvo.exe" E:\360安全云盘-同步版\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\4_XC8P9520_WDT\XC8P9520-WDT.cof >E:\360安全云盘-同步版\00矽杰单片机demo\XC8P9520_Demo\XC8P9520_Demo_C\4_XC8P9520_WDT\XC8P9520-WDT.cofv 2>&1

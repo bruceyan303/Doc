@@ -1,0 +1,52 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-13 14:24:15
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\6vue监视数据改变的原理.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>6vue监视数据改变的原理</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+        <h2>名字:{{name}}
+        </h2>
+        <h2>地址:{{addr}}
+        </h2>
+        <button @click="updatezhangsy">更新张三一</button>
+
+
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+
+
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            filterword: '',
+            addr: "深圳宝安"
+
+
+
+        },
+        methods: {
+            updatezhangsy() { }
+        },
+
+    })
+</script>
+
+</html>

@@ -1,0 +1,553 @@
+<?xml version='2.0' encoding='UTF-8'?>
+<Resbuilder>
+        <Items>
+                <LanguageList>
+                        <language_name LANG="Chinese_Simplified">简体中文</language_name>
+                        <language_name LANG="Chinese_Traditional">繁体中文</language_name>
+                        <language_name LANG="Japanese">日语</language_name>
+                        <language_name LANG="Korean">韩语</language_name>
+                        <language_name LANG="English">英语</language_name>
+                        <language_name LANG="French">法语</language_name>
+                        <language_name LANG="German">德语</language_name>
+                        <language_name LANG="Italian">意大利语</language_name>
+                        <language_name LANG="Dutch">荷兰语</language_name>
+                        <language_name LANG="Portuguese">葡萄牙语</language_name>
+                        <language_name LANG="Spanish">西班牙语</language_name>
+                        <language_name LANG="Swedish">瑞典语</language_name>
+                        <language_name LANG="Czech">捷克语</language_name>
+                        <language_name LANG="Danish">丹麦语</language_name>
+                        <language_name LANG="Polish">波兰语</language_name>
+                        <language_name LANG="Russian">俄国语</language_name>
+                        <language_name LANG="Turkey">土耳其语</language_name>
+                        <language_name LANG="Hebrew">希伯来语</language_name>
+                        <language_name LANG="Thai">泰语</language_name>
+                        <language_name LANG="Hungarian">匈牙利语</language_name>
+                        <language_name LANG="Romanian">罗马尼亚语</language_name>
+                        <language_name LANG="Arabic">阿拉伯语</language_name>
+                </LanguageList>
+                <Fonts>
+                        <font00 lfClipPrecision="0" lfUnderline="0" lfFaceName="Cambria" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font01 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font02 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font03 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font04 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font05 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-32" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font06 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font07 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font08 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font09 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font10 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font11 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font12 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font13 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font14 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font15 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font16 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font17 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font18 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font19 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font20 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                        <font21 lfClipPrecision="0" lfUnderline="0" lfFaceName="宋体" lfItalic="0" lfWidth="0" lfOutPrecision="0" lfEscapement="0" lfQuality="0" lfHeight="-16" lfCharSet="134" lfStrikeOut="0" lfPitchAndFamily="2" lfWeight="400" lfOrientation="0"/>
+                </Fonts>
+                <endian>LITTLEENDIAN</endian>
+                <paneltype>TFTPANEL</paneltype>
+                <picture_path>NULL</picture_path>
+                <excel_path>多国语言_watch.xls</excel_path>
+                <PageList>
+                        <Page id="0">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL_init.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="1">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GL01201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GL01101.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GL01100 .png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GLH01201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GLH01202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GLH01200.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GL01202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL01\GL01200.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0002.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="2">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02204.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02200.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GLH02201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GLH02203.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0002.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GLH02204.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02203.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02101.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GLH02200.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02100.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02102.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GLH02202.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="3">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0301.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0304.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-m.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0011.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL11\GL1101.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0305.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0302.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0303.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0307.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0016.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL03\GL0306.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0022 .png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s_8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0023.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="4">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                        <Color>FF0000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0010.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-f.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="5">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0004.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04204.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04209.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0001.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04205.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04205.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04203.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04206.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0002.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04206.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04209.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04204.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0026.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04203.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="6">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>4F4F4F</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-cm.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0010.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="7">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>4F4F4F</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-cm.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04203.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0010.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="8">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>4F4F4F</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0010.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-100.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04204.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="9">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04205.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="10">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0025.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0024.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GL04206.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\num-0.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="11">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL05\GL0502.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL05\GL0501.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL05\GL0503.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="12">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL06\GL0601.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="13">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>FF0000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00083.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00086.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02200.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00081.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00082.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00087.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00084.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00088.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00080.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00089.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="14">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>FF0000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-do.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00083.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00086.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-jian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00081.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00082.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0019.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00087.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00084.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02201.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00088.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00080.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL00089.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0018.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="15">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0005.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0020.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02202.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-m.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="16">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>FF0000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL11\GL1101.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL02\GL02203.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL11\GL1102.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0012.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL11\GL1103.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="17">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-1.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-2.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-0.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-dian.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-4.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL10\GL1001.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-5.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-3.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-6.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-9.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0012.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\s-f.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-7.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\b-num-8.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="18">
+                                <ColorList>
+                                        <Color>033211</Color>
+                                        <Color>4F4F4F</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04207.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04209.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL04\GLH04208.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0013.png</Picture>
+                                        <Picture fmt="OSD16">C:\AC79-SDK-DEV\fw-AC79_AIoT_SDK-release-AC79NN_SDK_V1.0.3\ui_project\UI-Golf\project\config\GL00\GL0006.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                </PageList>
+                <language>0x00000010</language>
+                <bmp_transparent_color>0x0000FFFF</bmp_transparent_color>
+                <png_background_color>0x0000FFFF</png_background_color>
+                <spec_color_list>NULL</spec_color_list>
+                <png2jpg_list>NULL</png2jpg_list>
+                <res>result</res>
+                <resfilename>result.bin</resfilename>
+                <headerfilename>result.h</headerfilename>
+                <image_compress_method>rle</image_compress_method>
+                <string_compress_method>none</string_compress_method>
+                <palette_type>rgb</palette_type>
+                <percent>100%</percent>
+                <excel_crc/>
+                <excel_row/>
+                <rotate>0</rotate>
+        </Items>
+</Resbuilder>

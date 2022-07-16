@@ -1,0 +1,57 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-08 11:28:47
+ * @LastEditTime: 2021-08-08 20:05:20
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\06数据代理\1.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>MVVM</title>
+        <script type="text/javascript" src="../js/vue.js"></script>
+    </head>
+    <body>
+ 
+        <div id="root"> 
+              
+        </div>
+
+<script type="text/javascript">
+let sex="女"
+let person={
+    name :"小李",
+    age:10
+}
+// Object.defineProperty(person,"sex",{
+//     value:"男",
+// enumerable:true,//控制属性是否可以枚举，默认是false不可以
+// writable:true,//控制属性是否可以修改，默认是false不可以
+// configurable:true//控制属性是否可以删除，默认是false不可以
+// })
+Object.defineProperty(person,"sex",{
+get:function(){
+    return sex
+},
+set(value){
+   console.log("set 被调用",value) 
+   sex=value
+}
+})
+Vue.config.productionTip=false
+  const x=new Vue({
+    el:'#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+    data: {}
+})
+// for(let key in person)
+// {
+//     console.log('@@',person[key])
+// }
+console.log(Object.keys(person))
+console.log(person)
+ </script>
+</body>
+</html>

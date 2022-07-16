@@ -1,0 +1,139 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-09 07:58:59
+ * @LastEditTime: 2021-08-09 14:42:04
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\07事件处理\2事件修饰符.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>事件修饰符</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <style>
+        * {
+            margin-top: 20px;
+        }
+
+        .demo1 {
+            height: 50px;
+            background-color: skyblue;
+        }
+
+        .box1 {
+            padding: 5px;
+            background-color: skyblue;
+        }
+
+        .box2 {
+            padding: 15px;
+            /* padding: 10ch; */
+
+
+            background-color: blueviolet;
+        }
+
+        .list {
+            width: 200px;
+            height: 200px;
+            background-color: peru;
+            overflow: auto;
+        }
+
+        li {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="root">
+        <h1>欢迎{{name}}学习</h1>
+        <!-- 阻止默认事件 -->
+        <a href="htttp://www.conpk.com" @click.prevent="showinfo">点击我提示信息</a>
+        <!-- 阻止事件冒泡 -->
+        <div class="demo1" @click="showinfo">
+            <button @click.stop="showinfo">点击我提示信息</button>
+            <!-- 修饰符可以连续写 -->
+            <a href="htttp://www.conpk.com" @click.stop.prevent="showinfo">点击我提示信息</a>
+        </div>
+        <!-- 事件只触发一次 -->
+        <button @click.once="showinfo">点击我once提示信息</button>
+        <div class="box1" @click.capture="showMsg(1)">
+            div1
+            <div class="box2" @click="showMsg(2)">
+                div2
+            </div>
+        </div>
+        <div class="demo1" @click.self="showinfo">
+            <button @click="showinfo">点击我提示信息</button>
+        </div>
+        <ul @scroll.passvie="demo" class="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+
+        <!-- <ul @wheel.passvie="demo"  class="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul> -->
+    </div>
+
+</body>
+<script type="text/javascript">
+
+    Vue.config.productionTip = false
+    const vm = new Vue({
+        el: '#root',
+        methods: {
+            showinfo(event) {
+                //event.stopPropagation();
+
+                alert("单击成功")
+                console.log(event.target.innerText)
+                console.log(this)
+            },
+            showMsg(msg) {
+                //event.stopPropagation();
+
+                console.log(msg)
+
+            },
+            demo1(msg) {
+                //event.stopPropagation();
+
+                console.log("@")
+
+            },
+            demo(msg) {
+                for (let i = 0; i < 100000; i++) {
+                    console.log("#")
+                }
+
+                console.log("累坏了")
+
+            },
+        },
+        data: {
+            name: '学校',
+            address: '公司',
+
+            me: {
+                name: 'sl',
+                address: 'cp'
+            }
+        },
+
+    })
+</script>
+
+</html>

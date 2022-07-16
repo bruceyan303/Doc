@@ -1,0 +1,105 @@
+https://download.oracle.com/otn/java/jdk/8u251-b08/3d5a2bb8f8d4428bbe94aed7ec7ae784/jdk-8u251-linux-x64.tar.gz?AuthParam=1594176481_a0491ad46342204de4a08a6e94de8dbf
+
+
+export JAVA_HOME=/usr/local/java/jdk1.8.0_251
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=${JAVA_HOME}/bin:$PATH
+
+
+systemctl disable firewalld.service 
+
+# 开启
+service firewalld start
+# 重启
+service firewalld restart
+# 关闭
+service firewalld stop
+
+
+# 开放18083端口
+firewall-cmd --permanent --add-port=18083/tcp
+firewall-cmd --permanent --add-port=1883
+
+
+编译mosquitto源码
+yum install -y openssl
+yum install -y openssl-devel
+它依赖库
+yum -y install docbook-style-xsl
+yum install -y c-ares-devel e2fsprogs-devel uuid-devel libuuid-devel
+yum  install -y libssl-dev build-essential zlibczlib-bin libidn11-dev libidn11
+
+
+
+paho.mqtt.cpp
+yum install -y build-essential gcc make cmake cmake-gui cmake-curses-gui
+yum install -y  libssl-dev 
+yum install -y  install doxygen graphviz
+yum install -y  install libcppunit-dev
+
+
+c++ 17
+方案一:
+
+安装 devtoolset-7 工具包，并执行 “scl enable devtoolset-7 bash”
+
+yum install centos-release-scl
+ 
+yum-config-manager --enable rhel-server-rhscl-7-rpms
+ 
+yum install devtoolset-7
+ 
+scl enable devtoolset-7 bash
+
+
+ 
+
+方案二:
+
+安装 devtoolset-7-gcc-c++
+
+yum list devtoolset-7-gcc-c++ || yum install devtoolset-7-gcc-c++
+ 
+source /opt/rh/devtoolset-7/enable
+
+
+
+运行
+ps aux |grep DecodeServer
+nohup DecodeServer &
+nohup bin/DecodeServer > logs/myout.file 2>&1 &
+nohup ./程序名 > /dev/null 2>&1
+nohup bin/DecodeServer > /dev/null 2>&1
+nohup bin/DecodeServer > myout.file 2>&1 &
+nohup ./main > myout.file 2>&1 &
+nohup DecodeServer > myout.file 2>&1 &
+
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer >>/home/yanxianlong/code/DecodeServer/bin/logs.txt &
+
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer >>/home/yanxianlong/code/DecodeServer/bin/logs.txt & disown
+
+nohup ./bin/DecodeServer > myout.file 2>&1 &
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer > myout.file 2>&1 &
+
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer  > /dev/null 2>&1 &
+
+
+setsid /home/yanxianlong/code/DecodeServer/bin/DecodeServer &
+
+nohup ./gin-vue-admin > server.file 2>&1 &
+nohup cnpm run serve > web.file 2>&1 &
+nohup挂起运行时无效
+
+
+遇到的问题
+在使用xshell执行完nohup serve -s ./build -p 8081 > /dev/null 2>&1 &命令后，直接关闭窗口后并没有后台挂起运行
+
+解决的方法
+在xshell执行完nohup命令后，需要再执行一次exit才能正常使用
+
+
+
+在CentOS主机上查看当前主机在监听哪些端口的命令是netstat，常用的命令是：
+
+netstat -tlunp

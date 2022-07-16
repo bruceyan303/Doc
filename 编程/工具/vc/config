@@ -1,0 +1,1 @@
+显示调试终端 生产事件 ->生产后时间->命令行 editbin /SUBSYSTEM:CONSOLE $(OutDir)\$(ProjectName).exe

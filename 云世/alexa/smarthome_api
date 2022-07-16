@@ -1,0 +1,6 @@
+Hue : the color type (such as red, blue, or yellow).
+Ranges from 0 to 360° in most applications (each value corresponds to one color : 0 is red, 45 is a shade of orange and 55 is a shade of yellow).
+Saturation : variation of the color depending on the lightness.
+Ranges from 0 to 100% (from the center of the black&white axis).
+Lightness (also Luminance or Luminosity or Intensity).
+Ranges from 0 to 100% (from black to white).

@@ -1,0 +1,36 @@
+go get -u -v github.com/nsf/gocode	SUCCEEDED	自动补全	
+go get -u -v github.com/uudashr/gopkgs/cmd/gopkgs	SUCCEEDED	自动补全未导入的包	
+go get -u -v github.com/ramya-rao-a/go-outline	SUCCEEDED	当前文件中按符号搜索	https://github.com/golang/tools
+go get -u -v github.com/acroca/go-symbols	SUCCEEDED	当前workspace中按符号搜索	
+go get -u -v golang.org/x/tools/cmd/guru	SUCCEEDED	查找所有引用组件	
+go get -u -v golang.org/x/tools/cmd/gorename	SUCCEEDED	重命名符号	
+go get -u -v github.com/fatih/gomodifytags	SUCCEEDED	修改结构上的标签	
+go get -u -v github.com/haya14busa/goplay/cmd/goplay	SUCCEEDED	for running current file in the Go playground	
+go get -u -v github.com/josharian/impl	SUCCEEDED	for generating stubs for interfaces	
+go get -u -v github.com/davidrjenni/reftools/cmd/fillstruct	SUCCEEDED	for filling a struct literal with default values	
+go get -u -v github.com/rogpeppe/godef	SUCCEEDED	转到定义2	
+go get -u -v golang.org/x/tools/cmd/godoc	SUCCEEDED	鼠标悬停显示文档注释2	
+go get -u -v sourcegraph.com/sqs/goreturns	SUCCEEDED	格式化代码2	
+go get -u -v github.com/golang/lint/golint	SUCCEEDED	for linting	https://github.com/golang/lint
+go get -u -v github.com/cweill/gotests/...	SUCCEEDED	生成单元测试	
+go get -u -v github.com/derekparker/delve/cmd/dlv	SUCCEEDED	调试	
+go get -u -v github.com/zmb3/gogetdoc		转到定义2/鼠标悬停显示注释2	
+go get -u -v golang.org/x/tools/cmd/goimports		格式化代码2	
+go get github.com/mattn/go-oci8    Oracle driver for Go using database/sql
+
+android
+%ANDROID_SDK_HOME%\platform-tools
+%ANDROID_SDK_HOME%\tools
+%NDK_HOME%
+
+VS Code Golang无法跳转函数定义（Go to Definition）解决方案
+小伙伴们在刚开始学习go语言的时候，可能会因为开发环境而遇到很多问题，比如下面这个，无法Go to Definition
+
+解决方法如下：
+点击VS CODE左下角的设置，选择settings
+
+在打开的界面中输入godocstool 并按下图设置为gogetdoc
+
+然后在输入language server按下图设置
+
+设置完后就可以右键或F12进行跳转了

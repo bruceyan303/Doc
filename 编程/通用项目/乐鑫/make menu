@@ -1,0 +1,7 @@
+ ESP_LWIP 默认1
+ LWIP_IPV4
+ IP_NAPT
+enable ip forwarding y
+ enable nat(new/experimental) y
+
+ : error: unknown type name 'u8'; did you mean 'u8_t'?

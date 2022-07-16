@@ -1,0 +1,77 @@
+case 5://6 11m
+
+case 10://6 54m
+
+case 16://6 HT20-MCS7
+
+
+配置--连接器--输入--依赖库 添加
+AimControl.lib
+IQ2010Ext.lib
+iqapi.lib
+iqapis.lib
+IQmeasure.lib
+
+////////////////////////////////////////////
+
+download (74880 ) : flash 1,0 
+read mac  : flash 0,0 
+write mac  : flash 0,0,mac no 
+
+
+1
+115200  wifitxout 1 0x0 0
+
+115200  wifitxout 2 0xB 0
+
+
+
+r io0   --io0  en-en
+l io0 --io12
+en l en l reset 
+io12 l io test
+io12 h rf test
+
+
+io12 l  en l io0 h reset 
+en h io0 h/l work
+check io
+
+
+io12 h  en l io0 h reset 
+en h io0 h/l work
+check head
+download
+rf test 
+ 
+
+
+ 底板 io0  10k 换成100k
+
+
+
+
+ 戚川:
+控制进运行模式：
+
+戚川:
+        port.setDTR(False)    #en=0, io=0
+        port.setRTS(True)
+        time.sleep(0.2)
+        port.setDTR(False)    #en=1, io=1
+        port.setRTS(False)
+        time.sleep(0.1)
+
+戚川:
+控制进下载模式：
+
+戚川:
+        port.setDTR(False)    #en=0, io=0
+        port.setRTS(True)
+        time.sleep(0.2)
+        port.setDTR(True)     #en=1, io=0
+        port.setRTS(False)
+        time.sleep(0.1)
+
+
+那这两个sleep，第一个改成300毫秒，第二个改成200毫秒把

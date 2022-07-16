@@ -1,0 +1,279 @@
+Realtek Semiconductor Corp.Inc.
+
+RTL8762C MP Programing Tool.
+Release Notes
+
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add Random BT address in mp.
+    2.Add download 16 ports mode in mp.
+
+Bug Fixs:
+    1.Fix download 8 ports may cause crash.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Release Notes
+Version 1.0.2.1
+Jan.11, 2019.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add Update from file/UI for SN setting.
+    2.Add normal download in MP mode.
+    3.Add baudrate select in RD mode.
+
+Bug Fixs:
+    NULL.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.2.0
+Dec.19, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Suspend SuperDog Mode in RD Download.
+
+Bug Fixs:
+    NULL.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.9
+Dec.14, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add SuperDog Mode to protect Efuse download.
+    2.Add Detect/Open Mode for MP Download.
+    3.Add Erase choice in MP Setting.
+
+Bug Fixs:
+    1.Fix chip erase in RD Download.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.7
+Nov.28, 2018.
+
+Notice:
+    1.Baudrate set to 2M may cause Transmission Instable.
+
+Changes and Enhancements:
+    1.Add SN in userdata Dlg.
+    2.Add Name in userdata Dlg.
+    3.Add AppData3-6.
+    4.Add Baudrate Setting in MP Setting Dlg.
+    5.Add Tri-group Download Setting in MP Setting Dlg.
+
+Bug Fixs:
+    1.Fix size check problems while downloading to 0x800000.
+    2.Fix a problem that flash larger than 8M cannot erase correctly. 
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.6
+Nov.2, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Update DLL to upgrade multi-ports downloading rate performance.
+    2.Update firmware to upgrade firmware reboot rate.
+    3.Add flash size check during downloading.
+    4.Add txpowerex.switch for tx power config.
+    5.Change UI usage in log config set.
+
+Bug Fixs:
+    1.Fix write flash timeout porblems.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.5
+Oct.26, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Update version performance for different kinds of bins.
+    2.Update save setting function for user data settings.
+
+Bug Fixs:
+    1.Fix some UI problems.
+    2.Fix LDO/SWR item in config setting.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.4
+Oct.17, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add only write Efuse item in MP Setting Dlg.
+    2.Add Flash Check in RD Download Dlg.
+    3.Add Load Bin in Config Setting Dlg.
+
+Bug Fixs:
+    1.Fix Chip Erase function in MP Download.
+    2.Fix config items about log.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.3
+Sep.27, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    NULL.
+
+Bug Fixs:
+    1.Fix Efuse write time out.
+
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.1
+Sep.20, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add efuse write item in MPSetting Dlg.
+
+Bug Fixs:
+    1.Fix some UI's bugs.
+    2.Fix dpi object not release bugs.
+    3.Fix handle object not release bugs.
+
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.1.0
+Aug.31, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add RD setting for efuse cfg Dlg.
+    2.Add judge for rsa key items while there is no "key.switch" file in /dll folder, these items will not be shown.
+    3.Add password inputing in RD dlg.
+    4.FW Loader: Support XTX25F32B and GD25Q40C.
+    5.Adjust some cfg items on Config Set Dlg.
+    6.Add RF Test page on RD mode.
+
+Bug Fixs:
+    1.Fix some UI's bugs.
+    2.Fix com port occupation bug when switch dialog page.
+
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Version 1.0.0.8
+Jun.11, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add some config items on Config setting page.
+    2.Add patch conversion function on RD mode.
+    3.Add memory layout loading from flash map.ini file.
+
+Bug Fixs:
+    1.Fix a bug that causes tool crashed when switchs to RD_Setting Dlg.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Version 1.0.0.7
+May.16, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Add 32KHz XTAL Selection item on Config setting page.
+
+Bug Fixs:
+    1.Fix Config downloading failed bug on SWD interface.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Version 1.0.0.6
+Apr.11, 2018.
+
+Notice:
+    NULL.
+
+Changes and Enhancements:
+    1.Refine UI to adjust to different DPI.
+
+Bug Fixs:
+    NULL.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Version 1.0.0.5
+Apr.10, 2018.
+
+Notice:
+    First Release.
+
+Changes and Enhancements:
+    NULL.
+
+Bug Fixs:
+    NULL.
+
+Known Issues:
+    NULL.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+ download 
+https://github.com/espressif/esp-idf.git
+https://github.com/espressif/ESP8266_RTOS_SDK.git
+https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-linux-amd64.tar.gz
+
+2 install 
+32 sudo apt-get install git wget flex bison gperf python python-pip python-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util
+8266 sudo apt-get install gcc git wget make libncurses-dev flex bison gperf python python-serial ninja-build ninja-ide
+
+sudo apt-get install cmake python-pip
+1
+sudo apt-get install make unrar-free autoconf automake libtool gcc g++ gperf \
+    flex bison texinfo gawk ncurses-dev libexpat-dev python-dev python python-serial \
+    sed git unzip bash help2man wget bzip2
+sudo apt-get install libtool-bin
+
+python -m pip install --user -r $IDF_PATH/requirements.txt
+sdk dir :
+python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
+wget https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-linux-amd64.tar.gz
+tar -zxvf xtensa-lx106-elf-gcc8_4_0-esp-2020r3-linux-amd64.tar.gz
+3
+. $HOME/esp/esp-idf/export.sh
+
+为 Python 2 安装 pip
+sudo apt update 
+sudo apt install python2
+使用curl命令来下载get-pip.py脚本：
+
+curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+一旦源仓库被启用，以 sudo 用户身份使用 python2运行脚本来为 Python 2 安装 pip：
+https://bootstrap.pypa.io/pip/2.7/get-pip.py
+sudo python2 get-pip.py
+
+
+https://github.com/devicehive/esp8266-firmware
+https://github.com/dmigo/esp8266-firmware
+https://github.com/maximkulkin/esp-wifi-config
+https://github.com/SuperHouse/esp-open-rtos
+https://github.com/martin-ger/esp_wifi_repeater
+
+
+音频 
+
+
+git pull
+git checkout audio/stack_on_psram_v3.3
+git submodule update --init --recursive
+
+ADF : master
+Example : https://github.com/espressif/esp-adf/tree/master/examples/player/pipeline_a2dp_sink_stream
+
+btw: the specific branch audio/stack_on_psram_v3.3 should use lyrat development board with ESP32-WROVER-E module
+and you must set CONFIG_ESP32_REV_MIN=3 in your sdkconfig.

@@ -1,0 +1,974 @@
+COFF File and Optional Headers
+Processor Type       xc8p8600
+Time Stamp           Thu Mar 24 09:50:53 2022
+Number of Sections   41
+Number of Symbols    199
+Characteristics      0x2
+  File is executable.
+
+Section Header
+Name                    sharebank
+Address                 0x20
+Size of Section         12
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_XC8P8600_ADC_0
+Address                 0x32
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_1
+Address                 0x33
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_2
+Address                 0x34
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_3
+Address                 0x1e
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_4
+Address                 0x2c
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_5
+Address                 0x2e
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_6
+Address                 0x30
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_XC8P8600_ADC_7
+Address                 0x35
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_abs_XC8P8600_ADC_10
+Address                 0x10
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_XC8P8600_ADC_11
+Address                 0x11
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UDL_XC8P8600_ADC_0
+Address                 0x12
+Size of Section         6
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    STARTUP
+Address                 0
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  1
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+196      0        E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    c_interrupt
+Address                 0x3
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Section Header
+Name                    .org_8
+Address                 0x8
+Size of Section         152
+Number of Relocations   0
+Number of Line Numbers  76
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+220      0x8      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+221      0x9      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+222      0xa      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+223      0xb      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+225      0xc      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+226      0xd      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+228      0xe      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+229      0xf      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+231      0x10     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+232      0x11     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+234      0x12     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+235      0x13     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+236      0x14     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+237      0x15     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+238      0x16     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+239      0x17     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+240      0x18     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+241      0x19     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+242      0x1a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+244      0x1b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+245      0x1c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+246      0x1d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+247      0x1e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+248      0x1f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+250      0x20     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+251      0x21     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+252      0x22     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+254      0x23     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+255      0x24     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+256      0x25     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+257      0x26     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+258      0x27     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+259      0x28     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+260      0x29     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+261      0x2a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+262      0x2b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+263      0x2c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+264      0x2d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+265      0x2e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+266      0x2f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+267      0x30     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+268      0x31     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+270      0x32     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+273      0x33     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+274      0x34     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+275      0x35     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+276      0x36     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+277      0x37     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+278      0x38     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+280      0x39     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+281      0x3a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+283      0x3b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+284      0x3c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+286      0x3d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+289      0x3e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+290      0x3f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+292      0x40     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+293      0x41     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+295      0x42     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+296      0x43     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+297      0x44     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+298      0x45     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+299      0x46     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+300      0x47     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+301      0x48     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+302      0x49     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+303      0x4a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+305      0x4b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+306      0x4c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+307      0x4d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+308      0x4e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+309      0x4f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+312      0x50     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+313      0x51     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+314      0x52     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+317      0x53     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    code_XC8P8600_ADC
+Address                 0xf1
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Section Header
+Name                    S_XC8P8600_ADC__main
+Address                 0xe2
+Size of Section         20
+Number of Relocations   0
+Number of Line Numbers  10
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+341      0xe2     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+343      0xe3     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+345      0xe4     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+347      0xe5     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+350      0xe6     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+351      0xe7     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+353      0xe8     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+355      0xe9     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+356      0xea     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+358      0xeb     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    S_XC8P8600_ADC__file_project_init
+Address                 0x1
+Size of Section         14
+Number of Relocations   0
+Number of Line Numbers  7
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+370      0x1      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+371      0x2      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+373      0x3      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+374      0x4      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+376      0x5      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+377      0x6      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+379      0x7      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    S_XC8P8600_ADC__file_init
+Address                 0xc4
+Size of Section         38
+Number of Relocations   0
+Number of Line Numbers  19
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+391      0xc4     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+392      0xc5     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+394      0xc6     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+395      0xc7     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+397      0xc8     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+399      0xc9     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+400      0xca     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+402      0xcb     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+403      0xcc     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+405      0xcd     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+406      0xce     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+408      0xcf     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+409      0xd0     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+411      0xd1     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+412      0xd2     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+414      0xd3     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+415      0xd4     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+417      0xd5     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+419      0xd6     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    S_XC8P8600_ADC__file_clrRam
+Address                 0xd7
+Size of Section         22
+Number of Relocations   0
+Number of Line Numbers  11
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+431      0xd7     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+432      0xd8     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+434      0xd9     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+435      0xda     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+436      0xdb     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+437      0xdc     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+439      0xdd     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+441      0xde     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+442      0xdf     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+445      0xe0     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+447      0xe1     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    S_XC8P8600_ADC__file_adc_start
+Address                 0xec
+Size of Section         10
+Number of Relocations   0
+Number of Line Numbers  5
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+462      0xec     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+465      0xed     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+466      0xee     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+468      0xef     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+470      0xf0     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    S_XC8P8600_ADC__file_adc_read
+Address                 0x54
+Size of Section         114
+Number of Relocations   0
+Number of Line Numbers  57
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+487      0x54     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+488      0x55     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+490      0x56     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+491      0x57     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+493      0x58     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+494      0x59     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+495      0x5a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+496      0x5b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+498      0x5c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+499      0x5d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+500      0x5e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+501      0x5f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+502      0x60     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+503      0x61     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+504      0x62     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+505      0x63     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+506      0x64     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+507      0x65     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+508      0x66     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+509      0x67     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+510      0x68     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+511      0x69     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+512      0x6a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+513      0x6b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+514      0x6c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+515      0x6d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+516      0x6e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+517      0x6f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+518      0x70     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+519      0x71     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+521      0x72     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+522      0x73     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+523      0x74     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+524      0x75     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+525      0x76     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+526      0x77     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+527      0x78     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+529      0x79     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+531      0x7a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+532      0x7b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+533      0x7c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+534      0x7d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+536      0x7e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+538      0x7f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+539      0x80     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+540      0x81     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+541      0x82     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+542      0x83     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+543      0x84     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+544      0x85     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+545      0x86     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+546      0x87     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+547      0x88     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+548      0x89     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+550      0x8a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+551      0x8b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+554      0x8c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+
+Section Header
+Name                    UD_abs_xc8p8600_0
+Address                 0
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_1
+Address                 0x1
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_2
+Address                 0x2
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_3
+Address                 0x3
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_4
+Address                 0x4
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_6
+Address                 0x6
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_7
+Address                 0x7
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_8
+Address                 0x8
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_9
+Address                 0x9
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_a
+Address                 0xa
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_b
+Address                 0xb
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_c
+Address                 0xc
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_d
+Address                 0xd
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_e
+Address                 0xe
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_f
+Address                 0xf
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    code_xc8p8600
+Address                 0xf1
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Section Header
+Name                    UDL__moduint_0
+Address                 0x18
+Size of Section         6
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    code__moduint
+Address                 0xf1
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Section Header
+Name                    S__moduint___moduint
+Address                 0x8d
+Size of Section         110
+Number of Relocations   0
+Number of Line Numbers  55
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+88       0x8d     _moduint.asm
+89       0x8e     _moduint.asm
+90       0x8f     _moduint.asm
+91       0x90     _moduint.asm
+92       0x91     _moduint.asm
+93       0x92     _moduint.asm
+94       0x93     _moduint.asm
+96       0x94     _moduint.asm
+97       0x95     _moduint.asm
+98       0x96     _moduint.asm
+99       0x97     _moduint.asm
+100      0x98     _moduint.asm
+101      0x99     _moduint.asm
+102      0x9a     _moduint.asm
+103      0x9b     _moduint.asm
+106      0x9c     _moduint.asm
+107      0x9d     _moduint.asm
+109      0x9e     _moduint.asm
+111      0x9f     _moduint.asm
+112      0xa0     _moduint.asm
+115      0xa1     _moduint.asm
+116      0xa2     _moduint.asm
+118      0xa3     _moduint.asm
+119      0xa4     _moduint.asm
+120      0xa5     _moduint.asm
+122      0xa6     _moduint.asm
+123      0xa7     _moduint.asm
+126      0xa8     _moduint.asm
+127      0xa9     _moduint.asm
+128      0xaa     _moduint.asm
+129      0xab     _moduint.asm
+131      0xac     _moduint.asm
+132      0xad     _moduint.asm
+133      0xae     _moduint.asm
+134      0xaf     _moduint.asm
+135      0xb0     _moduint.asm
+136      0xb1     _moduint.asm
+138      0xb2     _moduint.asm
+139      0xb3     _moduint.asm
+141      0xb4     _moduint.asm
+142      0xb5     _moduint.asm
+143      0xb6     _moduint.asm
+144      0xb7     _moduint.asm
+145      0xb8     _moduint.asm
+146      0xb9     _moduint.asm
+147      0xba     _moduint.asm
+150      0xbb     _moduint.asm
+151      0xbc     _moduint.asm
+152      0xbd     _moduint.asm
+154      0xbe     _moduint.asm
+155      0xbf     _moduint.asm
+158      0xc0     _moduint.asm
+159      0xc1     _moduint.asm
+160      0xc2     _moduint.asm
+163      0xc3     _moduint.asm
+
+Symbol Table
+Name                     Section          Value      Type  Class  NumAux 
+.file                    DEBUG            0          0     103    1   
+  file = E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\0_XC8P8600_ADC\obj\XC8P8600-ADC.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = D:\XJIDE\XJ_C_IDE_V1.5.4.220311\include/XC8P8600.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x55       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+sharebank                sharebank        0x20       0     109    1   
+  length = 12
+  number of relocations = 0
+  number of line numbers = 0
+STK11                    sharebank        0x20       0     2      0   
+STK10                    sharebank        0x21       0     2      0   
+STK09                    sharebank        0x22       0     2      0   
+STK08                    sharebank        0x23       0     2      0   
+STK07                    sharebank        0x24       0     2      0   
+STK06                    sharebank        0x25       0     2      0   
+STK05                    sharebank        0x26       0     2      0   
+STK04                    sharebank        0x27       0     2      0   
+STK03                    sharebank        0x28       0     2      0   
+STK02                    sharebank        0x29       0     2      0   
+STK01                    sharebank        0x2a       0     2      0   
+STK00                    sharebank        0x2b       0     2      0   
+UD_XC8P8600_ADC_0        UD_XC8P8600_ADC_0 0x32       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ADCDATA_COUNT           UD_XC8P8600_ADC_0 0x32       0     2      0   
+UD_XC8P8600_ADC_1        UD_XC8P8600_ADC_1 0x33       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ADATH_TEMP              UD_XC8P8600_ADC_1 0x33       0     2      0   
+UD_XC8P8600_ADC_2        UD_XC8P8600_ADC_2 0x34       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ADATL_TEMP              UD_XC8P8600_ADC_2 0x34       0     2      0   
+UD_XC8P8600_ADC_3        UD_XC8P8600_ADC_3 0x1e       0     109    1   
+  length = 2
+  number of relocations = 0
+  number of line numbers = 0
+_ADCDATA_TEMP            UD_XC8P8600_ADC_3 0x1e       0     2      0   
+UD_XC8P8600_ADC_4        UD_XC8P8600_ADC_4 0x2c       0     109    1   
+  length = 2
+  number of relocations = 0
+  number of line numbers = 0
+_ADCDATA                 UD_XC8P8600_ADC_4 0x2c       0     2      0   
+UD_XC8P8600_ADC_5        UD_XC8P8600_ADC_5 0x2e       0     109    1   
+  length = 2
+  number of relocations = 0
+  number of line numbers = 0
+_ADCDATA_SUM             UD_XC8P8600_ADC_5 0x2e       0     2      0   
+UD_XC8P8600_ADC_6        UD_XC8P8600_ADC_6 0x30       0     109    1   
+  length = 2
+  number of relocations = 0
+  number of line numbers = 0
+_reg_contTime            UD_XC8P8600_ADC_6 0x30       0     2      0   
+UD_XC8P8600_ADC_7        UD_XC8P8600_ADC_7 0x35       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_flag_mode               UD_XC8P8600_ADC_7 0x35       0     2      0   
+UD_abs_XC8P8600_ADC_10   UD_abs_XC8P8600_ADC_10 0x10       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_A_BUFF                  UD_abs_XC8P8600_ADC_10 0x10       0     2      0   
+UD_abs_XC8P8600_ADC_11   UD_abs_XC8P8600_ADC_11 0x11       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_R3_BUFF                 UD_abs_XC8P8600_ADC_11 0x11       0     2      0   
+UDL_XC8P8600_ADC_0       UDL_XC8P8600_ADC_0 0x12       0     109    1   
+  length = 6
+  number of relocations = 0
+  number of line numbers = 0
+r0x1010                  UDL_XC8P8600_ADC_0 0x12       0     3      0   
+r0x1011                  UDL_XC8P8600_ADC_0 0x13       0     3      0   
+r0x100C                  UDL_XC8P8600_ADC_0 0x14       0     3      0   
+r0x100D                  UDL_XC8P8600_ADC_0 0x15       0     3      0   
+r0x100E                  UDL_XC8P8600_ADC_0 0x16       0     3      0   
+r0x100F                  UDL_XC8P8600_ADC_0 0x17       0     3      0   
+STARTUP                  STARTUP          0          0     109    1   
+  length = 2
+  number of relocations = 1
+  number of line numbers = 1
+c_interrupt              c_interrupt      0x3        0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+__sdcc_interrupt         c_interrupt      0x3        0     6      0   
+_int_isr                 c_interrupt      0x3        0     2      0   
+.org_8                   .org_8           0x8        0     109    1   
+  length = 152
+  number of relocations = 52
+  number of line numbers = 76
+_00106_DS_               .org_8           0x33       0     6      0   
+_00127_DS_               .org_8           0x39       0     6      0   
+_00110_DS_               .org_8           0x3e       0     6      0   
+_00112_DS_               .org_8           0x50       0     6      0   
+END_OF_INTERRUPT         .org_8           0x53       0     6      0   
+code_XC8P8600_ADC        code_XC8P8600_ADC 0xf1       0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+S_XC8P8600_ADC__main     S_XC8P8600_ADC__main 0xe2       0     109    1   
+  length = 20
+  number of relocations = 8
+  number of line numbers = 10
+_main                    S_XC8P8600_ADC__main 0xe2       0     2      0   
+_00162_DS_               S_XC8P8600_ADC__main 0xe6       0     6      0   
+S_XC8P8600_ADC__file_project_init S_XC8P8600_ADC__file_project_init 0x1        0     109    1   
+  length = 14
+  number of relocations = 1
+  number of line numbers = 7
+_file_project_init       S_XC8P8600_ADC__file_project_init 0x1        0     2      0   
+S_XC8P8600_ADC__file_init S_XC8P8600_ADC__file_init 0xc4       0     109    1   
+  length = 38
+  number of relocations = 3
+  number of line numbers = 19
+_file_init               S_XC8P8600_ADC__file_init 0xc4       0     2      0   
+S_XC8P8600_ADC__file_clrRam S_XC8P8600_ADC__file_clrRam 0xd7       0     109    1   
+  length = 22
+  number of relocations = 7
+  number of line numbers = 11
+_file_clrRam             S_XC8P8600_ADC__file_clrRam 0xd7       0     2      0   
+_00146_DS_               S_XC8P8600_ADC__file_clrRam 0xd9       0     6      0   
+_00144_DS_               S_XC8P8600_ADC__file_clrRam 0xe0       0     6      0   
+S_XC8P8600_ADC__file_adc_start S_XC8P8600_ADC__file_adc_start 0xec       0     109    1   
+  length = 10
+  number of relocations = 4
+  number of line numbers = 5
+_file_adc_start          S_XC8P8600_ADC__file_adc_start 0xec       0     2      0   
+_00139_DS_               S_XC8P8600_ADC__file_adc_start 0xed       0     6      0   
+S_XC8P8600_ADC__file_adc_read S_XC8P8600_ADC__file_adc_read 0x54       0     109    1   
+  length = 114
+  number of relocations = 42
+  number of line numbers = 57
+_file_adc_read           S_XC8P8600_ADC__file_adc_read 0x54       0     2      0   
+_00134_DS_               S_XC8P8600_ADC__file_adc_read 0x8c       0     6      0   
+.eof                     DEBUG            0          0     107    0   
+.file                    DEBUG            0          0     103    1   
+  file = xc8p8600.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = ../../share/header/xc8p8600.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x55       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+UD_abs_xc8p8600_0        UD_abs_xc8p8600_0 0          0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_IARbits                 UD_abs_xc8p8600_0 0          0     2      0   
+_IAR                     UD_abs_xc8p8600_0 0          0     2      0   
+UD_abs_xc8p8600_1        UD_abs_xc8p8600_1 0x1        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_TCCbits                 UD_abs_xc8p8600_1 0x1        0     2      0   
+_TCC                     UD_abs_xc8p8600_1 0x1        0     2      0   
+UD_abs_xc8p8600_2        UD_abs_xc8p8600_2 0x2        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PCLbits                 UD_abs_xc8p8600_2 0x2        0     2      0   
+_PCL                     UD_abs_xc8p8600_2 0x2        0     2      0   
+UD_abs_xc8p8600_3        UD_abs_xc8p8600_3 0x3        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_STATUSbits              UD_abs_xc8p8600_3 0x3        0     2      0   
+_STATUS                  UD_abs_xc8p8600_3 0x3        0     2      0   
+UD_abs_xc8p8600_4        UD_abs_xc8p8600_4 0x4        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_RSRbits                 UD_abs_xc8p8600_4 0x4        0     2      0   
+_RSR                     UD_abs_xc8p8600_4 0x4        0     2      0   
+UD_abs_xc8p8600_6        UD_abs_xc8p8600_6 0x6        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PORT6bits               UD_abs_xc8p8600_6 0x6        0     2      0   
+_PORT6                   UD_abs_xc8p8600_6 0x6        0     2      0   
+UD_abs_xc8p8600_7        UD_abs_xc8p8600_7 0x7        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ADCONbits               UD_abs_xc8p8600_7 0x7        0     2      0   
+_ADCON                   UD_abs_xc8p8600_7 0x7        0     2      0   
+UD_abs_xc8p8600_8        UD_abs_xc8p8600_8 0x8        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PWMCONbits              UD_abs_xc8p8600_8 0x8        0     2      0   
+_PWMCON                  UD_abs_xc8p8600_8 0x8        0     2      0   
+UD_abs_xc8p8600_9        UD_abs_xc8p8600_9 0x9        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PRDbits                 UD_abs_xc8p8600_9 0x9        0     2      0   
+_PRD                     UD_abs_xc8p8600_9 0x9        0     2      0   
+UD_abs_xc8p8600_a        UD_abs_xc8p8600_a 0xa        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC1bits                UD_abs_xc8p8600_a 0xa        0     2      0   
+_PDC1                    UD_abs_xc8p8600_a 0xa        0     2      0   
+UD_abs_xc8p8600_b        UD_abs_xc8p8600_b 0xb        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC2bits                UD_abs_xc8p8600_b 0xb        0     2      0   
+_PDC2                    UD_abs_xc8p8600_b 0xb        0     2      0   
+UD_abs_xc8p8600_c        UD_abs_xc8p8600_c 0xc        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC3bits                UD_abs_xc8p8600_c 0xc        0     2      0   
+_PDC3                    UD_abs_xc8p8600_c 0xc        0     2      0   
+UD_abs_xc8p8600_d        UD_abs_xc8p8600_d 0xd        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ICIECRbits              UD_abs_xc8p8600_d 0xd        0     2      0   
+_ICIECR                  UD_abs_xc8p8600_d 0xd        0     2      0   
+UD_abs_xc8p8600_e        UD_abs_xc8p8600_e 0xe        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_CPUCONbits              UD_abs_xc8p8600_e 0xe        0     2      0   
+_CPUCON                  UD_abs_xc8p8600_e 0xe        0     2      0   
+UD_abs_xc8p8600_f        UD_abs_xc8p8600_f 0xf        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ISRbits                 UD_abs_xc8p8600_f 0xf        0     2      0   
+_ISR                     UD_abs_xc8p8600_f 0xf        0     2      0   
+code_xc8p8600            code_xc8p8600    0xf1       0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+.eof                     DEBUG            0          0     107    0   
+.file                    DEBUG            0          0     103    1   
+  file = _moduint.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = ../../share/header/xc8p8600.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x55       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+UDL__moduint_0           UDL__moduint_0   0x18       0     109    1   
+  length = 6
+  number of relocations = 0
+  number of line numbers = 0
+r0x1001                  UDL__moduint_0   0x18       0     3      0   
+r0x1000                  UDL__moduint_0   0x19       0     3      0   
+r0x1003                  UDL__moduint_0   0x1a       0     3      0   
+r0x1002                  UDL__moduint_0   0x1b       0     3      0   
+r0x1004                  UDL__moduint_0   0x1c       0     3      0   
+r0x1006                  UDL__moduint_0   0x1d       0     3      0   
+code__moduint            code__moduint    0xf1       0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+S__moduint___moduint     S__moduint___moduint 0x8d       0     109    1   
+  length = 110
+  number of relocations = 43
+  number of line numbers = 55
+__moduint                S__moduint___moduint 0x8d       0     2      0   
+_00119_DS_               S__moduint___moduint 0x9c       0     6      0   
+_00107_DS_               S__moduint___moduint 0x9e       0     6      0   
+_00112_DS_               S__moduint___moduint 0xa8       0     6      0   
+_00137_DS_               S__moduint___moduint 0xb2       0     6      0   
+_00111_DS_               S__moduint___moduint 0xbb       0     6      0   
+_00114_DS_               S__moduint___moduint 0xc0       0     6      0   
+_00115_DS_               S__moduint___moduint 0xc3       0     6      0   
+.eof                     DEBUG            0          0     107    0   
+

@@ -1,0 +1,29 @@
+ thetvdb.com   eaf33c0543401dea964d035923c324d9
+Legacy API Keys
+Legacy API keys are deprecated and will be discontinued in early 2021. Developers should update their projects to make use of our new v4 API.
+
+Key	Project Name	Status
+eaf33c0543401dea964d035923c324d9	bruce	Inactive
+
+
+ www.themoviedb.org     v3 auth  d15c966aad98d9350ff04920940cb9c2
+
+ v4 auth eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMTVjOTY2YWFkOThkOTM1MGZmMDQ5MjA5NDBjYjljMiIsInN1YiI6IjVlZjJmMTQ5OWNjNjdiMDAzNGJjMGE1YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.H7NBj43LOHk5_6k3A00RzilCAvwMZPQvg2UD-6cKjIA
+
+
+ 复制proxy_linux_mips start -d -l 192.168.8.1:80  -h x.x.x.x -r 2001填入，命令参数说明如下:
+
+-l 192.168.8.1:80->指定需要穿透的路由器上地址加端口，这里为路由器的管理地址。
+
+-h x.x.x.x ->指定服务器上的ip
+
+-r 2001->指定服务器ip上的端口
+
+然后保存提交，重启路由器，这就设置成功了，具体使用和服务器端的配置请参见Golang实现的域名式访问内网穿透
+
+
+
+set vid=0x0781
+set pid=0x5571
+set sn=1721ODN312800
+set mac1=0011326A253A

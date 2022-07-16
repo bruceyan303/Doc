@@ -1,0 +1,35 @@
+MES_PASS_LINE ：过站信息表
+FBARCODE：拼板/小板条码   
+FTASK_NO：任务单    
+DEP005：客户订单   
+FBOARD_ITEM ：品号   
+FWORK_CENTER：工作中心  
+ 
+  FLINE_NO：线体  
+PROC_NAME：工序名称 
+WORKSHOP_CENTER_NAME：工作中心名称   
+ FCLASS_NO：班次   
+  CREATE_BY：创建人
+FPASS_RESULT：条码状态   
+FBNAME：机台号   
+OTHERINFO：其他信息
+
+表
+MES_PROC_INFO
+
+PROC_NAME
+
+
+生产任务计划（已审核）：MES_DEP_TASK_INFO  
+产品编码(品号）：BOARD_ITEM
+ 工作中心编号：WORKCENTER_NO（1001代表测试段，1000代表SMT段）
+线体：LINE        
+工序名称：PROC_NAME（SMT工序名称）
+
+过站信息表：MES_PASS_LINE
+条码状态：FPASS_RESULT（已上传记过为准，合格即为合格，不合格即为不合格）
+机台号：FB_NAME(拼板）FB_NAME1(单板）
+
+
+insert into mes_pass_line(FID,Ftask_No,Fwork_Center,Fboard_Item,Fline_No,Fproc_No,Fproc_No_Line,Fproc_Order,Fbarcode,Fpass_Result,Frepair,Fvalid,Fpass_Times,Create_By,Create_Date,Update_By,Update_Date)
+values(SEQ_MES_BARIF.NEXTVAL,'work562131','1001','04.09.0008131','test019','pack','test19-pack',1,'2312313212','合格'，'N','Y',1,'test',sysdate,'test',sysdate)

@@ -1,0 +1,25 @@
+
+
+
+
+建立自己的自动启动脚本
+touch autostart.sh
+vim /root/autostart.sh
+
+/usr/local/webserver/nginx/sbin/nginx -c /usr/local/webserver/nginx/conf/nginx.conf
+
+nohup ./bin/DecodeServer > myout.file 2>&1 &
+nohup ./bin/DecodeServer > myout.file 2>&1 &
+
+
+#/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+npm run /root/gin-vue-admin/web/serve
+
+cd /root/gin-vue-admin/server && nohup go run main.go > server.file 2>&1 & 
+cd /root/gin-vue-admin/web &&  nohup npm run serve > web.file 2>&1 & 
+
+
+chmod +x /etc/rc.d/rc.local
+vim /etc/rc.d/rc.local
+ add 
+ source /root/autostart.sh

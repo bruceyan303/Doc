@@ -1,0 +1,10 @@
+error C1190: 托管目标代码需要“/clr”选项 
+
+按照错bai误提示，在“du项目”的“zhi性”窗口中的“全部”选项中，
+找到：
+中文：公共语言运行库支持
+英文：Common Language Runtime support
+选中：
+中文：公共语言运行库支持(/clr)
+英文：Common Language Runtime support(/clr)
+确定之后重新编译一下就好了。

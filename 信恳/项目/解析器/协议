@@ -1,0 +1,10 @@
+端口18080
+
+
+/switch
+{
+    devID：字符串 设备SN号
+    Serial：int64 流水号 
+    Switch: 0/1 开关 0 关 1 开
+
+}

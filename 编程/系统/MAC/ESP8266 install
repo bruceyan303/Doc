@@ -1,0 +1,145 @@
+
+0 写在前面的话
+目前网络上介绍的开发ESP8266的平台大多都是Windows或者Linux，并没有一篇完整的关于OSX下开发ESP8266的教程，在笔者看来，Linux确实是最适合做开发的操作系统，但其相对于OSX和Windows而言，应用软件太少，比如我们程序员在开发的过程中想干点儿其他的活动，如P个图，录个歌儿，做个视频啥的（笔者比较文艺），就比较麻烦，而OSX可以满足这种具有文艺气质程序员的特殊要求，并且在流畅度和视觉冲击方面，远远的超过了Windows.
+笔者在查阅了国内外数篇文章的基础上加上亲身实践，成功在OSX系统搭建了ESP8266的开发环境，为了让更多的与笔者有着同样追求的程序员少走弯路，故总结一下整个过程，分享给大家.
+2 硬件介绍
+本教程所用的硬件设备：NodeMCU
+参考文档：http://nodemcu.readthedocs.io/
+
+￼
+NodeMCU
+这是一款基于ESP8266的开发版，其主要包含ESP8266模块以及一个CP2102串口转USB的芯片。
+整个芯片采用串口进行固件的刷写，并且通过串口进行LUA脚本文件的写入.
+3 工具软件安装
+3.1 USB转串口驱动安装
+由于开发NodeMCU时，刷固件、写Lua脚本都必须通过串口进行，所以得首先安装串口驱动程序，NodeMCU板载的是一篇CP2102芯片，可以去官网下载驱动程序：
+CP210x USB to UART
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+PL2303 Mac OS X Drive
+http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&pcid=41
+
+Coolterm
+http://freeware.the-meiers.org/
+http://freeware.the-meiers.org/previous/CoolTermMacUniversal147.zip
+
+http://www.wch.cn/download/CH341SER_MAC_ZIP.html
+
+下载后解压安装pkg文件即可
+验证是否安装成功:
+
+cd /etc/dev
+ls tty.*
+```
+
+pip install esptool
+https://github.com/espressif/esptool
+
+
+
+3.2 Clion IDE的安装
+由于深爱idea, 所以在选择C的IDE时，也选了一款idea的兄弟产品~
+直接官网下载即可，破解教程略过~ 点击下载
+3.3 ESP8266编译环境的搭建
+这一块是笔者最化时间的地方~
+3.3.1 首先安装必须的工具
+brew install gnu-sed --with-default-names
+brew tap homebrew/dupes
+brew install gperf
+brew install grepbrew install autoconf
+brew install binutils (forgobjcopy)
+brew install gawk (required overwriting the non-gnu awkinmycase)
+brew install autoconfbrew install wget
+3.3.2 安装 gsed
+在安装gsed之前，首先安装MacPort
+下载地址
+安装Macport后添加到环境变量，由于笔者用的是Item, 所以在.zshrc文件中添加
+export PATH=/opt/local/bin:$PATH
+export PATH=/opt/local/sbin:$PATH
+执行更新
+sudo port -v selfupdate
+安装gsed
+port install gsed
+3.3.3 配置编译工具链
+在配置编译工具链之前首先需要创建一个区分大小写（Case-sensitive）的磁盘镜像
+a. 创建磁盘镜像
+hdiutil create~/Desktop/eos.dmg -volname"esp-open-sdk"-size 10g -fs"Case-sensitive HFS+"
+b. 挂载镜像
+hdiutil mount~/Desktop/eos.dmg
+c. 进入镜像目录
+cd/Volumes/esp-open-sdk
+d. clone编译工具源码
+git clone https://github.com/pfalcon/esp-open-sdk.git --recursive
+f. 打补丁
+sed -i.bak'1s/^/gettext=\\\\'\\\\n/'crosstool-NG/kconfig/Makefile
+sed -i.bak -e's/[[::]]/gsed/'Makefile
+sed -i.bak -e's/[[::]]/\\\\$(AWK)/'lx106-hal/src/Makefile.am
+sed -i.bak's/AM_PROG_AS/AM_PROG_AS\\\\'\\\\nAM_PROG_AR/'lx106-hal/configure.ac
+g. 编译工具链
+make STANDALONE=n
+漫长的等待过程（笔者大概花了半小时，取决于你的网速），
+
+
+
+上图来源
+make成功后，配置环境变量
+export PATH=/Volumes/esp-open-sdk/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
+至此，编译工具链配置完成。
+3.4 固件下载工具的使用
+a. 下载源码
+git clone https://github.com/themadinventor/esptool.git
+b. 配置环境变量
+export PATH=/Users/wukong/WorkSpace/Esp8266/Tools/esptool:$PATH
+配置完毕
+c 使用方法：
+1) 擦除芯片
+sudo esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash
+2)下载固件
+sudo esptool.py --port /dev/tty.SLAB_USBtoUART write_flash -fm dio -fs 32m -ff 40m 0x00000 ~/Desktop/nodemcu_float_0.9.6-dev_20150704.bin
+3.5 lua 下载工具的使用
+a. 下载源码
+git clone https://github.com/4refr0nt/luatool.git
+b 使用方法
+下载lua脚本
+sudo ./luatool.py -p /dev/tty.SLAB_USBtoUART -b 9600 -f init.lua -r
+4 验证编译过程
+4.1 下载nodeMCU固件源码
+git clone https://github.com/nodemcu/nodemcu-firmware.git
+4.2 导入源码到Clion
+
+￼
+CLion
+4.3 编译
+在Clion的终端(或者系统终端)输入
+make
+
+￼
+成功后会再bin目录下生成bin文件
+4.4 下载
+由于Makefile中已经添加了下载的命令,
+
+￼
+所以直接执行make flash命令即可完成固件下载.
+好的，整体搭建的过程就是这样，大家在实践过程中遇到问题，可以一起交流，上面有不正确的地方也欢迎指正。
+下次，笔者将分享一下NodeMCU驱动OLED的过程.先来张图预览一下~
+
+
+
+
+pip3 install scikit-image -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+
+
+python -m pip install --user -r $IDF_PATH/requirements.txt
+
+
+
+
+
+删除环境变量
+unset xxxx
+
+
+串口驱动
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+https://www.ftdichip.com/Drivers/VCP.htm

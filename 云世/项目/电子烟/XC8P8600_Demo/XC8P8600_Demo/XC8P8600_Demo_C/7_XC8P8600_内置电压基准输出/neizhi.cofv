@@ -1,0 +1,605 @@
+COFF File and Optional Headers
+Processor Type       xc8p8600
+Time Stamp           Thu Mar 24 10:06:27 2022
+Number of Sections   30
+Number of Symbols    136
+Characteristics      0x2
+  File is executable.
+
+Section Header
+Name                    sharebank
+Address                 0x20
+Size of Section         12
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_SOURCEFILES2_0
+Address                 0x12
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_SOURCEFILES2_1
+Address                 0x13
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x80
+  Uninitialized data.
+
+Section Header
+Name                    UD_abs_SOURCEFILES2_10
+Address                 0x10
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_SOURCEFILES2_11
+Address                 0x11
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    STARTUP
+Address                 0
+Size of Section         2
+Number of Relocations   0
+Number of Line Numbers  1
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+157      0        E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    c_interrupt
+Address                 0x3
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Section Header
+Name                    .org_8
+Address                 0x8
+Size of Section         28
+Number of Relocations   0
+Number of Line Numbers  14
+Flags                   0x1020
+  Executable code.
+  Absolute.
+
+Line Number Table
+Line     Address  Symbol
+172      0x8      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+173      0x9      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+174      0xa      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+175      0xb      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+177      0xc      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+178      0xd      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+180      0xe      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+182      0xf      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+183      0x10     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+185      0x11     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+188      0x12     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+189      0x13     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+190      0x14     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+193      0x15     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    code_SOURCEFILES2
+Address                 0x40
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Section Header
+Name                    S_SOURCEFILES2__main
+Address                 0x16
+Size of Section         24
+Number of Relocations   0
+Number of Line Numbers  12
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+217      0x16     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+219      0x17     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+221      0x18     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+223      0x19     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+225      0x1a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+227      0x1b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+229      0x1c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+232      0x1d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+234      0x1e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+236      0x1f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+237      0x20     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+239      0x21     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    S_SOURCEFILES2__ADC_Init
+Address                 0x1
+Size of Section         14
+Number of Relocations   0
+Number of Line Numbers  7
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+251      0x1      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+252      0x2      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+254      0x3      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+255      0x4      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+257      0x5      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+258      0x6      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+260      0x7      E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    S_SOURCEFILES2__TCC_Init
+Address                 0x22
+Size of Section         22
+Number of Relocations   0
+Number of Line Numbers  11
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+272      0x22     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+273      0x23     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+275      0x24     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+276      0x25     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+278      0x26     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+279      0x27     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+281      0x28     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+282      0x29     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+284      0x2a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+285      0x2b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+287      0x2c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    S_SOURCEFILES2__IO_Init
+Address                 0x38
+Size of Section         16
+Number of Relocations   0
+Number of Line Numbers  8
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+299      0x38     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+301      0x39     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+302      0x3a     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+304      0x3b     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+305      0x3c     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+307      0x3d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+308      0x3e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+310      0x3f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    S_SOURCEFILES2__CLR_RAM
+Address                 0x2d
+Size of Section         22
+Number of Relocations   0
+Number of Line Numbers  11
+Flags                   0x20
+  Executable code.
+
+Line Number Table
+Line     Address  Symbol
+322      0x2d     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+323      0x2e     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+325      0x2f     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+326      0x30     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+327      0x31     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+328      0x32     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+330      0x33     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+332      0x34     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+333      0x35     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+336      0x36     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+338      0x37     E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+
+Section Header
+Name                    UD_abs_xc8p8600_0
+Address                 0
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_1
+Address                 0x1
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_2
+Address                 0x2
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_3
+Address                 0x3
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_4
+Address                 0x4
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_6
+Address                 0x6
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_7
+Address                 0x7
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_8
+Address                 0x8
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_9
+Address                 0x9
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_a
+Address                 0xa
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_b
+Address                 0xb
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_c
+Address                 0xc
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_d
+Address                 0xd
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_e
+Address                 0xe
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    UD_abs_xc8p8600_f
+Address                 0xf
+Size of Section         1
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x5080
+  Uninitialized data.
+  Absolute.
+  Overlaid with other sections from different objects modules.
+
+Section Header
+Name                    code_xc8p8600
+Address                 0x40
+Size of Section         0
+Number of Relocations   0
+Number of Line Numbers  0
+Flags                   0x20
+  Executable code.
+
+Symbol Table
+Name                     Section          Value      Type  Class  NumAux 
+.file                    DEBUG            0          0     103    1   
+  file = E:\360安全云盘-同步版\00矽杰单片机demo\XC8P8600_Demo\XC8P8600_Demo_C\7_XC8P8600_内置电压基准输出\obj\SOURCEFILES2.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = D:\XJIDE\XJ_C_IDE_V1.5.4.220311\include/XC8P8600.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x55       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+sharebank                sharebank        0x20       0     109    1   
+  length = 12
+  number of relocations = 0
+  number of line numbers = 0
+STK11                    sharebank        0x20       0     2      0   
+STK10                    sharebank        0x21       0     2      0   
+STK09                    sharebank        0x22       0     2      0   
+STK08                    sharebank        0x23       0     2      0   
+STK07                    sharebank        0x24       0     2      0   
+STK06                    sharebank        0x25       0     2      0   
+STK05                    sharebank        0x26       0     2      0   
+STK04                    sharebank        0x27       0     2      0   
+STK03                    sharebank        0x28       0     2      0   
+STK02                    sharebank        0x29       0     2      0   
+STK01                    sharebank        0x2a       0     2      0   
+STK00                    sharebank        0x2b       0     2      0   
+UD_SOURCEFILES2_0        UD_SOURCEFILES2_0 0x12       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_RegADCDang              UD_SOURCEFILES2_0 0x12       0     2      0   
+UD_SOURCEFILES2_1        UD_SOURCEFILES2_1 0x13       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_BIT_FLAG                UD_SOURCEFILES2_1 0x13       0     2      0   
+UD_abs_SOURCEFILES2_10   UD_abs_SOURCEFILES2_10 0x10       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_A_BUFF                  UD_abs_SOURCEFILES2_10 0x10       0     2      0   
+UD_abs_SOURCEFILES2_11   UD_abs_SOURCEFILES2_11 0x11       0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_R3_BUFF                 UD_abs_SOURCEFILES2_11 0x11       0     2      0   
+STARTUP                  STARTUP          0          0     109    1   
+  length = 2
+  number of relocations = 1
+  number of line numbers = 1
+c_interrupt              c_interrupt      0x3        0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+__sdcc_interrupt         c_interrupt      0x3        0     6      0   
+_int_isr                 c_interrupt      0x3        0     2      0   
+.org_8                   .org_8           0x8        0     109    1   
+  length = 28
+  number of relocations = 10
+  number of line numbers = 14
+_00131_DS_               .org_8           0x12       0     6      0   
+END_OF_INTERRUPT         .org_8           0x15       0     6      0   
+code_SOURCEFILES2        code_SOURCEFILES2 0x40       0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+S_SOURCEFILES2__main     S_SOURCEFILES2__main 0x16       0     109    1   
+  length = 24
+  number of relocations = 9
+  number of line numbers = 12
+_main                    S_SOURCEFILES2__main 0x16       0     2      0   
+_00125_DS_               S_SOURCEFILES2__main 0x1d       0     6      0   
+S_SOURCEFILES2__ADC_Init S_SOURCEFILES2__ADC_Init 0x1        0     109    1   
+  length = 14
+  number of relocations = 1
+  number of line numbers = 7
+_ADC_Init                S_SOURCEFILES2__ADC_Init 0x1        0     2      0   
+S_SOURCEFILES2__TCC_Init S_SOURCEFILES2__TCC_Init 0x22       0     109    1   
+  length = 22
+  number of relocations = 2
+  number of line numbers = 11
+_TCC_Init                S_SOURCEFILES2__TCC_Init 0x22       0     2      0   
+S_SOURCEFILES2__IO_Init  S_SOURCEFILES2__IO_Init 0x38       0     109    1   
+  length = 16
+  number of relocations = 1
+  number of line numbers = 8
+_IO_Init                 S_SOURCEFILES2__IO_Init 0x38       0     2      0   
+S_SOURCEFILES2__CLR_RAM  S_SOURCEFILES2__CLR_RAM 0x2d       0     109    1   
+  length = 22
+  number of relocations = 7
+  number of line numbers = 11
+_CLR_RAM                 S_SOURCEFILES2__CLR_RAM 0x2d       0     2      0   
+_00107_DS_               S_SOURCEFILES2__CLR_RAM 0x2f       0     6      0   
+_00105_DS_               S_SOURCEFILES2__CLR_RAM 0x36       0     6      0   
+.eof                     DEBUG            0          0     107    0   
+.file                    DEBUG            0          0     103    1   
+  file = xc8p8600.asm
+  line included = 0
+.file                    DEBUG            0          0     103    1   
+  file = ../../share/header/xc8p8600.inc
+  line included = 10
+.list                    DEBUG            0x1        0     108    0   
+.nolist                  DEBUG            0x3        0     108    0   
+.list                    DEBUG            0x55       0     108    0   
+.eof                     DEBUG            0          0     107    0   
+UD_abs_xc8p8600_0        UD_abs_xc8p8600_0 0          0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_IARbits                 UD_abs_xc8p8600_0 0          0     2      0   
+_IAR                     UD_abs_xc8p8600_0 0          0     2      0   
+UD_abs_xc8p8600_1        UD_abs_xc8p8600_1 0x1        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_TCCbits                 UD_abs_xc8p8600_1 0x1        0     2      0   
+_TCC                     UD_abs_xc8p8600_1 0x1        0     2      0   
+UD_abs_xc8p8600_2        UD_abs_xc8p8600_2 0x2        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PCLbits                 UD_abs_xc8p8600_2 0x2        0     2      0   
+_PCL                     UD_abs_xc8p8600_2 0x2        0     2      0   
+UD_abs_xc8p8600_3        UD_abs_xc8p8600_3 0x3        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_STATUSbits              UD_abs_xc8p8600_3 0x3        0     2      0   
+_STATUS                  UD_abs_xc8p8600_3 0x3        0     2      0   
+UD_abs_xc8p8600_4        UD_abs_xc8p8600_4 0x4        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_RSRbits                 UD_abs_xc8p8600_4 0x4        0     2      0   
+_RSR                     UD_abs_xc8p8600_4 0x4        0     2      0   
+UD_abs_xc8p8600_6        UD_abs_xc8p8600_6 0x6        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PORT6bits               UD_abs_xc8p8600_6 0x6        0     2      0   
+_PORT6                   UD_abs_xc8p8600_6 0x6        0     2      0   
+UD_abs_xc8p8600_7        UD_abs_xc8p8600_7 0x7        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ADCONbits               UD_abs_xc8p8600_7 0x7        0     2      0   
+_ADCON                   UD_abs_xc8p8600_7 0x7        0     2      0   
+UD_abs_xc8p8600_8        UD_abs_xc8p8600_8 0x8        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PWMCONbits              UD_abs_xc8p8600_8 0x8        0     2      0   
+_PWMCON                  UD_abs_xc8p8600_8 0x8        0     2      0   
+UD_abs_xc8p8600_9        UD_abs_xc8p8600_9 0x9        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PRDbits                 UD_abs_xc8p8600_9 0x9        0     2      0   
+_PRD                     UD_abs_xc8p8600_9 0x9        0     2      0   
+UD_abs_xc8p8600_a        UD_abs_xc8p8600_a 0xa        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC1bits                UD_abs_xc8p8600_a 0xa        0     2      0   
+_PDC1                    UD_abs_xc8p8600_a 0xa        0     2      0   
+UD_abs_xc8p8600_b        UD_abs_xc8p8600_b 0xb        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC2bits                UD_abs_xc8p8600_b 0xb        0     2      0   
+_PDC2                    UD_abs_xc8p8600_b 0xb        0     2      0   
+UD_abs_xc8p8600_c        UD_abs_xc8p8600_c 0xc        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_PDC3bits                UD_abs_xc8p8600_c 0xc        0     2      0   
+_PDC3                    UD_abs_xc8p8600_c 0xc        0     2      0   
+UD_abs_xc8p8600_d        UD_abs_xc8p8600_d 0xd        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ICIECRbits              UD_abs_xc8p8600_d 0xd        0     2      0   
+_ICIECR                  UD_abs_xc8p8600_d 0xd        0     2      0   
+UD_abs_xc8p8600_e        UD_abs_xc8p8600_e 0xe        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_CPUCONbits              UD_abs_xc8p8600_e 0xe        0     2      0   
+_CPUCON                  UD_abs_xc8p8600_e 0xe        0     2      0   
+UD_abs_xc8p8600_f        UD_abs_xc8p8600_f 0xf        0     109    1   
+  length = 1
+  number of relocations = 0
+  number of line numbers = 0
+_ISRbits                 UD_abs_xc8p8600_f 0xf        0     2      0   
+_ISR                     UD_abs_xc8p8600_f 0xf        0     2      0   
+code_xc8p8600            code_xc8p8600    0x40       0     109    1   
+  length = 0
+  number of relocations = 0
+  number of line numbers = 0
+.eof                     DEBUG            0          0     107    0   
+

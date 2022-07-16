@@ -1,0 +1,71 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-13 15:35:17
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\8vue.set的使用.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>vue.set的使用</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+        <h2>名字:{{name}}
+        </h2>
+        <h2>地址:{{addr}}
+        </h2>
+        <!-- <h2 v-if="leader">学生性别:{{leader}} </h2> -->
+        <h2>学生姓名:{{student.name}} </h2>
+        <h2 v-if="student.sex">学生性别:{{student.sex}} </h2>
+        <h2>学生年龄: 真实{{student.age.rAge}} 对外{{student.age.sAge}}</h2>
+        <ul>
+            <li v-for="(f,index) in student.friends" :key="index"> {{f.name}}--{{f.age}}</li>
+
+        </ul>
+        <button @click="addsex"> 添加性别</button>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    // vm.$set(vm._data.student,'sex',"男")
+    // Vue.set(vm._data.student,'sex',"男")
+    // Vue.set(vm.student,'sex',"男")
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            filterword: '',
+            addr: "深圳宝安",
+            student: {
+                name: "张三",
+                age: {
+                    rAge: 80,
+                    sAge: 20
+                },
+                friends: [
+                    { name: "李武", age: 18 },
+                    { name: "王二", age: 19 }
+                ],
+            }
+
+
+        },
+        methods: {
+            addsex() {
+                Vue.set(this.student, 'sex', "男")
+            }
+        },
+
+    })
+</script>
+
+</html>

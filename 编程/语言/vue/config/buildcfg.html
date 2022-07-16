@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>生产设备初始化信息</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/vue-select@2.0.0/dist/vue-select.js"></script>
+</head>
+<!-- 修改数组有效方法 shift unshift splice pop push sort reverse-->
+
+
+<body>
+    <div id="root" class="div">
+
+
+        <!-- <a-space>
+            <a-button type="primary">Primary</a-button>
+            <a-button>Secondary</a-button>
+            <a-button type="dashed">Dashed</a-button>
+            <a-button type="outline">Outline</a-button>
+            <a-button type="text">Text</a-button>
+        </a-space> -->
+        <ul>
+
+            <h2>初始化按键</h2>
+            <v-select :placeholder="placeholder" multiple :options="options" label="name" @input="selecte_student"
+                :value.sync="student_obj"></v-select>
+
+
+            <li v-for="(f,index) in button" :key=f.name> {{f.name}} GPIO<input type="number" v-model.number=f.gpio>
+                触发电平
+                <select v-model="f.level">
+                    <option value="High">高</option>
+                    <option value="Low"> 低</option>
+                </select>
+                触发时间<input type="number" v-model.number=f.time>
+            </li>
+            <h2>初始化管脚</h2>
+            <li v-for="(f,index) in gpio" :key=f.name> {{f.name}} GPIO<input type="number" v-model.number=f.gpio>
+                触发电平
+                <select v-model="f.level">
+                    <option value="High">高</option>
+                    <option value="Low"> 低</option>
+                </select>
+            </li>
+            <h2>功能选择</h2>
+        </ul>
+
+    </div>
+</body>
+<script type="text/javascript">
+
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: function () {
+            return {
+                options: [
+                    { "student_id": 1, "name": "Vence" },
+                    { "student_id": 2, "name": "Job" },
+                    { "student_id": 3, "name": "Jack" },
+                ],
+                placeholder: 'Choose a student..',
+                students: [1],
+                student_obj: [],
+                button: [
+                    { name: "配网：", gpio: 13, level: "low", time: 3 },
+                    { name: "复位：", gpio: 13, level: "High", time: 5 },
+                ],
+                gpio: [
+                    { name: "开关机", gpio: 2, level: "low" },
+                ]
+
+            }
+        },
+        mounted: function () {
+            var student_filter = function (obj) {
+                return this.students.indexOf(obj.student_id) > -1
+            }
+            this.student_obj = this.options.filter(student_filter, this)
+        },
+        methods: {
+            selecte_student: function (values) {
+                this.students = values.map(function (obj) {
+                    return obj.student_id
+                })
+            },
+            addsex() {
+                // vm.$set(vm._data.student,'sex',"男")
+                // Vue.set(vm._data.student,'sex',"男")
+                // Vue.set(vm.student,'sex',"男")
+                // Vue.set(this.student, 'sex', "男")
+            },
+            addfriend() {
+                // this.student.friends.unshift({ name: "jack", age: 30 })
+            },
+            updatefirstfriendname() {
+                // this.student.friends[0].name = "王五"
+                // this.student.friends[0].age = 10
+            },
+            addhobby() {
+                // this.student.hobby.push("打架")
+            },
+            updatehobby() {
+                // this.student.hobby.splice(0, 1, "学习")
+                // Vue.set(this.student.hobby, 0, "学习")
+            },
+            removehobby() {
+                this.student.hobby = this.student.hobby.filter((h) => {
+                    // return h !== "打架"
+                })
+            },
+            addcfgfile() {
+                let arrayBuffer = new ArrayBuffer(8);
+
+                let dataView = new DataView(arrayBuffer);
+
+                console.log(dataView.getUint8(1)); // 0
+
+                dataView.setUint8(1, 2);
+                console.log(dataView.getUint8(1)); // 2
+                console.log(dataView.getUint16(1)); // 512
+
+                dataView.setUint16(1, 255);
+                console.log(dataView.getUint16(1)); // 255
+                console.log(dataView.getUint8(1)); // 0
+
+            },
+        }
+
+
+    })
+</script>
+
+</html>

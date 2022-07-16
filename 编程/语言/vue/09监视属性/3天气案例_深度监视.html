@@ -1,0 +1,100 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-09 17:06:17
+ * @LastEditTime: 2021-08-09 19:10:21
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\09监视属性\3天气案例_深度监视.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>3天气案例_深度监视</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h2>今天天气很{{info}}</h2>
+        <button @click="changeweather">切换天气</button>
+        <hr />
+        <h3>a的值是:{{numbers.a}}</h3>
+        <button @click="numbers.a++">点我让a+1</button>
+        <hr />
+        <h3>a的值是:{{numbers.b}}</h3>
+        <button @click="numbers.b++">点我让b+1</button>
+        <button @click="numbers={a:55,b:33}">替换numbers</button>
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            ishot: true,
+            numbers: {
+                a: 1,
+                b: 2
+
+            }
+        },
+        methods: {
+            changeweather() {
+                this.ishot = !this.ishot
+            }
+        },
+        computed: {
+            info() {
+                return this.ishot ? '炎热' : '凉爽'
+            }
+
+        },
+        watch: {
+
+            ishot: {
+                //immediate: true,//初始化时让handler调用一下
+                //hander 什么时候调用，ishot 发生变化
+                handler(newvalue, oldvalue) {
+                    console.log('ishot 被修改了', newvalue, oldvalue)
+                }
+            },
+            //监视多级结构中某个属性变化
+            numbers: {
+                deep: true,
+                handler() {
+                    console.log("numbers 被修改了")
+
+                }
+            },
+            // 'numbers.a': {
+
+            //     handler() {
+            //         console.log("a 被修改了")
+
+            //     }
+            // },
+            // 'numbers.b': {
+
+            //     handler() {
+            //         console.log("b 被修改了")
+
+            //     }
+            // }
+
+        }
+    })
+    // vm.$watch('ishot', {
+    //     immediate: true,//初始化时让handler调用一下
+    //     //hander 什么时候调用，ishot 发生变化
+
+    //     handler(newvalue, oldvalue) {
+    //         console.log('ishot 被修改了', newvalue, oldvalue)
+    //     }
+
+   // })
+</script>
+
+</html>

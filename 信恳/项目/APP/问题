@@ -1,0 +1,23 @@
+
+1---自动登录 √
+2---提示颜色√
+3 --按键防呆√
+4 --语音提示√
+5 --登陆提示（网络异常）√
+6-- 在线状态√
+7 --删除临时页面√
+
+
+
+
+7 多人登陆
+8 ---无权限异常流程
+9 --头像
+10 更新插件
+
+
+* What went wrong:
+Execution failed for task ':fluttertoast:compileDebugKotlin'.
+cd ./android  
+
+./gradlew clean

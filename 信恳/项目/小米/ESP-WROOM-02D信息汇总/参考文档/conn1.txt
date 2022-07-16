@@ -1,0 +1,31 @@
+Data Source=(DESCRIPTION =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.1.242)(PORT = 1521))
+(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORCL) ) );
+User ID=DEZLEID;PassWord=De2020!;Unicode=True
+
+哥YDB:
+@bruceyan   这是查工单的账号：Market，密码：mes2020..
+
+哥YDB:
+表是这个mes_dep_task_info
+
+哥YDB:
+select * from admin.mes_dep_task_info
+
+
+
+控制进运行模式：
+
+        port.setDTR(False)    #en=0, io=0
+        port.setRTS(True)
+        time.sleep(0.2)
+        port.setDTR(False)    #en=1, io=1
+        port.setRTS(False)
+        time.sleep(0.1)
+        控制进下载模式：
+        port.setDTR(False)    #en=0, io=0
+        port.setRTS(True)
+        time.sleep(0.2)
+        port.setDTR(True)     #en=1, io=0
+        port.setRTS(False)
+        time.sleep(0.1)

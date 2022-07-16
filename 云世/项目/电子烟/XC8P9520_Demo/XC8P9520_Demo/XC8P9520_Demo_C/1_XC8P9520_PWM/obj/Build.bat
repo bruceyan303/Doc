@@ -1,0 +1,1 @@
+"C:\XJIDE\XJ_C_IDE_V1.5.3.211216\bin\slvo.exe" D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\XC8P9520-PWM.cof >D:\doc\doc\云世\项目\电子烟\XC8P9520_Demo\XC8P9520_Demo\XC8P9520_Demo_C\1_XC8P9520_PWM\XC8P9520-PWM.cofv 2>&1

@@ -1,0 +1,2140 @@
+﻿prompt Importing table MES_BASE_PRODUCT_VER...
+set feedback off
+set define off
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421072921, 'PW-2020-08-0190', '23052', null, '152000508110', 'V1.18.0', null, 'SLX20359', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421352081, 'PW-2019-12-0024', 'N/A', null, null, null, null, 'M213DH2864PC3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421357630, 'PW-2020-08-0133', 'Version: V100', null, 'FW P/N:7A9EA001', null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421469855, 'PW-2020-08-0072', 'N/A', null, null, null, null, null, '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797602, 'PW-2020-08-0245', 'V62', null, 'FW P/N:804DA001', null, null, 'M213DH2864UH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797603, 'PW-2020-08-0246', 'V62', null, 'FW P/N:804DA001', null, null, 'M213DH2864UH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797604, 'PW-2020-08-0247', 'V62', null, 'FW P/N:804DA001', null, null, 'M213DH2864UH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797605, 'PW-2020-08-0248', 'N/A', null, null, null, null, 'M203QL2864UH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797606, 'PW-2020-08-0249', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797607, 'PW-2020-08-0250', '1) V0.3.17ed (E7)', null, '2) 102-64230-62002', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797608, 'PW-2020-08-0251', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397139281, 'PW-2020-06-0056', 'N/A', null, null, null, null, null, '陆学文', to_date('23-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797609, 'PW-2020-08-0252', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797610, 'PW-2020-08-0256', 'N/A', null, null, null, null, 'M213DH2864PH3Q0', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421797611, 'PW-2020-08-0257', 'N/A', null, null, null, null, 'M213EH3264PH3Q0', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421805499, 'PW-2020-08-0116-6', 'N/A', null, null, null, null, null, '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427362338, 'PW-2020-08-0334', 'Version: E1.05.M00.B001_r40', null, 'FW P/N:7EDFA001', null, null, null, '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (415868861, 'PW-2020-08-0034', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('18-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (419353238, 'PW-2020-08-0055', '1) V0.16.46c (C5)', null, '2) 408-0200-0031', '3) 801-1001-0004', null, null, '陆学文', to_date('21-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429311492, 'PW-2020-08-0297', 'Version:V1', null, 'FW P/N: 808CA001', null, null, null, '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429375143, 'PW-2020-09-0086', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429515272, 'PW-2019-11-0134', 'N/A', null, null, null, null, 'P103AH0000PH3', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910293, 'PW-2020-09-0204', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH3200PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910294, 'PW-2020-09-0205', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910295, 'PW-2020-09-0208', 'N/A', null, null, null, null, 'M213EH3264PH3Q1', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910296, 'PW-2020-09-0219', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000426', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910297, 'PW-2020-09-0220', '27208', null, '152000380110', 'V1.17.1', null, 'SLX2000429', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910298, 'PW-2020-09-0221', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH6400PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910299, 'PW-2020-09-0222', 'N/A', null, null, null, null, 'M213EH6464PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910300, 'PW-2020-09-0223', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910301, 'PW-2020-09-0224', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400UH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910302, 'PW-2020-09-0228', 'N/A', null, null, null, null, null, '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910303, 'PW-2020-09-0230', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2MNA001', null, 'M50F2H0000PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910304, 'PW-2020-09-0231', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2MNA001', null, 'M50F2H0000UH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910305, 'PW-2020-09-0232', 'N/A', null, null, null, null, null, '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910306, 'PW-2020-09-0191', 'N/A', '原始固件为AT通用固件，2020/10/23项目更新固件为N/A', null, null, null, 'M503FH0000PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910307, 'PW-2020-09-0241', 'N/A', null, null, null, null, 'M203QL2864PH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910308, 'PW-2020-09-0233', 'N/A', null, null, null, null, null, '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910309, 'PW-2020-09-0237', 'N/A', null, null, null, null, 'M213DH6464UH3Q1', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910310, 'PW-2020-09-0238', 'Version: V2.0', null, 'FW P/N: 8076A001', null, null, null, '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910311, 'PW-2020-09-0264', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910312, 'PW-2020-09-0267', 'V1.2.96', null, 'FW P/N: 811BU004', null, null, 'M113EH6400PH3Q1', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910313, 'PW-2020-09-0268', '1) V0.16.46c (C5)', null, '2) 408-0200-0031', '3) 801-1001-0004', null, null, '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435910314, 'PW-2020-09-0202', 'N/A', null, null, null, null, 'M113SH3200PH3Q1', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (437361356, 'PW-2020-09-0229', 'N/A', null, null, null, null, 'M213EH3264UH3Q1', '陆学文', to_date('19-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440436874, 'PW-2020-09-0261', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000433', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440439113, 'PW-2020-09-0262', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000433', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003352, 'PW-2020-09-0457', 'Version: V1.0.0', null, 'FW P/N: 7D51A001', null, null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003353, 'PW-2020-09-0458', '1) V0.16.46c (C5)', null, '2) 408-0200-0031', '3) 801-1001-0004', null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003354, 'PW-2020-09-0459', 'V2.0.0', null, 'F/W PN:811FA001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003355, 'PW-2020-09-0460', 'V2.0.0', null, 'FW P/N:811FA001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (449246448, 'PW-2020-09-0062', '/', null, '/', '/', null, 'PW-2020-09-0062', '陆学文', to_date('07-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (450785138, 'PW-2020-09-0233-1', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2MNA001', null, null, ' 何鑫', to_date('09-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451546164, 'PW-2020-09-0479', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000471', ' 何鑫', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451549859, 'PW-2020-09-0480', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000471', ' 何鑫', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451552458, 'PW-2020-09-0481', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000471', ' 何鑫', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451860577, 'PW-2020-09-0483', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000471', '陆学文', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452241243, 'PW-2020-09-0484', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452242192, 'PW-2020-09-0485', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452243005, 'PW-2020-09-0486', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452243262, 'PW-2020-09-0487', '27246', null, '152000496110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452244247, 'PW-2020-09-0488', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452245362, 'PW-2020-09-0489', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000473', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452258396, 'PW-2020-09-0493', 'Version: V1.0.1', null, 'FW P/N: 7AB0U003', null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261448, 'PW-2020-10-0003', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261449, 'PW-2020-10-0004', 'N/A', null, null, null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261450, 'PW-2020-10-0005', 'N/A', null, null, null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261451, 'PW-2020-10-0049', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261452, 'PW-2020-09-0383', 'V1.02.19', null, 'FW P/N:7E32A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261453, 'PW-2020-10-0055', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261454, 'PW-2020-10-0057', 'N/A', null, null, null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261455, 'PW-2020-10-0058', 'N/A', null, null, null, null, null, '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (452261456, 'PW-2020-10-0060', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH3200PH3Q0', '陆学文', to_date('11-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716804, 'PW-2020-10-0037', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000475', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716805, 'PW-2020-10-0038', '27246', null, '152000496110', 'V1.18.0', null, 'SLX2000475', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716806, 'PW-2020-10-0039', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000477', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716807, 'PW-2020-10-0040', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000477', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716808, 'PW-2020-10-0041', '27174', null, '152000337110', 'V1.17.1', null, 'SLX2000481', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716809, 'PW-2020-10-0042', '27175', null, '152000338110', 'V1.17.1', null, 'SLX2000481', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716810, 'PW-2020-10-0043', '27178', null, '152000341110', 'V1.17.1', null, 'SLX2000481', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716811, 'PW-2020-10-0044', '27181', null, '152000344110', 'V1.17.1', null, 'SLX2000481', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (453716812, 'PW-2020-10-0045', '27184', null, '152000347110', 'V1.17.1', null, 'SLX2000481', '陆学文', to_date('12-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627562, 'PW-2020-10-0062', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627563, 'PW-2020-10-0063', 'N/A', null, null, null, null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627564, 'PW-2020-10-006-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627565, 'PW-2020-10-0064', 'N/A', null, null, null, null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627566, 'PW-2020-10-0064-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627567, 'PW-2020-10-0065', 'N/A', null, null, null, null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627568, 'PW-2020-10-0066', 'N/A', null, null, null, null, null, '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421798976, 'PW-2020-02-0115', 'N/A', null, null, null, null, 'M203QL3264PH3Q0', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458785, 'PW-2020-09-0003', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q1', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198658, 'PW-2020-08-0314', '27174', null, '152000337110', 'V1.17.1', null, 'SLX20390', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198659, 'PW-2020-08-0325', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198660, 'PW-2020-08-0326', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198661, 'PW-2020-08-0327', 'N/A', null, null, null, null, 'M213DH2864PH3Q0', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198662, 'PW-2020-08-0317', 'N/A', null, null, null, null, null, '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198663, 'PW-2020-08-0318', 'N/A', null, null, null, null, null, '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198664, 'PW-2020-08-0329', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198665, 'PW-2020-08-0330', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198666, 'PW-2020-08-0331', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198667, 'PW-2020-08-0332', 'V4.1B7', null, 'FW P/N:3F87U002', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198668, 'PW-2020-08-0333', 'Version: V100', null, 'FW P/N:7A9EA001', null, null, null, '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198669, 'PW-2020-08-0335', '27174', null, '152000337110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198670, 'PW-2020-08-0336', '27175', null, '152000338110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198671, 'PW-2020-08-0337', '27180', null, '152000343110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198672, 'PW-2020-08-0338', '27181', null, '152000344110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198673, 'PW-2020-08-0339', '27183', null, '152000346110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198674, 'PW-2020-08-0340', '27184', null, '152000347110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198675, 'PW-2020-08-0341', '27187', null, '152000350110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198676, 'PW-2020-08-0342', '27189', null, '152000352110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198677, 'PW-2020-08-0343', '27205', null, '152000377110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (426198678, 'PW-2020-08-0344', '27208', null, '152000380110', 'V1.17.1', null, 'SLX20391', '陆学文', to_date('01-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458784, 'PW-2020-09-0002', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458786, 'PW-2020-09-0025', '27236', null, '152000449110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458787, 'PW-2020-09-0026', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458788, 'PW-2020-09-0027', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458789, 'PW-2020-09-0028', '27244', null, '152000494110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458790, 'PW-2020-09-0029', '27246', null, '152000496110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (419501700, 'PW-2020-08-0076', '27247', null, '152000497110', 'V1.18.0', null, 'SLX20330', '陆学文', to_date('21-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458791, 'PW-2020-09-0030', '27247', null, '152000497110', 'V1.18.0', null, 'SLX20398', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458792, 'PW-2020-09-0039', '27174', null, '152000337110', 'V1.17.1', null, 'SLX20403', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458793, 'PW-2020-09-0042', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458794, 'PW-2020-09-0043', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458795, 'PW-2020-09-0046', '1) V0.3.5e (S8)', null, '2) 4A8-0200-0100', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458796, 'PW-2020-09-0047', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458797, 'PW-2020-09-0048', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458798, 'PW-2020-09-0049', '1) V0.16.46c (C5)', null, '2) 408-0200-0031', '3) 801-1001-0004', null, null, '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427458799, 'PW-2020-09-0050', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('03-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428679075, 'PW-2020-09-0004', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH2800PH3Q0', '陆学文', to_date('06-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429078255, 'PW-2020-09-0085', '1)V0.3.17ed(E7)', null, '2)102-64230-62002', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('07-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517359, 'PW-2020-09-0074', '27174', null, '152000337110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517360, 'PW-2020-09-0075', '27175', null, '152000338110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517361, 'PW-2020-09-0076', '27177', null, '152000340110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517362, 'PW-2020-09-0077', '27181', null, '152000344110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517363, 'PW-2020-09-0078', '27186', null, '152000349110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517364, 'PW-2020-09-0079', '27189', null, '152000352110', 'V1.17.1', null, 'SLX2000409', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517365, 'PW-2020-09-0094', 'N/A', null, null, null, null, 'M203QL6464PH3Q0', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517366, 'PW-2020-09-0103', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517367, 'PW-2020-09-0104', '1) V0.3.17ed (E7)', null, '2) 102-64230-62002', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429517368, 'PW-2020-09-0105', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('08-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430887923, 'PW-2020-09-0106', 'V1.0.5', null, 'FW P/N: 813CA001', null, null, 'M113EH2800PH3Q1', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (431158344, 'PW-2020-08-0116', 'V1.2', null, null, null, null, null, '陆学文', to_date('11-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (432015371, 'PW-2020-09-0172', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('12-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433856840, 'ESP32-WROOM-32', 'Lib:V3.0.7', null, 'AT:1.1.3.0', null, null, null, '陆学文', to_date('15-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435956072, 'PW-2020-09-0198', 'V1.5.2', null, 'FW P/N: 80DEA001', null, null, 'M213DH2864UH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (439576297, 'PW-2020-09-0292', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('22-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440445421, 'PW-2020-09-0199', 'V00.01.12', null, 'FW P/N:802EA001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (443397930, 'PW-2020-09-0330', 'Version:E1.05.M00.B001_r40', null, 'FW P/N:7EDFA001', null, null, null, '陆学文', to_date('25-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097166, 'PW-2020-09-0321', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097167, 'PW-2020-09-0322', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097168, 'PW-2020-09-0323', 'NONOS1.0.1', null, 'FW P/N: 8168A001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097169, 'PW-2020-09-0331', 'V1.0.23', null, 'FW P/N:81B3A001', null, null, 'M113DH6400PH3Q1', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097170, 'PW-2020-09-0352', 'N/A', null, null, null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097171, 'PW-2020-09-0332', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000453', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097172, 'PW-2020-09-0333', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000453', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097173, 'PW-2020-09-0367', 'V1.1.4', null, 'FW P/N:806FU002', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097174, 'PW-2020-09-0368', 'N/A', null, null, null, null, 'M1102H3200UH3Q1', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097175, 'PW-2020-09-0369', 'Version: N/A', null, 'FW P/N:808CU002', null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444097176, 'PW-2020-09-0370', 'Version: N/A', null, 'FW P/N:808CU002', null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (450779226, 'PW-09-0226', 'N/A', null, null, null, null, 'M213EH6464UH3Q0', ' 何鑫', to_date('09-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451540612, 'PW-2020-09-0490', '27177', null, '152000340110', 'V1.17.1', null, 'SLX2000474', ' 何鑫', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (451859895, 'PW-2020-09-0482', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000471', '陆学文', to_date('10-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627569, 'PW-2020-10-0068', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627570, 'PW-2020-10-0069', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32S010', null, 'M113SH3200PH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627571, 'PW-2020-10-0073', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800PH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627572, 'PW-2020-10-0081', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (454627573, 'PW-2020-10-0082', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', to_date('13-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455004459, 'PW-2020-10-0057-1', 'N/A', null, null, null, null, null, '陆学文', to_date('14-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680499, 'PW-2020-10-0085', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q0', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680500, 'PW-2020-10-0093', 'V1.0.0', null, 'FW P/N:58B0A002', null, null, 'M1002H1600PH3Q1', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680501, 'PW-2020-10-0096', 'V1.1.4', null, 'FW P/N:806FU002', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680502, 'PW-2020-10-0097', 'V200926', null, 'FW P/N:81D6A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680503, 'PW-2020-10-0107', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH6400PH3Q0', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680504, 'PW-2020-10-0108', 'N/A', null, null, null, null, 'M203QL2864PH3Q0', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020586, 'PW-2020-08-0156', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020587, 'PW-2020-08-0157', '27247', null, '152000497110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020588, 'PW-2020-08-0158', '27236', null, '152000449110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020589, 'PW-2020-08-0159', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020590, 'PW-2020-08-0160', '27244', null, '152000494110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020591, 'PW-2020-08-0163', 'N/A', null, null, null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020592, 'PW-2020-08-0181', 'Version: V1.0.1', null, 'FW P/N: 7AB0U003', null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421359066, 'PW-2020-08-0180', 'Verison:V2.0', null, 'FW P/N:8076A001', null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020593, 'PW-2020-08-0173', '27174', null, '152000337110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020594, 'PW-2020-08-0174', '27175', null, '152000338110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020595, 'PW-2020-08-0175', '27180', null, '152000343110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020596, 'PW-2020-08-0043', 'N/A', null, null, null, null, 'M203QL2864PH3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020597, 'PW-2020-08-0210', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020598, 'PW-2020-08-0212', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020599, 'PW-2020-08-0215', 'N/A', null, null, null, null, 'M213EH6464PH3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020600, 'PW-2020-08-0236', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600UH3Q0', '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020601, 'PW-2020-08-0237', 'N/A', null, null, null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421020602, 'PW-2020-08-0238', 'N/A', null, null, null, null, null, '陆学文', to_date('24-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421601463, 'PW-2020-08-0191', '27208', null, '152000380110', 'V1.17.1', null, 'SLX20360', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978776, 'PW-2020-08-0259', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20375', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978777, 'PW-2020-08-0260', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20377', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978778, 'PW-2020-08-0261', '27236', null, '152000449110', 'V1.18.0', null, 'SLX20380', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978779, 'PW-2020-08-0262', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20380', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978780, 'PW-2020-08-0263', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20380', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (408377115, 'PW-2020-07-0352', '27189', null, '152000352110', 'V1.17.1', null, 'SLX20316', '陆学文', to_date('10-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978781, 'PW-2020-08-0264', '27244', null, '152000494110', 'V1.18.0', null, 'SLX20380', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978782, 'PW-2020-08-0265', '27247', null, '152000497110', 'V1.18.0', null, 'SLX20380', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358552, 'XK20200612001', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358553, 'PW-2020-05-0214', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358554, 'PW-2020-04-0188', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358555, 'PW-2020-07-0180', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358556, 'PW-2020-07-0316', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358557, 'PW-2020-07-0260', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978783, 'PW-2020-08-0266', '27190', null, '152000353110', 'V1.17.1', null, 'SLX20382', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358559, 'PW-2020-08-0066', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358560, 'PW-2020-08-0067', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH6400PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358561, 'PW-2020-08-0123', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH2800PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358562, 'PW-2020-08-0121', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358563, 'PW-2020-08-0124', 'N/A', null, null, null, null, 'M213EH2864PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358564, 'PW-2020-08-0068', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358565, 'PW-2020-08-0050', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH2800PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358566, 'PW-2020-08-0197', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q1', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358567, 'PW-2020-08-0065', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978784, 'PW-2020-08-0302', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358569, 'PW-2020-08-0211', 'V002', null, 'FW P/N:69EBU002', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358570, 'PW-2020-08-0122', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800UH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358571, 'PW-2020-08-0006', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358572, 'PW-2020-08-0029', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358573, 'PW-2020-08-0093', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358574, 'PW-2020-08-0094', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358575, 'PW-2020-07-0200', 'N/A', null, null, null, null, 'M203QL2864PH3Q1', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358576, 'PW-2020-07-0204', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358577, 'PW-2020-08-0161', '27246', null, '152000496110', 'V1.18.0', null, 'SLX20349', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358578, 'PW-2020-08-0189', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20358', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978785, 'PW-2020-08-0296', 'V1.0.16', null, 'FW P/N:806FA001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358580, 'PW-2020-08-0201', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20367', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358581, 'PW-2020-08-0202', '27247', null, '152000497110', 'V1.18.0', null, 'SLX20367', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358582, 'PW-2020-08-0176', '27181', null, '152000344110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358583, 'PW-2020-08-0177', '27187', null, '152000350110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358584, 'PW-2020-08-0178', '27190', null, '152000353110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358585, 'PW-2020-08-0179', '27196', null, '152000359110', 'V1.17.1', null, 'SLX20353', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358587, 'PW-2020-08-0200', '27208', null, '152000380110', 'V1.17.1', null, 'SLX20364', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358588, 'PW-2020-08-0218', '27174', null, '152000337110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358589, 'PW-2020-08-0219', '27175', null, '152000338110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358590, 'PW-2020-08-0220', '27180', null, '152000343110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358591, 'PW-2020-08-0221', '27181', null, '152000344110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358592, 'PW-2020-08-0222', '27187', null, '152000350110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358593, 'PW-2020-08-0224', '27189', null, '152000352110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358594, 'PW-2020-08-0225', '27190', null, '152000353110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358595, 'PW-2020-08-0226', '27192', null, '152000355110', 'V1.17.1', null, 'SLX20368', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358596, 'PW-2020-08-0227', '27246', null, '152000496110', 'V1.18.0', null, 'SLX20370', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358597, 'PW-2020-08-0228', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20371', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358598, 'PW-2020-08-0229', '27239', null, '152000489110', 'V1.18.0', null, 'SLX20371', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358599, 'PW-2020-07-0314', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358600, 'PW-2020-08-0031', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358601, 'PW-2020-07-0168', 'N/A', null, null, null, null, 'M50F2H0000PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358602, 'NPI-2020-07-0001', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358603, 'PW-2020-08-0109', 'V1.0.16', null, 'FW P/N:806FA001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358604, 'PW-2020-08-0182', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358605, 'PW-2020-08-0183', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358606, 'PW-2020-07-0160', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358607, 'PW-2020-07-0153', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358608, 'PW-2020-08-0184', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358609, 'PW-2020-08-0044', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358610, 'PW-2020-08-0064', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200UH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978787, 'PW-2020-07-0261-3', 'N/A', null, null, null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978788, 'PW-2020-07-0261-2', 'N/A', null, null, null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423575346, 'PW-2020-08-0316', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978789, 'PW-2020-08-0116-3', 'N/A', null, null, null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978790, 'PW-2020-08-0117', 'N/A', null, null, null, null, 'M213EH2864PH3Q0', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978791, 'PW-2020-08-0238-1', 'N/A', null, null, null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978792, 'PW-2020-08-0069', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N: ESP32S010', null, 'M113SH3200PH3Q0', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978793, 'PW-2020-06-0093', 'N/A', null, null, null, null, 'M213DH3264UH3Q0', '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978794, 'PW-2020-08-0308', 'Version: V1.0.1', null, 'FW P/N: 7AB0U003', null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (422978795, 'PW-2020-08-0309', 'N/A', null, null, null, null, null, '陆学文', to_date('27-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423575084, 'PW-2020-08-0310', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH2800PH3Q0', '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427832412, 'PW-2020-09-0044', 'V1.4.31', null, 'FW P/N:80B8A001', null, null, 'M113DH6400PH3Q1', '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427832522, 'PW-2020-09-0045', 'V1.0.0', null, 'FW P/N:8069A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428056586, 'PW-2020-09-0052', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428056765, 'PW-2020-09-0055', 'N/A', null, null, null, null, null, '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428056854, 'PW-2020-09-0056', 'N/A', null, null, null, null, null, '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428470491, 'PW-2020-06-0243', '23053', null, '152000509110', 'V1.18.0', null, 'SLX20203', '陆学文', to_date('05-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429918795, 'PW-2020-09-0123', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429919283, 'PW-2020-09-0124', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600UH3D0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429919841, 'PW-2020-09-0125', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429920254, 'PW-2020-09-0126', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429920697, 'PW-2020-09-0127', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429921583, 'PW-2020-09-0128', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429921948, 'PW-2020-09-0129', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32S010', null, 'M113SH3200PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429922323, 'PW-2020-09-0130', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (429922946, 'PW-2020-09-0099', 'Version: V1', null, 'FW P/N: 808CA001', null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (431322061, 'PW-2020-07-0261', 'N/A', null, null, null, null, 'ESP32-Ethernet-Kit-VE', '陆学文', to_date('11-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433314519, 'PW-2020-09-0163', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000418', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433318076, 'PW-2020-09-0164', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000418', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (395712589, 'PW-2020-07-0176', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20277', '陆学文', to_date('21-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435380682, 'PW-2020-09-0200', 'N/A', null, null, null, null, 'M1102H3200UH3Q1', '陆学文', to_date('17-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435618857, 'PW-2020-04-0089', 'N/A', null, null, null, null, 'M321X0132RVB', '陆学文', to_date('18-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (438007599, 'PW-2020-09-0242', 'N/A', null, null, null, null, 'M203QL6464PH3Q0', '陆学文', to_date('20-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (438804805, 'PW-2020-08-0164', 'N/A', null, null, null, null, null, '陆学文', to_date('21-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440448384, 'PW-2020-09-0263', '27251', null, '152000501110', 'V1.18.0', null, 'SLX2000433', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881914, 'PW-2020-09-0273', 'N/A', null, null, null, null, 'M203QL2864PH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881915, 'PW-2020-09-0277', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881916, 'PW-2020-09-0281', 'V1.0.5', null, 'FW P/N: 813CA001', null, null, 'M113EH2800PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (418097932, 'PW-2020-08-0135', 'V4. 1B7', null, 'FW P/N: 3F87U002', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('20-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881917, 'PW-2020-09-0278', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200UH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881918, 'PW-2020-09-0279', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881919, 'PW-2020-09-0280', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358611, 'PW-2020-07-0240', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358612, 'PW-2020-07-0201', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358613, 'PW-2019-08-0014', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358614, 'PW-2020-03-0026', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358615, 'PW-2020-05-0165', 'V1.0.0', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358616, 'PW-2020-04-0126', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358617, 'PW-2020-05-0063', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358618, 'PW-2020-07-0221', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358619, 'PW-2020-07-0044', 'N/A', null, null, null, null, null, '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358620, 'PW-2020-03-0021', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358621, 'PW-2020-05-0157', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358622, 'PW-2020-07-0329', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400UH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358623, 'PW-2020-07-0197', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358624, 'PW-2020-07-0241', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881920, 'PW-2020-09-0291', 'V1.0.16', null, 'FW P/N:806FA001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358626, 'PW-2020-02-0018', 'Lib: V2.2.1', null, 'AT: 1.6.2', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358627, 'PW-2020-05-0111', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358628, 'PW-2020-07-0072', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358629, 'PW-2020-07-0170', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358630, 'PW-2020-07-0360', 'N/A', null, null, null, null, 'M213DH3264UH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358631, 'PW-2020-07-0315', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358632, 'PW-2020-08-0047', 'N/A', null, null, null, null, 'M213DH2864PH3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (420358633, 'PW-2020-03-0069', 'N/A', null, null, null, null, 'M213DH6464PC3Q0', '陆学文', to_date('23-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881921, 'PW-2020-09-0061', 'V8.00', null, 'FW P/N:8184A001', null, null, null, '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881922, 'PW-2020-09-0309', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH2800UH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881923, 'PW-2020-09-0294', 'N/A', null, null, null, null, null, '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881924, 'PW-2020-09-0295', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200PH3Q0', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881925, 'PW-2020-09-0319', 'V1.0.16', null, 'F/W PN:7289A001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881926, 'PW-2020-09-0317', 'V1.5.23', null, 'FW P/N:80FBU003', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (440881927, 'PW-2020-09-0318', 'V1.0.16', null, 'FW P/N:806FA001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (441408395, 'NPI-2020-9-001', 'N/A', null, null, null, null, null, '陆学文', to_date('23-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (445435501, 'PW-2020-09-0225', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N: ESP32U011', null, 'M113EH6400UH3Q0', '陆学文', to_date('28-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444095913, 'NPI-2020-9-002', 'N/A', null, null, null, null, null, '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (444211338, 'PW2020-09-0201', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('26-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325061, 'NPI-2020-09-005', 'N/A', null, null, null, null, 'M503FH0000PS3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325062, 'NPI-2020-09-006', 'N/A', null, null, null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325063, 'PW-2020-09-0386', 'N/A', null, null, null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325064, 'PW-2020-09-0395', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325065, 'PW-2020-09-0396', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325066, 'PW-2020-09-0397', 'N/A', null, null, null, null, 'M213EH6464PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325067, 'PW-2020-09-0387', '27174', null, '152000337110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325068, 'PW-2020-09-0388', '27175', null, '152000338110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325069, 'PW-2020-09-0389', '27181', null, '152000344110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325070, 'PW-2020-09-0390', '27184', null, '152000347110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325071, 'PW-2020-09-0391', '27189', null, '152000352110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325072, 'PW-2020-09-0392', '27190', null, '152000353110', 'V1.17.1', null, 'SLX2000459', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325073, 'PW-2020-09-0404', 'N/A', null, null, null, null, 'M213EH3264PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325074, 'PW-2020-09-0415', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH3200UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325075, 'PW-2020-09-0405', 'N/A', null, null, null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325076, 'PW-2020-09-0412', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (421855336, 'PW-2020-06-0042', '27242', null, '152000492110', 'V1.18.0', null, 'SLX20168', '陆学文', to_date('25-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423628746, 'PW-2020-07-0264', 'N/A', null, null, null, null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423629081, 'PW-2020-07-0374', 'N/A', null, null, null, null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423629162, 'PW-2020-08-0073-1', 'N/A', null, null, null, null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423629414, 'PW-2020-08-0073', 'N/A', null, null, null, null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423629557, 'PW-2020-08-0112', 'N/A', null, null, null, null, 'P113BH0000PH3', '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423630159, 'PW-2020-08-0295', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (423630513, 'PW-2020-08-0237-1', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('28-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428537508, 'PW-2020-02-0137', 'N/A', null, null, null, null, 'M213DH2864UC3Q0', '陆学文', to_date('05-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (427832858, 'PW-2020-09-0041', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '陆学文', to_date('04-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (428466521, 'PW-2020-07-0263', 'N/A', null, null, null, null, 'M113EH3200PH3Q0', '陆学文', to_date('05-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767076, 'PW-2020-09-0108', '27196', null, '152000359110', 'V1.17.1', null, 'SLX2000416', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767077, 'PW-2020-09-0109', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000412', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767078, 'PW-2020-09-0110', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000412', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767079, 'PW-2020-09-0111', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000414', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767080, 'PW-2020-09-0112', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000414', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767081, 'PW-2020-09-0138', 'N/A', null, null, null, null, null, '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397423987, 'PW-2020-07-0184', 'V1.0.16', null, 'FW P/N: 7289A001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424004, 'PW-2020-06-0083', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424015, 'PW-2020-06-0353', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424024, 'PW-2020-07-0107', 'V1.2.2.69', null, 'FW P/N: 727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424033, 'PW-2020-07-0108', 'V1.2.2.69', null, 'FW P/N: 727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424044, 'PW-2020-07-0171', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113SH3200PH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767082, 'PW-2020-09-0139', 'N/A', null, null, null, null, null, '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424065, 'PW-2020-07-0198', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424075, 'PW-2020-07-0225', '1) V0.3.17ed (E7)', null, '2) 102-64230-62002', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424086, 'PW-2020-07-0211', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20288', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424095, 'PW-2020-07-0212', '27246', null, '152000496110', 'V1.18.0', null, 'SLX20288', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424104, 'PW-2020-07-0213', '27238', null, '152000488110', 'V1.18.0', null, 'SLX20288', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424115, 'PW-2020-07-0214', '27246', null, '152000496110', 'V1.18.0', null, 'SLX20288', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424124, 'PW-2020-07-0074', 'Lib: V2.0.0', null, 'AT:1.3.0', 'FW P/N:WROOMS2001', null, null, '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424131, 'PW-2020-07-0223', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424142, 'PW-2020-07-0224', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424153, 'PW-2020-07-0109', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424162, 'PW-2020-07-0179', 'Lib: V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600UH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424173, 'PW-2020-07-0185', 'V1.5.1', null, 'FW P/N:7C26A001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (397424182, 'PW-2020-06-0167', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('24-07-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767083, 'PW-2020-09-0140', 'N/A', null, null, null, null, null, '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767084, 'PW-2020-09-0144', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200PH3Q0', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767085, 'PW-2020-09-0145', 'N/A', null, null, null, null, 'M213EH6464PH3Q0', '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (430767086, 'PW-2020-09-0137', 'N/A', null, null, null, null, null, '陆学文', to_date('10-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (432532203, 'PW-2020-09-0161', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000417', '陆学文', to_date('13-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385009, 'PW-2020-09-0149', 'N/A', null, null, null, null, 'ATG3DH6400PH3D0', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (408645551, 'PW-2020-07-0353', '27190', null, '152000353110', 'V1.17.1', null, 'SLX20316', '陆学文', to_date('10-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385010, 'PW-2020-09-0154', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (415726353, 'PW-2020-08-0070', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q0', '陆学文', to_date('18-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (418099541, 'PW-2020-08-0136', 'V1.0.16', null, 'FW P/N: 806FA001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('20-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (418164257, 'PW-2020-08-0057', 'V1.5.1', null, 'FW P/N: 7C26A001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('20-08-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385011, 'PW-2020-09-0150', 'V2.0.0', null, 'FW P/N:811FA001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385012, 'PW-2020-09-0151', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385013, 'PW-2020-09-0155', 'N/A', null, null, null, null, null, '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385014, 'PW-2020-09-0157', 'N/A', null, null, null, null, null, '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385015, 'PW-2020-09-0156', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385016, 'PW-2020-09-0171', 'V1.2.96', null, 'FW P/N: 80FBA001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385017, 'PW-2020-09-0162', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000418', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385018, 'PW-2020-09-0165', '27174', null, '152000337110', 'V1.17.1', null, 'SLX2000419', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385019, 'PW-2020-09-0166', '27205', null, '152000377110', 'V1.17.1', null, 'SLX2000419', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385020, 'PW-2020-09-0167', '27208', null, '152000380110', 'V1.17.1', null, 'SLX2000419', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385021, 'PW-2020-09-0168', '27181', null, '152000344110', 'V1.17.1', null, 'SLX2000419', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385022, 'NPI-2020-09-003', 'N/A', null, null, null, null, 'M213EH3264UH3Q0', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385023, 'PW-2020-09-0190', 'N/A', null, null, null, null, 'ATG3DH6400PH3D0', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385024, 'PW-2020-09-0192', 'N/A', null, null, null, null, null, '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385025, 'PW-2020-09-0174', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000420', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385026, 'PW-2020-09-0175', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000420', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385027, 'PW-2020-09-0176', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000420', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385028, 'PW-2020-09-0177', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000422', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385029, 'PW-2020-09-0178', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000422', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385030, 'PW-2020-09-0179', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000422', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (433385031, 'PW-2020-09-0180', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000422', '陆学文', to_date('14-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (435375872, 'PW-2020-09-0203', 'N/A', null, null, null, null, 'M213DH6464UH3Q1', '陆学文', to_date('17-09-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325077, 'PW-2020-09-0413', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325078, 'PW-2020-09-0416', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325079, 'PW-2020-09-0417', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (447325080, 'PW-2020-09-0449', 'V1.5.23', null, 'FW P/N:80FBU003', null, null, 'M113DH3200PH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003337, 'PW-2020-09-0419', '27236', null, '152000449110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003338, 'PW-2020-09-0420', '27238', null, '152000488110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003339, 'PW-2020-09-0421', '27239', null, '152000489110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003340, 'PW-2020-09-0422', '27244', null, '152000494110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003341, 'PW-2020-09-0423', '27247', null, '152000497110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003342, 'PW-2020-09-0424', '27251', null, '152000501110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003343, 'PW-2020-09-0425', '23053', null, '152000509110', 'V1.18.0', null, 'SLX2000464', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003344, 'NPI-2020-09-007', 'N/A', null, null, null, null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003345, 'PW-2020-09-0451', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200UH3Q0', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003346, 'PW-2020-09-0452', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003347, 'PW-2020-09-0453-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003348, 'PW-2020-09-0453', 'N/A', null, null, null, null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003349, 'PW-2020-09-0454-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003350, 'PW-2020-09-0454', 'N/A', null, null, null, null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (448003351, 'PW-2020-09-0455', 'N/A', null, null, null, null, null, '陆学文', to_date('05-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940601, 'PW-2020-10-0265', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000533', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940602, 'PW-2020-10-0283', 'N/A', null, null, null, null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940603, 'PW-2020-10-0283-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940604, 'PW-2020-10-0284', 'N/A', null, null, null, null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940605, 'PW-2020-10-0284-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940606, 'PW-2020-10-0285', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940607, 'PW-2020-10-0286', 'N/A', null, null, null, null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940608, 'PW-2020-10-0287', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH2800PH3Q0', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940609, 'PW-2020-10-0291', '27236', null, '152000449110', 'V1.20.0', null, 'SLX2000540', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940610, 'PW-2020-10-0292', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000540', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940611, 'PW-2020-10-0293', '27246', null, '152000496110', 'V1.20.0', null, 'SLX2000540', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940612, 'PW-2020-10-0313', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940613, 'PW-2020-10-0314', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940614, 'PW-2020-10-0315', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940615, 'PW-2020-10-0323', 'N/A', null, null, null, null, 'M203QL2864PH3Q0', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464940616, 'PW-2020-10-0324', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800PH3Q0', '陆学文', to_date('29-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466335658, 'PW-2020-10-0306', '27251', null, '152000501110', 'V1.20.0', null, 'SLX2000541', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466335659, 'PW-2020-10-0355', 'V200926', null, 'FW P/N:81D6A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466335660, 'PW-2020-10-0356', 'N/A', null, null, null, null, null, '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466335661, 'PW-2020-10-0328', '/', null, '/', '/', null, 'PW-2020-10-0328', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (471150227, 'PW-2020-11-0083', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (471943059, 'PW-2020-11-0062', 'V 1.5.1', null, 'FW P/N:87ACA001', null, null, 'M1002H1600PH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847629, 'PW-2020-11-0073', '27236', null, '152000449110', 'V1.20.0', null, 'SLX2000559', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847630, 'PW-2020-11-0074', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000559', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847631, 'PW-2020-11-0075', '27244', null, '152000494110', 'V1.20.0', null, 'SLX2000559', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847632, 'PW-2020-11-0077', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000562', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847633, 'PW-2020-11-0078', '27244', null, '152000494110', 'V1.20.0', null, 'SLX2000562', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847634, 'PW-2020-11-0079', '27246', null, '152000496110', 'V1.20.0', null, 'SLX2000562', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847635, 'PW-2020-11-0087', 'N/A', null, null, null, null, 'M213EH3264PH3Q1', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847636, 'PW-2020-11-0088', 'N/A', null, null, null, null, 'M213EH3264UH3Q1', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847637, 'PW-2020-11-0089', 'IDF: V4.0.1', null, 'AT: 2.2.0.0', 'FW P/N: 32MINIA001', null, 'M503FH0000PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847638, 'PW-2020-11-0090', 'IDF: V4.0.1', null, 'AT: 2.2.0.0', 'FW P/N: 32MINIA001', null, 'M503FH0000PS3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847639, 'PW-2020-11-0091', 'N/A', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847640, 'PW-2020-11-0107', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847641, 'PW-2020-11-0124', 'N/A', null, null, null, null, 'M213EH6464PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847642, 'PW-2020-11-0125', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32S010', null, 'M113SH3200PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847643, 'PW-2020-11-0126', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847644, 'PW-2020-11-0127', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH3200PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847645, 'PW-2020-11-0129', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847646, 'PW-2020-11-0130', '1) V0.3.5e (S8)', null, '2) 4A8-0200-0100', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847647, 'PW-2020-11-0131', '1) V0.3.5e (E2)', null, '2) 4A8-0200-0000', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847648, 'PW-2020-11-0132', '1) V0.3.5e (E2)', null, '2) 4A8-0200-0000', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847649, 'PW-2020-11-0133', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847650, 'PW-2020-11-0134', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847651, 'PW-2020-11-0137', 'N/A', null, null, null, null, 'M203QL3264PH3Q0', '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847652, 'PW-2020-11-0150', 'N/A', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847653, 'PW-2020-11-0150-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847654, 'PW-2020-11-0151', 'N/A', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473847655, 'PW-2020-11-0152', 'V1.0.0', null, null, null, null, null, '陆学文', to_date('10-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (475687513, 'PW-2020-11-0138', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('13-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476029564, 'PW-2020-11-0177', 'N/A', null, null, null, null, 'M113EH3200PH3QF', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476131107, 'PW-2020-11-0170', 'V1.0.16', null, 'FW P/N:7289A001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('13-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (477054688, 'PW-2020-11-0180', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '陆学文', to_date('15-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934883, 'PW-2020-11-0281', '54002', null, '301170200022', 'V1.20.3', null, 'SLX2000511', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934884, 'PW-2020-11-0282', '54000', null, '301170200018', 'V1.20.3', null, 'SLX2000512', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934885, 'PW-2020-11-0283', '54004', null, '301170200020', 'V1.20.3', null, 'SLX2000512', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934886, 'PW-2020-11-0284', '54001', null, '301170200019', 'V1.20.3', null, 'SLX2000512', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934887, 'PW-2020-11-0285', '54005', null, '301170200021', 'V1.20.3', null, 'SLX2000512', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934888, 'PW-2020-11-0286', '54003', null, '301170200023', 'V1.20.3', null, 'SLX2000512', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934889, 'PW-2020-11-0287', '54004', null, '301170200020', 'V1.20.3', null, 'SLX2000521', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481934890, 'PW-2020-11-0288', '54001', null, '301170200019', 'V1.20.3', null, 'SLX2000521', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557473, 'PW-2020-11-0340', '52005', null, '152000631110', 'V1.20.3', null, 'SLX2000593', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557474, 'PW-2020-11-0341', '52005', null, '152000631110', 'V1.20.3', null, 'SLX2000596', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557475, 'PW-2020-11-0326', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2MNA001', null, 'M50F2H0000PH3Q0', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557476, 'PW-2020-11-0327', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2MNA001', null, 'M50F2H0000UH3Q0', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557477, 'PW-2020-11-0343', 'V176.0.48', null, null, null, null, 'M1002H1600PH3Q1', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557478, 'PW-2020-11-0346', '1) V0.3.17ed (E7)', null, '2)102-64230-62002', null, null, 'M1102H3200PH3Q1', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557479, 'PW-2020-11-0347', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557480, 'PW-2020-11-0348', 'N/A', null, null, null, null, 'M113DH3200UH3Q1', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557481, 'PW-2020-11-0351', 'N/A', null, null, null, null, 'M203QL6464UH3Q0', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557482, 'PW-2020-11-0352', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557483, 'PW-2020-11-0353', 'ESP-WROOM-02(T1)', null, null, null, null, null, '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557484, 'PW-2020-11-0354', 'V1.0.0', null, 'FW P/N:58B0A002', null, null, 'M1002H1600PH3Q1', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557485, 'PW-2020-11-0299', 'N/A', null, null, null, null, 'M213EH2864PH3Q0', '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557486, 'PW-2020-11-0357', 'N/A', null, null, null, null, null, '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (487557487, 'PW-2020-11-0358', 'N/A', null, null, null, null, null, '苏杰明', to_date('25-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455718967, 'PW-2020-10-0047', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455900391, 'PW-2020-10-0063-1', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('16-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (461217503, 'PW-2020-10-0208', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000530', '陆学文', to_date('24-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (461217745, 'PW-2020-10-0209', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000528', '陆学文', to_date('24-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (461218403, 'PW-2020-10-0210', '27251', null, '152000501110', 'V1.20.0', null, 'SLX2000519', '陆学文', to_date('24-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173101, 'PW-2020-10-0357', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173102, 'PW-2020-10-0370', 'N/A', null, null, null, null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173103, 'PW-2020-10-0370-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173104, 'PW-2020-10-0371', 'N/A', null, null, null, null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173105, 'PW-2020-10-0371-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173106, 'PW-2020-10-0372', 'N/A', null, null, null, null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173107, 'PW-2020-10-0372-1', 'N/A', null, null, null, null, null, '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (468173108, 'PW-2020-10-0373', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('02-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944284, 'PW-2020-11-0007', '54007', null, '301170200013', 'V1.20.0', null, 'SLX2000521', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944285, 'PW-2020-11-0008', '54013', null, '301170200014', 'V1.20.0', null, 'SLX2000521', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944286, 'PW-2020-11-0009', '54009', null, '301170200015', 'V1.20.0', null, 'SLX2000521', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944287, 'PW-2020-11-0010', '54011', null, '301170200016', 'V1.20.0', null, 'SLX2000521', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944288, 'PW-2020-11-0011', '27174', null, '152000337110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944289, 'PW-2020-11-0012', '27175', null, '152000338110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944290, 'PW-2020-11-0013', '27178', null, '152000341110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944291, 'PW-2020-11-0014', '27180', null, '152000343110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944292, 'PW-2020-11-0015', '27181', null, '152000344110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944293, 'PW-2020-11-0016', '27183', null, '152000346110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944294, 'PW-2020-11-0017', '27184', null, '152000347110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944295, 'PW-2020-11-0018', '27186', null, '152000349110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944296, 'PW-2020-11-0019', '27187', null, '152000350110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944297, 'PW-2020-11-0020', '27189', null, '152000352110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944298, 'PW-2020-11-0021', '27190', null, '152000353110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944299, 'PW-2020-11-0022', '27196', null, '152000359110', 'V1.20.0', null, 'SLX2000557', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944300, 'PW-2020-11-0023', '27236', null, '152000449110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944301, 'PW-2020-11-0024', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944302, 'PW-2020-11-0025', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944303, 'PW-2020-11-0026', '27244', null, '152000494110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944304, 'PW-2020-11-0027', '27246', null, '152000496110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944305, 'PW-2020-11-0028', '27247', null, '152000497110', 'V1.20.0', null, 'SLX2000550', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944306, 'PW-2020-11-0029', '27247', null, '152000497110', 'V1.20.0', null, 'SLX2000552', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944307, 'PW-2020-11-0055', 'V002', null, 'FW P/N:85CBA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944308, 'PW-2020-11-0058', 'V1.1.3', null, 'FW P/N:73B1A001', null, null, 'M113DH3200PH3Q1', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944309, 'PW-2020-11-0059', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (469944310, 'PW-2020-11-0060', 'V1.5.1', null, 'FW P/N:7C26A001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('04-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481827824, 'PW-2020-11-0271', 'ESP-WROOM-02(T1)', null, null, null, null, null, '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481827825, 'PW-2020-11-0290', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H3200PH3Q0', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481827826, 'PW-2020-11-0291', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481827827, 'PW-2020-11-0292', 'N/A', null, null, null, null, 'M213DH3264PH3Q0', '苏杰明', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380451, 'PW-2020-11-0294', 'V2.0.0', null, null, null, null, 'ATG3DH6400PH3D0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380452, 'PW-2020-11-0296', 'ESP-WROOM-02(T1)', null, null, null, null, null, '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380453, 'PW-2020-11-0298', 'N/A', null, null, null, null, 'M203QL6464PH3Q0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380454, 'PW-2020-11-0302', 'ESP-WROOM-02(T1)', null, null, null, null, null, '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380455, 'PW-2020-11-0304', 'Version: V2.0', null, 'FW P/N: 8076A001', null, null, null, '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380456, 'PW-2020-11-0305', 'N/A', '20201125备注：更改为ESP32-WROVER(M203QL2864PH3Q0)', null, null, null, 'M203QL2864PH3Q0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380457, 'PW-2020-11-0306', 'N/A', null, null, null, null, null, '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380458, 'PW-2020-11-0307', '/', null, '/', '/', null, 'PW-2020-11-0307', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380459, 'PW-2020-11-0317', 'N/A', null, null, null, null, 'M213EH2864PH3Q0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380460, 'PW-2020-11-0318', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH2800PH3Q0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (485380461, 'PW-2020-11-0319', 'N/A', null, null, null, null, 'M213DH3264UH3Q0', '苏杰明', to_date('22-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (486675288, 'PW-2020-10-0054', 'N/A', null, null, null, null, null, '陆学文', to_date('24-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680505, 'PW-2020-10-0106', 'N/A', null, null, null, null, 'M203QL6464PH3Q0', '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680506, 'PW-2020-10-0098', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455680507, 'NPI-2020-09-004', 'N/A', null, null, null, null, null, '陆学文', to_date('15-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295035, 'PW-2020-10-0112', 'N/A', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295036, 'PW-2020-10-0113', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295037, 'PW-2020-10-0114', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH3200UH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295038, 'PW-2020-10-0118', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH6400PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295039, 'PW-2020-10-0080', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295040, 'PW-2020-10-0120', 'N/A', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295041, 'PW-2020-10-0121', 'V1.0.5', null, 'FW P/N: 813CA001', null, null, 'M113EH2800PH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295042, 'PW-2020-10-0122', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295043, 'PW-2020-10-0123', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295044, 'PW-2020-10-0124', '1) V0.3.5e (S8)', null, '2) 4A8-0200-0100', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295045, 'PW-2020-10-0133', 'Version: V1.7.4.0', null, 'FW P/N: 7EA7A001', null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295046, 'PW-2020-10-0135', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295047, 'PW-2020-10-0136', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295048, 'PW-2020-10-0137', 'N/A', null, null, null, null, 'M213DH2864PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295049, 'PW-2020-10-0138', 'N/A', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295050, 'PW-2020-10-0138-1', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295051, 'PW-2020-10-0139', 'N/A', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295052, 'PW-2020-10-0139-1', 'N/A', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295053, 'PW-2020-10-0140', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295054, 'PW-2020-10-0141', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295055, 'PW-2020-10-0142', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295056, 'PW-2020-10-0143', 'N/A', null, null, null, null, 'M213EH3264PH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295057, 'PW-2020-10-0147', '28035', null, '152000534110', 'V1.20.0', null, 'SLX2000497', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458295058, 'PW-2020-10-0148', '28036', null, '152000535110', 'V1.20.0', null, 'SLX2000497', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (462529041, 'PW-2020-10-0205', 'N/A', null, null, null, null, 'M213EH3264UH3Q1', '陆学文', to_date('26-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344895, 'PW-2020-10-0341', '27181', null, '152000344110', 'V1.20.0', null, 'SLX2000520', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344896, 'PW-2020-10-0342', '54006', null, '301170200009', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344897, 'PW-2020-10-0343', '54012', null, '301170200010', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344898, 'PW-2020-10-0344', '54008', null, '301170200011', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344899, 'PW-2020-10-0345', '54010', null, '301170200012', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344900, 'PW-2020-10-0346', '54007', null, '301170200013', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344901, 'PW-2020-10-0347', '54013', null, '301170200014', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344902, 'PW-2020-10-0348', '54009', null, '301170200015', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344903, 'PW-2020-10-0349', '54011', null, '301170200016', 'V1.20.0', null, 'SLX2000513', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344904, 'PW-2020-10-0350', '27174', null, '152000337110', 'V1.20.0', null, 'SLX2000536', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344905, 'PW-2020-10-0351', '27181', null, '152000344110', 'V1.20.0', null, 'SLX2000536', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344906, 'PW-2020-10-0352', '27175', null, '152000338110', 'V1.20.0', null, 'SLX2000538', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344907, 'PW-2020-10-0353', '27181', null, '152000344110', 'V1.20.0', null, 'SLX2000538', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (466344908, 'PW-2020-10-0354', '27189', null, '152000352110', 'V1.20.0', null, 'SLX2000538', '陆学文', to_date('30-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473082224, 'PW-2020-11-0135', 'Version:1.7.0.0', null, 'FW P/N:87AAA001', null, null, null, '陆学文', to_date('09-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481193387, 'PW-2020-10-0274', 'N/A', null, null, null, null, 'M3089N0000NH3Q0', '陆学文', to_date('18-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (486847646, 'PW-2020-10-0302', 'V2.0.0', null, null, null, null, 'ATG3DH6400PH3D0', '陆学文', to_date('24-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472181178, 'PW-2020-11-0086', 'V 1.5.1', null, 'FW P/N:87ACA001', null, null, 'M1002H1600PH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472811098, 'PW-2020-11-0106', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('08-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473304765, 'PW-2020-11-0128', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1102H2800PH3Q0', '陆学文', to_date('09-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476258587, 'PW-2020-11-0141', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476449616, 'PW-2020-11-0184', '/', null, '/', '/', null, 'PW-2020-11-0184', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (486701354, 'C', 'N/A', 'YX400', 'YX400', null, null, null, '苏杰明', to_date('24-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (486960957, 'PW-2020-11-0325', 'Version: V1.7.4.0', null, 'FW P/N: 7EA7A001', null, null, null, '陆学文', to_date('24-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (488067063, 'PW-2020-11-0342', 'V304001440', null, 'FW P/N:7D5AU003', null, null, 'P103AH0000PH3Q0', '苏杰明', to_date('26-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455898586, 'PW-2020-10-0086', '27175', null, '152000338110', 'V1.17.1', null, 'SLX2000486', '陆学文', to_date('16-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (455899493, 'PW-2020-10-0065-1', 'N/A', null, null, null, null, null, '陆学文', to_date('16-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472092444, 'PW-2020-11-0104', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH6400PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (461094369, 'PW-2020-10-0146', 'Version:V1.0.1', null, 'FW P/N:7AB0U003', null, null, null, ' 何鑫', to_date('24-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (464222497, 'PW-2020-08-0092', 'IDF:V4.2', null, 'AT:2.1.0.0', 'FW P/N:S2WMA001', null, 'M22S2H3200UH3Q0', '陆学文', to_date('28-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476452718, 'PW-2020-11-0196', '23052', null, '152000508110', 'V1.20.0', null, 'SLX2000575', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481771728, 'PW-2020-11-0273', 'Version: V1.7.4.0', null, 'FW P/N: 7EA7A001', null, null, null, '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (482014652, 'B', 'B', null, null, null, 'B', null, '陈义川', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459586423, 'PW-2020-10-0198', 'Version:V20200927', null, 'FW P/N:8710A001', null, null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459850629, 'PW-2020-09-0398', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, 'M113EH6400PH3Q0', '陆学文', to_date('23-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (461215719, 'PW-2020-10-0207', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000530', '陆学文', to_date('24-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (477394817, 'PW-2020-11-0163', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000572', '陆学文', to_date('15-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (477396379, 'PW-2020-11-0195', '27205', null, '152000377110', 'V1.20.0', null, 'SLX2000574', '陆学文', to_date('15-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (462337278, 'PW-2020-10-0253', 'ESP-WROOM-02(T1)', null, null, null, null, 'M021X0132R0E', '陆学文', to_date('26-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406620, 'PW-2020-10-0175', '27236', null, '152000449110', 'V1.20.0', null, 'SLX2000503', '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406621, 'PW-2020-10-0176', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000503', '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406622, 'PW-2020-10-0177', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000503', '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406623, 'PW-2020-10-0178', '27246', null, '152000496110', 'V1.20.0', null, 'SLX2000503', '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406624, 'PW-2020-10-0183', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406625, 'PW-2020-10-0184', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406630, 'PW-2020-10-0185', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406639, 'PW-2020-10-0186', '1) V0.16.46s (S4)', null, '2) 408-0200-0033', '3) 801-1001-0002', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406648, 'PW-2020-10-0187', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406657, 'PW-2020-10-0188', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406668, 'PW-2020-10-0189', '1) V0.3.5e (E2)', null, '2) 408-0200-0041', '3) 801-1001-0005', null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406679, 'PW-2020-10-0199', 'N/A', null, null, null, null, null, '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (459406690, 'PW-2020-10-0202', '/', null, '/', '/', null, 'PW-2020-10-0202', '陆学文', to_date('22-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (462338349, 'PW-2020-10-0254', 'ESP-WROOM-02(T1)', null, null, null, null, 'M021X0132R0E', '陆学文', to_date('26-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (462338914, 'PW-2020-10-0255', 'ESP-WROOM-02(T1)', null, null, null, null, 'M021X0132R0E', '陆学文', to_date('26-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049269, 'PW-2020-10-0204', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH6400PH3Q0', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049270, 'PW-2020-10-0206', 'IDF: V4.2', null, 'AT: 2.1.0.0', 'FW P/N:S2WRA001', null, 'M22S2H2816PH3Q0', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049271, 'PW-2020-10-0251', 'N/A', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049272, 'PW-2020-10-0252', 'N/A', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049273, 'PW-2020-10-0266', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049274, 'PW-2020-10-0267', 'V1.5.1', null, 'FW P/N: 7C26A001', null, null, 'M1102H1600PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049275, 'PW-2020-10-0268', 'V176.0.48', null, 'FW P/N:871AA001', null, null, 'M1002H1600PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049276, 'PW-2020-10-0270', 'N/A', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049277, 'NPI-2020-10-001', 'N/A', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049278, 'PW-2020-10-0278', '1) V0.3.5e (S8)', null, '2) 4A8-0200-0100', null, null, 'M1102H3200PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049279, 'PW-2020-10-0279', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049280, 'PW-2020-10-0280', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049281, 'PW-2020-10-0281', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (463049282, 'PW-2020-10-0282', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '陆学文', to_date('27-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472257999, 'PW-2020-11-0084', 'Version:1.7.4.0', null, 'FW P/N:7EA7A001', null, null, null, '陆学文', to_date('07-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472874652, 'PW-2020-11-0085', 'V1.0.1', null, 'FW P/N: 8168A001', null, null, 'M1102H1600PH3Q1', '孙朋超', to_date('08-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (473506148, 'PW-2020-11-0076', '27236', null, '152000449110', 'V1.20.0', null, 'SLX2000562', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478765752, null, null, null, null, null, null, null, '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770233, 'PW-2020-11-0139', 'ESP-WROOM-02(T1)', null, null, null, null, null, '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770234, 'PW-2020-11-0140', '1) V0.3.17ed (E7)', null, '2)102-64230-62002', null, null, 'M1102H3200PH3Q1', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770235, 'PW-2020-11-0176', 'N/A', null, null, null, null, 'M113EH3200PH3QF', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770236, 'PW-2020-11-0197', '23053', null, '152000509110', 'V1.20.0', null, 'SLX2000575', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770237, 'PW-2020-11-0182', 'N/A', null, null, null, null, null, '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770238, 'PW-2020-11-0185', 'V0.0.514', null, 'FW P/N:7CDAA001', null, null, 'M203QL2864PH3Q1', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770239, 'PW-2020-11-0202', 'IDF: V3.0.7', null, 'AT: 1.1.3.0', 'FW P/N:ESP32U011', null, 'M103QH6400PH3Q0', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770240, 'PW-2020-11-0204', 'N/A', null, null, null, null, 'M203QL3264PH3Q0', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770243, 'PW-2020-11-0205', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770252, 'PW-2020-11-0206', 'N/A', null, null, null, null, 'M213DH2864PH3Q0', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770261, 'PW-2020-11-0220', '1) V0.16.46c (C5)', null, '2) 408-0200-0031', '3) 801-1001-0004', null, null, '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770270, 'PW-2020-11-0221', 'V1.0.26', null, 'FW P/N:7392U002', null, null, 'M213DH3264PH3Q1', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770279, 'NPI-2020-11-002', 'N/A', null, null, null, null, 'M213EH3264PH3Q0', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770288, 'PW-2020-11-0216', '28035', null, '152000534110', 'V1.20.0', null, 'SLX2000577', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770299, 'PW-2020-11-0217', '28036', null, '152000535110', 'V1.20.0', null, 'SLX2000577', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770308, 'PW-2020-11-0228', '27174', null, '152000337110', 'V1.20.0', null, 'SLX2000579', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770317, 'PW-2020-11-0229', '27181', null, '152000344110', 'V1.20.0', null, 'SLX2000579', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (478770320, 'PW-2020-11-0230', '27184', null, '152000347110', 'V1.20.0', null, 'SLX2000579', '苏杰明', to_date('16-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678762, 'PW-2020-11-0253', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000582', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678763, 'PW-2020-11-0254', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000582', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678764, 'PW-2020-11-0255', '27246', null, '152000496110', 'V1.20.0', null, 'SLX2000582', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678765, 'PW-2020-11-0256', '27247', null, '152000497110', 'V1.20.0', null, 'SLX2000582', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678766, 'PW-2020-11-0257', '27239', null, '152000489110', 'V1.20.0', null, 'SLX2000583', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479678767, 'PW-2020-11-0258', '27238', null, '152000488110', 'V1.20.0', null, 'SLX2000584', '苏杰明', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (480889749, 'PW-2020-11-0223', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1002H1600PH3Q0', '陆学文', to_date('18-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (488025360, 'PW-2020-11-0311', '27184', null, '152000347110', 'V1.20.0', null, 'SLX2000594', '陆学文', to_date('26-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (488116255, 'PW-2020-11-0274', '1)V0.16.46s(S4)', null, '2)408-0200-0033', '3)801-1001-0002', null, null, '陆学文', to_date('26-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (462525377, 'PW-2020-10-0269', 'ESP-WROOM-02(T1)', null, null, null, null, null, '陆学文', to_date('26-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (457820035, 'PW-2020-10-0132', 'V002', null, 'FW P/N : 85CBA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (458443697, 'PW-2020-09-0054', 'N/A', null, null, null, null, 'M213DH6464PH3Q0', '陆学文', to_date('20-10-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472261673, 'PW-2020-11-0098', 'Version:V1.0.1', null, 'FW P/N:7AB0U003', null, null, null, '陆学文', to_date('07-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472888145, 'PW-2020-11-0112', 'IDF:V3.0.7', null, 'AT:1.1.3.0', 'FW P/N:ESP32U011', null, 'M113DH6400PH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (472888470, 'PW-2020-11-0113', 'Lib: V3.0.3', null, 'AT: 1.7.3', 'FW P/N: ESP02U006', null, 'M1102H2800UH3Q0', '陆学文', null);
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (475004251, 'PW-2020-05-0220', 'N/A', null, null, null, null, 'M213DH3264PH3Q0', '陆学文', to_date('12-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (476822939, 'PW-2020-11-0169', 'V1.2.2.69', null, 'FW P/N:727BA001', null, null, 'M103QH3200PH3Q1', '陆学文', to_date('14-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479458040, 'PW-2020-11-0234', 'Version:V1.0.1', null, 'FW P/N:7AB0U003', null, null, null, '陆学文', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (479464168, 'PW-2020-11-0235', 'Version:V1.7.4.0', null, 'FW P/N:7EA7A001', null, null, null, '陆学文', to_date('17-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481887370, 'PW-2020-11-0222', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1002H3200PH3Q0', '陆学文', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (481917510, 'PW-2020-11-0224', 'Lib:V3.0.3', null, 'AT:1.7.3', 'FW P/N:ESP02U006', null, 'M1102H1600UH3Q0', '陆学文', to_date('19-11-2020', 'dd-mm-yyyy'));
+
+insert into MES_BASE_PRODUCT_VER (ID, PRO_TYPE, PRO_VER, FNOTE, PRO_VER2, PRO_VER3, PLOTNO, PRO_VER4, CREATE_BY, CREATE_DATE)
+values (482618014, 'C404700001', 'N/A', null, null, null, null, null, '苏杰明', to_date('20-11-2020', 'dd-mm-yyyy'));
+
+prompt Done.

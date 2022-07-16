@@ -1,0 +1,149 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-12 10:25:15
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\3列表过滤.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>3列表过滤</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+        <h2>人员列表</h2>
+        <input type="text" placeholder="请输入名字" v-model="filterword">
+
+        <ul>
+
+
+            <li v-for="(p,index) of filterperson" :key="index">{{p.name}}--{{p.age}}--{{p.sex}}
+            </li>
+        </ul>
+
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    // 用watch 实现
+    //#region 
+
+    // const vm = new Vue({
+    //     el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+    //     data: {
+    //         name: "main",
+    //         filterword: '',
+    //         persons: [
+    //             {
+    //                 id: 0001,
+    //                 name: "张三一",
+    //                 age: 18,
+    //                 sex: '男'
+    //             },
+    //             {
+    //                 id: 0002,
+    //                 name: "李一四",
+    //                 age: 22,
+    //                 sex: '男'
+    //             },
+    //             {
+    //                 id: 0003,
+    //                 name: "王五四",
+    //                 age: 20,
+    //                 sex: '女'
+    //             },
+    //             {
+    //                 id: 0004,
+    //                 name: "李三四",
+    //                 age: 20,
+    //                 sex: '女'
+    //             },
+    //         ],
+    //         filterperson: [
+
+    //         ],
+
+    //     },
+    //     computed: {
+
+
+    //     },
+    //     methods: {
+    //         add() {
+    //             const p = { id: 4, name: "老刘", age: 40 }
+    //             this.persons.unshift(p)
+    //         }
+    //     },
+    //      watch: {
+    //          filterword: {
+    //             immediate: true,
+    //              handler(newwrod, oldwrod) {
+    //                  // console.log(newwrod, oldwrod);
+    //                  this.filterperson = this.persons.filter((p) => {
+    //                    return p.name.indexOf(newwrod) !== -1
+    //                  }
+    //                  )
+    //             }
+    //          },
+
+
+    //     // },
+    // })
+    //#endregion
+
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            filterword: '',
+            persons: [
+                {
+                    id: 0001,
+                    name: "张三一",
+                    age: 18,
+                    sex: '男'
+                },
+                {
+                    id: 0002,
+                    name: "李一四",
+                    age: 22,
+                    sex: '男'
+                },
+                {
+                    id: 0003,
+                    name: "王五四",
+                    age: 20,
+                    sex: '女'
+                },
+                {
+                    id: 0004,
+                    name: "李三四",
+                    age: 20,
+                    sex: '女'
+                },
+            ],
+
+
+        },
+        computed: {
+            filterperson() {
+                return this.persons.filter((p) => {
+                    return p.name.indexOf(this.filterword) !== -1
+                })
+            }
+
+        },
+
+
+    })
+</script>
+
+</html>

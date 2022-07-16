@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\bruceyan\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "liveServer.settings.port": 5502,
+    "github.gitAuthentication": false,
+    "go.autocompleteUnimportedPackages": true,
+    "go.docsTool": "gogetdoc",
+    "go.formatTool": "goimports"
+}

@@ -1,0 +1,62 @@
+###
+ # @Author: bruceyan
+ # @Date: 2020-11-03 09:25:23
+ # @LastEditTime: 2021-09-08 07:46:39
+ # @LastEditors: bruceyan
+ # @Description: 
+ # @FilePath: \doc\±à³Ì\ÏµÍ³\centos\DeoceSever
+ # 
+### 
+git  add .
+he file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in spdlog/sinks/wincolor_sink.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in spdlog/sinks/windebug_sink.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in spdlog/spdlog.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in spdlog/tweakme.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/MQTTPersistenceDefault.c.
+The file will have its original line endings in your working directory
+
+1git init 
+2 git config core.autocrlf false
+
+
+///
+kill -9   10369  //id
+
+
+
+
+????
+ps aux |grep DecodeServer
+nohup DecodeServer &
+nohup bin/DecodeServer > myout.file 2>&1 &
+nohup ./?????? > /dev/null 2>&1
+nohup ./Router > log.file 2>&1 &
+
+nohup ./Router > log.file 2>&1 &
+nohup DecodeServer > myout.file 2>&1 &
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer >>/home/yanxianlong/code/DecodeServer/bin/logs.txt &
+
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer >>/home/yanxianlong/code/DecodeServer/bin/logs.txt & disown
+
+nohup ./bin/DecodeServer > myout.file 2>&1 &
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer > myout.file 2>&1 &
+
+nohup /home/yanxianlong/code/DecodeServer/bin/DecodeServer  > /dev/null 2>&1 &
+
+
+setsid /home/yanxianlong/code/DecodeServer/bin/DecodeServer &
+
+
+nohup???????????§¹
+
+
+??????????
+?????xshell?????nohup serve -s ./build -p 8081 > /dev/null 2>&1 &????????????????§Ü??????????
+
+????????
+??xshell?????nohup????????????????exit???????????

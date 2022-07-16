@@ -1,0 +1,228 @@
+
+C:\doc\doc\信恳\项目\小米\MHCB05P-B\mpcli_v1.0.2.20>mpcli -c com34 -b 1000000 -P 05P_Img.bin -r -E
+
+Temp dir: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x801000.bin
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x802000.bin
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80d000.bin
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x803000.bin
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80e000.bin
+Temp file: C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x845000.bin
+Connecting com34 at 115200 OK...
+-OK-
+-OK-
+-OK-
+Mode detection OK!
+Mode determinated OK!
+CMD combination OK!!!
+CMD[0] ver
+1.0.2.20
+-OK-
+CMD[1] connect com34
+Connecting com34 at 115200 OK...
+-OK-
+CMD[2] loadfw --autodetect 1
+FW Loader:  RTL8762C_FW_B.bin
+File Size: 13904
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 00
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 01
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 02
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 03
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 04
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 05
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 06
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 07
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 08
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 09
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0A
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0B
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0C
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0D
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0E
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 0F
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 10
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 11
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 12
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 13
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 14
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 15
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 16
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 17
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 18
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 19
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1A
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1B
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1C
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1D
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1E
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 1F
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 20
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 21
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 22
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 23
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 24
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 25
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 26
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 27
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 28
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 29
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2A
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2B
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2C
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2D
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2E
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 2F
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 30
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 31
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 32
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 33
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 34
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 35
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 36
+send write command!
+dump recv bytes: 04 0E 05 02 20 FC 00 37
+Download FW success, prepare to trigger
+Vendor Write OK!
+-OK-
+CMD[3] setbaudrate 1000000
+send set baudrate command!
+set baudrate command ok!
+set baudrate: 1000000 successfully
+-OK-
+CMD[4] chiperase
+send chip erase command!
+set timeout to 200000
+-OK-
+CMD[5] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x801000.bin 0x801000
+file size: 1332
+payload length: 1332
+send write command!
+-OK-
+CMD[6] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x801000.bin 0x801000
+file size: 1332
+payload length: 1332
+crc16 = 7B77
+-OK-
+CMD[7] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x802000.bin 0x802000
+file size: 1024
+payload length: 1024
+send write command!
+-OK-
+CMD[8] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x802000.bin 0x802000
+file size: 1024
+payload length: 1024
+crc16 = D9E9
+-OK-
+CMD[9] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80d000.bin 0x80d000
+file size: 2924
+payload length: 2924
+send write command!
+-OK-
+CMD[10] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80d000.bin 0x80d000
+file size: 2924
+payload length: 2924
+crc16 = DD98
+-OK-
+CMD[11] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x803000.bin 0x803000
+file size: 40948
+payload length: 40948
+send write command!
+send write command!
+send write command!
+-OK-
+CMD[12] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x803000.bin 0x803000
+file size: 40948
+payload length: 40948
+crc16 = 88FD
+-OK-
+CMD[13] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80e000.bin 0x80e000
+file size: 171584
+payload length: 171584
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+send write command!
+-OK-
+CMD[14] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x80e000.bin 0x80e000
+file size: 171584
+payload length: 171584
+crc16 = 69E8
+-OK-
+CMD[15] program C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x845000.bin 0x845000
+file size: 8548
+payload length: 8548
+send write command!
+-OK-
+CMD[16] flashverify C:\Users\bruceyan\AppData\Local\Temp\RTK_MP_CLI_16652\0x845000.bin 0x845000
+file size: 8548
+payload length: 8548
+crc16 = 1B19
+-OK-
+CMD[17] reboot
+-OK-
+CMD[18] disconnect
+-OK-
+
+C:\doc\doc\信恳\项目\小米\MHCB05P-B\mpcli_v1.0.2.20>

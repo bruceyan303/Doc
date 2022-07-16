@@ -1,0 +1,39 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-17 16:47:12
+ * @LastEditTime: 2021-09-05 18:46:50
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\语言\vue\15内置指令\2.v-html指令.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>v-html指令</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div>{{name}}</div>
+        <div v-html="str"></div>
+    </div>
+    <h2>AP Settings (the new network)</h2>
+
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            str: '<h2>您好！<h2>'
+        },
+        methods: {}
+    })
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+build
+yum install build-essential gcc make cmake
+yum install libssl-dev 
+yum install doxygen graphviz
+
+yum  install libcppunit-dev
+sudo cmake -Bbuild -H. -DPAHO_BUILD_DOCUMENTATION=TRUE -DPAHO_BUILD_SAMPLES=TRUE
+sudo cmake --build build/ --target install
+
+
+
+///////////////////////////////////////////////////
+CMake 3.5 or higher is required.  You are running version 2.8.12.2
+
+
+yum install wget
+wget https://cmake.org/files/v3.9/cmake-3.9.2.tar.gz
+
+tar -zxvf cmake-3.9.2.tar.gz
+
+./configure
+
+make && make install
+
+ln -s /usr/cmake-2.8.9-Linux-i386/bin/* /usr/bin/ 
+
+
+///////////////////////////////////////////////////
+src / SocketBuffer.h : 28 : 10 : fatal error : openssl / ssl.h : No such file or directory
+#include <openssl/ssl.h>
+
+#解决办法
+sudo yum install openssl-devel
+
+///////////////////////////////////////////////////
+shell脚本执行错误 $'\r':command not found
+
+存现这种错误是因为 编写的  shell脚本是在win下编写的，每行结尾是\r\n 的Unix 结果行是\n  所以在Linux下运行脚本 会任务\r 是一个字符，所以运行错误，需要把文件转换下
+
+方法一、
+
+sed -i 's/\r//' 脚本名
+
+方法二、
+
+yum -y install dos2unix
+
+dos2unix  脚本名
+
+
+//////////////////////////////
+
+Compiler not found: clang++-8 
+
+
+EPEL网站提供了clang的RPM安装包，所以要想在CentOS 7安装clang，首先需要安装EPEL包：
+
+sudo yum install epel-release
+接下来安装 clang:
+
+sudo yum install clang
+
+///////////////
+./buildtst.sh: line 60: cppcheck: command not found
+
+ yum install cppcheck
+
+
+
+
+
+

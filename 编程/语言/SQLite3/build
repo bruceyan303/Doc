@@ -1,0 +1,4 @@
+Developer Command Prompt for VS 2019 
+ LIB.EXE /MACHINE:IX86 /DEF:sqlite3.def
+
+ 

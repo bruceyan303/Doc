@@ -1,0 +1,46 @@
+
+
+1.在http://www.boost.org/
+https://www.boost.org/users/history/version_1_75_0.html
+yum install wget
+wget https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0.tar.gz
+2.在Centos上解压 tar -zxvf boost_1_75_0.tar.gz 后，
+
+3.cd进入boost_1_75_0目录
+
+4 安装
+
+yum install centos-release-scl
+
+yum install devtoolset-7-gcc*
+
+scl enable devtoolset-7 bash
+
+安装 python
+yum install python-devel
+ 5 编译
+./bootstrap.sh 
+
+
+./b2 
+./b2 install 
+
+4.如果为了引用方便将目录加到环境变量中
+
+在/etc/profile文件中添加
+vi  /etc/profile
+
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/local/include
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/include
+source /etc/profile
+
+
+
+ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK-DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_LOCALE_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK 
+
+
+

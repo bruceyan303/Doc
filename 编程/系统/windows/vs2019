@@ -1,0 +1,19 @@
+通常，VS在建立一个工程之后，会出现*.clw *.ncb *.opt *.aps为后缀的文件
+
+.CLW 文件是VC Class Wizard信息文件。存放了Class Wizard的信息。
+.NCB 文件是分析器信息文件，是由系统自动产生的。
+.OPT 文件是IDE的Option文件。
+.APS 文件是资源文件的二进制版本。
+
+还有其他的几个
+.bsc 浏览器信息文件
+.dsp 项目文件
+.dsw 工作空间文件
+.mak 外部的创建文件
+.plg 建立日志文件
+
+
+严重性	代码	说明	项目	文件	行	禁止显示状态
+错误	C1083	无法打开编译器中间文件: “d:\code\cpp\kdump\debug\kdump.pch”: No such file or directory	kdump	D:\code\CPP\kdump\stdafx.cpp	1	
+
+

@@ -1,0 +1,80 @@
+# 忽略 .a 文件
+*.a
+# 忽略 .o 文件
+*.o
+# 忽略 .exe 文件
+*.exe
+# 忽略 .tmp 文件
+ *.tmp
+# 忽略 .obj 文件
+*.obj
+# 忽略 Keil编译产生的一些垃圾文件
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.log
+*.__i
+*.crf
+*.d
+*.axf
+*.tra
+*.dep      
+JLinkLog.txt
+*.iex
+*.htm
+*.sct
+*.map
+*._2i
+*.L2P
+*.FED
+# 忽略 vs编译产生的一些临时文件
+*.aps
+*.idb
+*.ncp
+*.pch
+*.sbr
+*.pdb
+*.bsc
+*.ilk
+*.res
+*.ncb
+*.opt
+*.suo
+*.manifest
+*.dep
+*.rar
+*.zip
+*.xbin
+*.hex
+
+
+*.clog
+*.mod
+*.sum
+# 忽略项目相关目录
+# 忽略 bin/ 文件夹下的所有文件
+bin/
+target/
+# 忽略 .history/ 文件夹下的所有文件
+.history/
+
+# 忽略 .history/ 文件夹下的所有文件
+logs/
+
+# 忽略 .history/ 文件夹下的所有文件
+x64/
+
+# 忽略 .history/ 文件夹下的所有文件
+.vs/
+*.7z
+*.xj
+*.msi
+*.dll

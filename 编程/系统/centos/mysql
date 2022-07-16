@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+ wget https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-community-server-8.0.23-1.el7.x86_64.rpm
+
+ yum -y install mysql-community-server-8.0.23-1.el7.x86_64.rpm
+
+
+ 首先启动MySQL
+
+systemctl start  mysqld.service
+
+
+=======
+wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
+ yum -y install mysql57-community-release-el7-10.noarch.rpm
+ yum -y install mysql-community-server
+ 
+ 输入命令
+
+ systemctl start mysql.service
+
+
+添加mysql端口3306和Tomcat端口8080
+
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+firewall-cmd --zone=public --add-port=8080/tcp --permanent
+firewall-cmd --zone=public --add-port=8000/tcp --permanent
+firewall-cmd --zone=public --add-port=8888/tcp --permanent
+然后再重新载入
+
+firewall-cmd --reload
+
+
+mysql -uroot -p 
+create database blog
+use blog;
+
+http://192.168.31.12:8000/swagger/index.html
+
+
+use mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456';
+>>>>>>> cdeba61d63e14ebefa630e42f9f338f189cff0ef

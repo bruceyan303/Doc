@@ -1,0 +1,24 @@
+严重性	代码	说明	项目	文件	行	禁止显示状态
+错误	LNK2001	无法解析的外部符号 __imp__LP_Init	kdump	C:\Users\bruceyan\Downloads\kdump\IQmeasureTest.obj	1	
+
+
+配置--连接器--输入--依赖库 添加
+AimControl.lib
+IQ2010Ext.lib
+iqapi.lib
+iqapis.lib
+IQmeasure.lib
+
+////////////////////////////////////////////
+
+download (74880 ) : flash 1,0 
+read mac  : flash 0,0 
+write mac  : flash 0,0,mac no 
+
+
+1
+115200  wifitxout 1 0x0 0
+
+115200  wifitxout 2 0xB 0
+
+

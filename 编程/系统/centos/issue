@@ -1,0 +1,22 @@
+1 make 提示 -bash: make: command not found的解决办法
+
+安装：
+
+yum -y install gcc automake autoconf libtool make
+
+安装g++:
+
+yum install gcc gcc-c++
+
+
+2  g++: error: unrecognized command line option ‘-std=c++17’
+
+安装最新的GCC
+
+
+yum install centos-release-scl
+
+
+yum install devtoolset-9-gcc*
+
+scl enable devtoolset-9 bash

@@ -1,0 +1,161 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-10 19:23:19
+ * @LastEditTime: 2021-08-12 10:46:27
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\12_列表渲染\4列表排序.html
+ * 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>4列表排序</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 遍历数组 -->
+        <h2>人员列表</h2>
+        <input type="text" placeholder="请输入名字" v-model="filterword">
+        <button @click="sorttype=2">年龄升序</button>
+        <button @click="sorttype=1">年龄降序</button>
+        <button @click="sorttype=0">原顺序</button>
+        <ul>
+
+
+            <li v-for="(p,index) of filterperson" :key="p.id">{{p.name}}--{{p.age}}--{{p.sex}}
+            </li>
+        </ul>
+
+    </div>
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false //阻止vue 在启动是生成生产提示
+    // 用watch 实现
+    //#region 
+
+    // const vm = new Vue({
+    //     el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+    //     data: {
+    //         name: "main",
+    //         filterword: '',
+    //         persons: [
+    //             {
+    //                 id: 0001,
+    //                 name: "张三一",
+    //                 age: 18,
+    //                 sex: '男'
+    //             },
+    //             {
+    //                 id: 0002,
+    //                 name: "李一四",
+    //                 age: 22,
+    //                 sex: '男'
+    //             },
+    //             {
+    //                 id: 0003,
+    //                 name: "王五四",
+    //                 age: 20,
+    //                 sex: '女'
+    //             },
+    //             {
+    //                 id: 0004,
+    //                 name: "李三四",
+    //                 age: 20,
+    //                 sex: '女'
+    //             },
+    //         ],
+    //         filterperson: [
+
+    //         ],
+
+    //     },
+    //     computed: {
+
+
+    //     },
+    //     methods: {
+    //         add() {
+    //             const p = { id: 4, name: "老刘", age: 40 }
+    //             this.persons.unshift(p)
+    //         }
+    //     },
+    //      watch: {
+    //          filterword: {
+    //             immediate: true,
+    //              handler(newwrod, oldwrod) {
+    //                  // console.log(newwrod, oldwrod);
+    //                  this.filterperson = this.persons.filter((p) => {
+    //                    return p.name.indexOf(newwrod) !== -1
+    //                  }
+    //                  )
+    //             }
+    //          },
+
+
+    //     // },
+    // })
+    //#endregion
+
+    const vm = new Vue({
+        el: '#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+        data: {
+            name: "main",
+            filterword: '',
+            sorttype: 0,//0原顺序1降序2升序
+            persons: [
+                {
+                    id: 0001,
+                    name: "张三一",
+                    age: 18,
+                    sex: '男'
+                },
+                {
+                    id: 0002,
+                    name: "李一四",
+                    age: 22,
+                    sex: '男'
+                },
+                {
+                    id: 0003,
+                    name: "王五四",
+                    age: 20,
+                    sex: '女'
+                },
+                {
+                    id: 0004,
+                    name: "李三四",
+                    age: 31,
+                    sex: '女'
+                },
+            ],
+
+
+        },
+        computed: {
+            filterperson() {
+                var arr = this.persons.filter((p) => {
+                    return p.name.indexOf(this.filterword) !== -1
+                })
+                //判断排序
+                if (this.sorttype)//大于0
+                {
+                    arr.sort((p1, p2) => {
+                        return this.sorttype == 1 ? p2.age - p1.age : p1.age - p2.age
+                    })
+
+                }
+                return arr
+            }
+
+        },
+
+
+    })
+</script>
+
+</html>

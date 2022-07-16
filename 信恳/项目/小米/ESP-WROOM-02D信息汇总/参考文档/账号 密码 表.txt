@@ -1,0 +1,5 @@
+账号 RDSEL  密码: Xkrd2020
+表 admin.MES_BASE_PRODUCT_VER
+
+
+74880 download mode

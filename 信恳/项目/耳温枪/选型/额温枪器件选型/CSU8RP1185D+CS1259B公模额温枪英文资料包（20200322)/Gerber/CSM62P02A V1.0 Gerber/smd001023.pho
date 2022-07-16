@@ -1,0 +1,90 @@
+*
+*
+G04 PADS VX.0 Build Number: 635560 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "HT-820D传感器00(修改).p"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.00004*%
+%ADD011R,0.06X0.06*%
+%ADD012O,0.05512X0.06*%
+%ADD017C,0.00787*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name HT-820D传感器00(修改).p - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name HT-820D传感器00(修改).p - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name HT-820D传感器00(修改).p - circuitry*
+%LPD*%
+*
+G54D10*
+G54D11*
+G01X122835Y106299D03*
+G54D12*
+X130866D03*
+X138504D03*
+X146535D03*
+G54D17*
+X140744Y155098D02*
+Y159677D01*
+X167717*
+Y99980*
+X100000*
+Y159646*
+X126965*
+Y155098*
+X140744*
+X0Y0D02*
+M02*

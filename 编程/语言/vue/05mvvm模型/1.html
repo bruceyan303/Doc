@@ -1,0 +1,46 @@
+<!--
+ * @Author: bruceyan
+ * @Date: 2021-08-08 11:11:44
+ * @LastEditTime: 2021-08-08 11:19:04
+ * @LastEditors: bruceyan
+ * @Description: 
+ * @FilePath: \doc\编程\vue\mvvm模型\1.html
+ * 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>MVVM</title>
+        <script type="text/javascript" src="../js/vue.js"></script>
+    </head>
+    <body>
+ 
+        <div id="root"> 
+            <h1>学校名称:{{name}}</h1>
+            <h1>学校地址:{{address}}</h1>     
+        </div>
+
+        <script type="text/javascript">
+        Vue.config.productionTip=false
+         const vm=new Vue({
+          el:'#root', //用于指定当前vue实例为那个容器服务，值通常为css选择器字符串
+
+            data(){
+                return {
+                    name:"test",
+                    address:"1路",
+                    val:1
+                }
+            }
+         })
+     
+       // setTimeout(()=>)
+         console.log(vm)
+        // v.$mount('#root')
+        
+        </script>
+   
+    </body>
+</html>

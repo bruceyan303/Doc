@@ -1,0 +1,22 @@
+git clone https://github.com/eclipse/paho.mqtt.cpp
+
+
+.\install_catch2.sh
+.\install_paho_mqtt_c.sh
+.\travis_install.sh
+ .\travis_build.sh
+
+set OpenSSLDir=C:\Program Files\OpenSSL-Win64\include
+C library:
+
+> cd mqtt
+> cmake -Bbuild -H -DCMAKE_INSTALL_PREFIX=C:\code\mqtt\paho-c
+> cmake --build build/ --target install
+ C++ library:
+
+> cd ..\paho.mqtt.cpp
+> cmake -Bbuild -H -DCMAKE_INSTALL_PREFIX=C:\code\mqtt -DPAHO_BUILD_SAMPLES=ON -DPAHO_WITH_SSL=OFF -DCMAKE_PREFIX_PATH=C:\code\mqtt\paho-c
+> cmake --build build/ --target install
+
+cmake -G "Visual Studio 16 Win64" -Bbuild -H -DCMAKE_INSTALL_PREFIX=C:\code\mqtt\paho-c
+

@@ -1,0 +1,1 @@
+"D:\XJIDE\XJ_C_IDE_V1.5.4.220311\bin\slvo.exe" E:\360°²È«ÔÆÅÌ-Í¬²½°æ\00Îù½Üµ¥Æ¬»údemo\XC8P8600_Demo\XC8P8600_Demo_C\3_XC8P8600_IDLE»½ÐÑ\XC8P8600-IDLE»½ÐÑ.cof >E:\360°²È«ÔÆÅÌ-Í¬²½°æ\00Îù½Üµ¥Æ¬»údemo\XC8P8600_Demo\XC8P8600_Demo_C\3_XC8P8600_IDLE»½ÐÑ\XC8P8600-IDLE»½ÐÑ.cofv 2>&1
